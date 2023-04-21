@@ -1,0 +1,1431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override language="English" nowhitespace="false" translatedname="Low gothic">
+  <!--loadingscreen tips-->
+  <loadingscreentip>Europan caves are full of resources, including ceramite, adamantium and gold.</loadingscreentip>
+  <loadingscreentip>The most powerful weapons can only be purchased. You can't find them on wrecks or abandoned outposts.</loadingscreentip>
+  <loadingscreentip>Be careful when exploring alien ruins. Especially if you see a green lightsource moving inside.</loadingscreentip>
+  <loadingscreentip>You can pray on a special altar to the Omnissiah to acquire his blessing for faster repair speeds.</loadingscreentip>
+  <loadingscreentip>The Emperor protects!</loadingscreentip>
+  <loadingscreentip>Astartes armour provides almost absolute invulnerability against the beasts of the Europa, and can withstand pressure up to 12000 meters.</loadingscreentip>
+  <loadingscreentip>Chaos outposts are colonies that were taken by the heretics. If you want - you can trade with them, but do so at your own risk.</loadingscreentip>
+  <loadingscreentip>You can corrupt weapons and armour at chaos altars to infuse these items with the powers of the warp.</loadingscreentip>
+  <loadingscreentip>"The imperial guard is made to fight and die for the Emperor."</loadingscreentip>
+  <loadingscreentip>Magos priests are the chief techpriests in the crew, and have access to advanced technologies. They can maintain the submarine and kill enemies of the Omnissiah with high efficiency.</loadingscreentip>
+  <loadingscreentip>Engineseers are of lower rank than magos. Their task is maintaining ship and assisting in expeditions.</loadingscreentip>
+  <loadingscreentip>Mechanicus axe is a universal tool for work with mechanical and electrical systems. It can also serve as a weapon when in a pinch.</loadingscreentip>
+  <loadingscreentip>Lasgun power cells can be charged in charging dock or submarine batteries.</loadingscreentip>
+  <loadingscreentip>Autogun is a simple but deadly weapon.</loadingscreentip>
+  <loadingscreentip>Necrons are an ancient xenos race that were born 60 million years ago. They have many tomb worlds scattered across the galaxy, and one could be on Europa.</loadingscreentip>
+  <loadingscreentip>Adeptus mechanicus is a part of humanity that is disillusioned with the fragility of man and abandon their flesh in favour of mechanical simulacras. They are scientists and craftsmen who can make perfect machines, built to destroy the enemies of the Machine god.</loadingscreentip>
+  <loadingscreentip>The Imperial Guard is the hammer of the Imperium as well as he foundation it rests upon. Without The Guard, the Imperium will fall.</loadingscreentip>
+  <loadingscreentip>Space marines are genetically modified soldeirs. Their abilities are incomprehensible for the standard man. If The Guard is a hammer of the Emperor, then space marines are His sword.</loadingscreentip>
+  <loadingscreentip>Powercells for submarine lascannons can be charged in a Cannon Charging Station that can be found on the outposts.</loadingscreentip>
+  <loadingscreentip>Power armour is a relic that can not be found. You can either craft it or buy it.</loadingscreentip>
+  <loadingscreentip>Astartes weapons are much more powerful than weapons of the mortals. If you use it without power armour you will take serious damage and possibly death.</loadingscreentip>
+  <loadingscreentip>Death corps of Krieg are an army of artificially created humans. They are fanatics that seek death for the Emperor above all else.</loadingscreentip>
+  <loadingscreentip>Krieg weapons are more powerful than standard cadian models but have lower ammo capacity and lower firing rate.</loadingscreentip>
+  <loadingscreentip>Space marine armour can protect you from poisons, but against a melta or lascannon headshot it will be useless.</loadingscreentip>
+  <loadingscreentip>Many vessels of the Europa are equipped with lascannons. Try to avoid its shots at all costs.</loadingscreentip>
+  <loadingscreentip>Planet Europa is located in segmentum Obscurus and has the same name as one of the Jupiter moons.</loadingscreentip>
+  <loadingscreentip>The Europa Coalition is an official representation of the Imperium on the planet</loadingscreentip>
+  <loadingscreentip>Hellgun is a good weapon against small beasts and enemy boarding teams because it is stationary version of the hot-shot lasgun</loadingscreentip>
+  <loadingscreentip>Lascannon is a perfect weapons against armored targets. It is with same efficiency penetrates as submarine hull, as shells of bigger beasts</loadingscreentip>
+  <loadingscreentip>Corrupted weapons enhanced with powers of the warp and because of that these weapons are more powerful than regular. But usage of corrupted weapons leads to madness.</loadingscreentip>
+  <loadingscreentip>You can rid from chaos corruption by paying the specialist on the outpost, by repention or if you die in shame...</loadingscreentip>
+  <loadingscreentip>When you are fallowing the way of the dark gods you can get something that wasn't described...</loadingscreentip>
+  <loadingscreentip>Cadaveric parasites are one of the primordial diseases in Europe. Grandpa Nurgle worked with them and they became much more aggressive... So much so that they can even hit the body of a space marine, turning him into a filthy abomination - the husk marine.</loadingscreentip>
+  <loadingscreentip>Khorne is the god of endless war and bloodshed. His servants are blood-crazed berserkers, deadly and unstoppable. Khorne despises ranged combat and sorcery, so his servants use only melee weapons.</loadingscreentip>
+  <loadingscreentip>Nurgle is the god of disease, death and, in a sense, rebirth. Nurgle bestows his servants with the best diseases so that they carry death and decay across the galaxy. Nurgle appreciates the perseverance of the victims of his illnesses because he is exceptionally kind. Nurgle's servant can be easily distinguished by his rusty armor and bloated carcass from diseases and poisons.</loadingscreentip>
+  <loadingscreentip>Tzinch is the patron of sorcerers and those who seek for change. He can be called the most chaotic of the great Four because he does not have a specific goal because it contradicts his nature. The servants of the Tzeentch rarely act openly, preferring setups, witchcraft and other manipulations to achieve their goals.</loadingscreentip>
+  <loadingscreentip>Slaanesh, or the Dark Prince, is the god of excess and intemperance, born of the hedonism of the Eldar race. This dark god strives to achieve absolute pleasure. His servants may look like richly dressed people from the nobility, or like warriors beaten by life, but it does not matter, because every slaaneshit strives to know satisfaction in his own way. The warriors of this god are very graceful in battle, as well as they are not taken by any drugs, because over the millennia of hedonism they have simply ceased to cause any sensations.</loadingscreentip>
+  <loadingscreentip>The Chaos Space Marines are legionaries who fell ten thousand years ago and followed their primarch fathers. The treacherous Horus, the Emperor's beloved son, betrayed his father and turned to the Dark Gods. Horus fell during the siege of Terra, and the remnants of the traitorous forces moved to the Eye of Terror-a huge warp storm, where the remaining traitor primarchs received their demonic forms, and the legions their worlds, from where they have been raiding the Imperium for thousands of years.</loadingscreentip>
+  <loadingscreentip>Creating Astartes genetic material requires an experienced biologis adept and a lot of expensive resources. It is possible to create a gene only on a special fabricator, which is located in the biologis department at the forge outposts.</loadingscreentip>
+  <loadingscreentip>Space Marines are not the best opponents for novice cappers. If you don't have a couple of your space Marines or a whole arsenal of good weapons at hand, then it's better to bypass the battles against the Astartes.</loadingscreentip>
+  <loadingscreentip>The genetic material of the Astartes can only be used with the help of a black carapace.</loadingscreentip>
+  <loadingscreentip>Template books allow you to study the schemes specified in them, which makes it possible to create items from a certain category without having the appropriate class.</loadingscreentip>
+  <loadingscreentip>Tyranids are xenos who have came from the depths of space. Their only purpose is to devour to satisfy the endless hunger. Tyranids are extremely tenacious and very adaptable creatures. They are guided by the hive mind, which extends its will to all representatives of this race. The will of the hive mind is transmitted from the big tyranids to the smaller ones. If this connection is interrupted, the tyranids become dangerous, but still simple animals.</loadingscreentip>
+  <loadingscreentip>Genestealers are one of the most dangerous creations of the Tyranid hive mind because they have the ability to infiltrate human society and create cults that can prepare the world for the arrival of the hive fleet for the feast.</loadingscreentip>
+  <loadingscreentip>Разум улья неприрывно разрабатывает новые вариации своих тварей и не брезгует ассимиляцией местной фауны в своих целях. Так появились гибриды-создания тиранидов, основанные на геноме локальной фауны Европы.</loadingscreentip>
+  <loadingscreentip>The species known as Lutus Raptor tiranicus, or a mud raptor hybrid, is a dangerous creature that has enhanced armor compared to the original, sharper fangs and improved musculature. This creature can survive even a small burst from a bolter.</loadingscreentip>
+  <loadingscreentip>Khorne's berserkers are mad warriors who have succumbed to the call of their god. They exist only for the sake of committing carnage on a larger and larger scale in order to appease Khorne and at least for a minute stop hearing his roar in therir heads.</loadingscreentip>
+  <loadingscreentip>Legio Skitarii is a military unit of the Adeptus Mechanicus, which consists of augmented people who are not tech-priests. They are expendable for the magos dominus, who do not care about the safety of his warriors, because there will always be enough candidates for augmentation. There are many specialized units of skitarii. For example, the ranger skitarii are professionals in conducting combat on medium and long-range disstances, or the vanguard skitarii , who bring death to the enemies of the Omnissiah with the help of radium weapons. They are the best assault units.</loadingscreentip>
+  <loadingscreentip>In the vastness of Europa, you can find many truly unique items. Each of them is extremely expensive and has some unique properties.</loadingscreentip>
+  <loadingscreentip>To effectively deal with pain, use painkillers, opium, morphine, fentanyl, med kits. It is also recommended to rest for a while in a medical bed after treatment.</loadingscreentip>
+  <loadingscreentip>The pain is caused by injuries. The more injuries you have, the faster the pain will accumulate.</loadingscreentip>
+  <loadingscreentip>Dark Mechanicus can be found in abandoned forges. They do not hesitate to use warp and xenotech in their technologies, so they are often armed and equipped better than loyal colleagues. This applies not only to weapons and armor, but also to augmetics.</loadingscreentip>
+  <loadingscreentip>Only the most reckless gangs of cultists and renegades populate the abandoned forges and mechanicus outposts. So if you meet them, then be prepared for fierce resistance.</loadingscreentip>
+  <loadingscreentip>As basic heretic gear counts autogun, corrupted lasgun, laspistol, longlas, flak armor and it's champion version.</loadingscreentip>
+  <!--loadingscreen tips-->
+  <!-- Items -->
+  <Entityname.lpgmagazine>Laspistol Power Cell</Entityname.lpgmagazine>
+  <Entitydescription.lpgmagazine>The standard power cell for the laspistol.</Entitydescription.lpgmagazine>
+  <Entityname.laspistol>Laspistol</Entityname.laspistol>
+  <Entitydescription.laspistol>A personal weapon that is easy to use and maintain.</Entitydescription.laspistol>
+  <Entityname.lgmagazine>Lasgun Power Cell</Entityname.lgmagazine>
+  <Entitydescription.lgmagazine>The standard power cell for the lasgun.</Entitydescription.lgmagazine>
+  <Entityname.lasgun>Cadian Lasgun</Entityname.lasgun>
+  <Entitydescription.lasgun>The most common model of a lasgun. Easy to use and maintain, and can easily take down a human.</Entitydescription.lasgun>
+  <Entityname.llgmagazine>Longlas Power Cell</Entityname.llgmagazine>
+  <Entitydescription.llgmagazine>The standard power cell for the longlas.</Entitydescription.llgmagazine>
+  <Entityname.llg>Longlas</Entityname.llg>
+  <Entitydescription.llg>A more powerful version of the lasgun, effective even at long-range.</Entitydescription.llg>
+  <Entityname.hsmagazine>Hellgun Power Cell</Entityname.hsmagazine>
+  <Entitydescription.hsmagazine>The standard power cell for the hellgun.</Entitydescription.hsmagazine>
+  <Entityname.hslg>Hellgun</Entityname.hslg>
+  <Entitydescription>A rare, more powerful version of the lasgun.</Entitydescription>
+  <Entityname.chsword>Chainsword</Entityname.chsword>
+  <Entitydescription.chsword>A simple but powerful melee weapon. It is required to change the chain after regular use.</Entitydescription.chsword>
+  <Entityname.psword>Power Sword</Entityname.psword>
+  <Entitydescription.psword>This rare and powerful weapon exudes a hazy field of bluish energy that wraps around its atomically honed blade.</Entitydescription.psword>
+  <Entityname.agmagazine>Autogun Magazine</Entityname.agmagazine>
+  <Entitydescription.agmagazine>The standard ammunition for the autogun.</Entitydescription.agmagazine>
+  <Entityname.ag>Autogun</Entityname.ag>
+  <Entitydescription.ag>A simplistic weapon that fires solid-slug rounds at the intended target in rapid succession. Cheap, rugged, reliable.</Entitydescription.ag>
+  <Entityname.pltank>Plasma Tank</Entityname.pltank>
+  <Entitydescription.pltank>The standard plasma tank for use in plasma pistols and plasmaguns.</Entitydescription.pltank>
+  <Entityname.plaspistol>Plasma Pistol</Entityname.plaspistol>
+  <Entitydescription.plaspistol>A rare and powerful personal weapon.</Entitydescription.plaspistol>
+  <Entityname.pg>Plasmagun</Entityname.pg>
+  <Entitydescription.pg>It has the same killing power as a pistol, but boasts a higher rate of fire (Pray to the Omnissiah that it does not explode in your hands).</Entitydescription.pg>
+  <Entityname.flamer40k>Flamer</Entityname.flamer40k>
+  <Entitydescription.flamer40k>Good at purging heresy.</Entitydescription.flamer40k>
+  <Entityname.flamer40k2>Flamer</Entityname.flamer40k2>
+  <Entitydescription.flamer40k2>Good at purging heresy.</Entitydescription.flamer40k2>
+  <Entityname.bgmag>Bolter Magazine</Entityname.bgmag>
+  <Entitydescription.bgmag>The standard ammunition for the boltgun and bolt pistol.</Entitydescription.bgmag>
+  <Entityname.bpistol>Bolt Pistol</Entityname.bpistol>
+  <Entitydescription.bpistol>A pistol that fires explosive bolts. It has extreme destructive power and can easily break through the hull of ships.</Entitydescription.bpistol>
+  <Entityname.bg>Boltgun</Entityname.bg>
+  <Entitydescription.bg>An extremely powerful weapon that shoots explosive bolts, which has a higher rate of fire compared to its pistol counterpart.</Entitydescription.bg>
+  <Entityname.chlasgun>Corrupted Lasgun</Entityname.chlasgun>
+  <Entitydescription.chlasgun>This weapon is decorated with unholy symbols and does not look very reassuring.</Entitydescription.chlasgun>
+  <Entityname.chlgmagazine>Corrupted Power Cell</Entityname.chlgmagazine>
+  <Entitydescription.chlgmagazine>This energy cell radiates a very strange aura...</Entitydescription.chlgmagazine>
+  <Entityname.chlpgmagazine>Corrupted Laspistol Power Cell</Entityname.chlpgmagazine>
+  <Entitydescription.chlpgmagazine>This energy cell radiates a very strange aura...</Entitydescription.chlpgmagazine>
+  <Entityname.chlaspistol>Corrupted Laspistol</Entityname.chlaspistol>
+  <Entitydescription.chlaspistol>This weapon is decorated with unholy symbols and does not look very reassuring.</Entitydescription.chlaspistol>
+  <Entityname.aaclub>Arbites Club</Entityname.aaclub>
+  <Entitydescription.aaclub>"I am the Law!"</Entitydescription.aaclub>
+  <Entityname.aapclub>Arbites Power Club</Entityname.aapclub>
+  <Entitydescription.aapclub>"I am the Law!"</Entitydescription.aapclub>
+  <Entityname.whfraggrenade>Frag Grenade</Entityname.whfraggrenade>
+  <Entitydescription.whfraggrenade>Simple and effective anti-infantry weapon.</Entitydescription.whfraggrenade>
+  <Entityname.krakgrenade>Krak Grenade</Entityname.krakgrenade>
+  <Entitydescription>A good weapon to break through the ship's hull.</Entitydescription>
+  <Entityname.flaktorso>Light Flak Armor</Entityname.flaktorso>
+  <Entitydescription.flaktorso>Standard armor of the imperial guardsman.</Entitydescription.flaktorso>
+  <Entityname.flakhelmet1>Flak Helmet</Entityname.flakhelmet1>
+  <Entitydescription.flakhelmet1>Standard helmet of the imperial guardsman.</Entitydescription.flakhelmet1>
+  <Entityname.aashotgunshell>Arbites Shotgun Shell</Entityname.aashotgunshell>
+  <entitydescription.aashotgunshell>Special ammunition with higher lethal power. It is specially designed for adeptus arbites.</entitydescription.aashotgunshell>
+  <Entityname.aashotgun>Arbites Shotgun</Entityname.aashotgun>
+  <Entitydescription.aashotgun>A weighted shotgun using special ammunition. Ideal for suppressing riots.</Entitydescription.aashotgun>
+  <Entityname.kglascarbine>Krieg Lascarbine</Entityname.kglascarbine>
+  <Entitydescription.kglascarbine>Semi-automatic lascarabine with high lethal power, but low rate of fire.</Entitydescription.kglascarbine>
+  <Entityname.kgcrmagazine>Lascarbine Power Cell</Entityname.kgcrmagazine>
+  <entitydescription.kgcrmagazine>Battery for lascarabine</entitydescription.kgcrmagazine>
+  <Entityname.kglasgun>Krieg Lasgun</Entityname.kglasgun>
+  <Entitydescription.kglasgun>The Lucian pattern of lasguns. More powerful, but less capacious.</Entitydescription.kglasgun>
+  <Entityname.kglgmagazine>Krieg Lasgun Power Cell</Entityname.kglgmagazine>
+  <entitydescription.kglgmagazine>Battery for krieg lasgun.</entitydescription.kglgmagazine>
+  <Entityname.phsmagazine>Phosphorus Ball Magazine</Entityname.phsmagazine>
+  <Entitydescription.phsmagazine>Magazine full of white phosphorus balls.</Entitydescription.phsmagazine>
+  <Entityname.phs>Phosphor Serpenta</Entityname.phs>
+  <Entitydescription.phs>A personal weapon that shoots red-hot balls of white phosphor.</Entitydescription.phs>
+  <Entityname.macrostub>Macro Stubber</Entityname.macrostub>
+  <Entitydescription.macrostub>Personal weapons of the low rank techpriests. It is an advanced version of the stub pistol.</Entitydescription.macrostub>
+  <Entityname.mcstmagazine>Macro Stubber Magazine</Entityname.mcstmagazine>
+  <Entitydescription.mcstmagazine>Magazine for macro stubber.</Entitydescription.mcstmagazine>
+  <Entityname.arcmagazine>Arc Rifle Condenser</Entityname.arcmagazine>
+  <Entitydescription.arcmagazine>Battery for arc rifle and pistol.</Entitydescription.arcmagazine>
+  <Entityname.arcrifle>Arc Rifle</Entityname.arcrifle>
+  <Entitydescription.arcrifle>An advanced weapon capable of knocking out a life-giving spark with its shots, not only from the flesh of the one who was hit by it's shots, but also from machines nearby.</Entitydescription.arcrifle>
+  <Entityname.mechuniform1>Mechanicus Uniform 1 (Mars)</Entityname.mechuniform1>
+  <Entitydescription.mechuniform1>Mars Techpriest uniform</Entitydescription.mechuniform1>
+  <Entityname.mechuniform2>Mechanicus Uniform 2 (Mars)</Entityname.mechuniform2>
+  <Entitydescription.mechuniform2>Mars Techpriest uniform</Entitydescription.mechuniform2>
+  <Entityname.mechuniform3>Mechanicus Uniform (Ryza)</Entityname.mechuniform3>
+  <Entitydescription.mechuniform3>Ryza Techpriest uniform</Entitydescription.mechuniform3>
+  <Entityname.mechuniform4>Mechanicus Uniform (Stygies VIII)</Entityname.mechuniform4>
+  <Entitydescription.mechuniform4>Stygies Techpriest uniform</Entitydescription.mechuniform4>
+  <Entityname.mechuniform3.2>Mechanicus Uniform 2 (Ryza)</Entityname.mechuniform3.2>
+  <Entitydescription.mechuniform3.2>Ryza Techpriest uniform</Entitydescription.mechuniform3.2>
+  <Entityname.mechuniform4.2>Mechanicus Uniform 2 (Stygies VIII)</Entityname.mechuniform4.2>
+  <Entitydescription.mechuniform4.2>Stygies Techpriest uniform</Entitydescription.mechuniform4.2>
+  <Entityname.mechuniform5>Mechanicus Uniform (Metallica)</Entityname.mechuniform5>
+  <Entitydescription.mechuniform5>...Obey your Master... Your life burns faster... Obey your Master... Master...</Entitydescription.mechuniform5>
+  <Entityname.mechuniform5.2>Mechanicus Uniform 2 (Metallica)</Entityname.mechuniform5.2>
+  <Entitydescription.mechuniform5.2>...Obey your Master... Your life burns faster... Obey your Master... Master...</Entitydescription.mechuniform5.2>
+  <Entityname.mechuniform6>Mechanicus Uniform (Europa)</Entityname.mechuniform6>
+  <Entitydescription.mechuniform6>Uniform of techpriests from this planet.</Entitydescription.mechuniform6>
+  <Entityname.t2mechuniform1>T2 Mechanicus Uniform 1 (Mars)</Entityname.t2mechuniform1>
+  <Entitydescription.t2mechuniform1>Mars Techpriest uniform</Entitydescription.t2mechuniform1>
+  <Entityname.t2mechuniform2>T2 Mechanicus Uniform 2 (Mars)</Entityname.t2mechuniform2>
+  <Entitydescription.t2mechuniform2>Mars Techpriest uniform</Entitydescription.t2mechuniform2>
+  <Entityname.t2mechuniform3>T2 Mechanicus Uniform (Ryza)</Entityname.t2mechuniform3>
+  <Entitydescription.t2mechuniform3>Ryza Techpriest uniform</Entitydescription.t2mechuniform3>
+  <Entityname.t2mechuniform4>T2 Mechanicus Uniform (Stygies VIII)</Entityname.t2mechuniform4>
+  <Entitydescription.t2mechuniform4>Stygies Techpriest uniform</Entitydescription.t2mechuniform4>
+  <Entityname.t2mechuniform3.2>T2 Mechanicus Uniform 2 (Ryza)</Entityname.t2mechuniform3.2>
+  <Entitydescription.t2mechuniform3.2>Ryza Techpriest uniform</Entitydescription.t2mechuniform3.2>
+  <Entityname.t2mechuniform4.2>T2 Mechanicus Uniform 2 (Stygies VIII)</Entityname.t2mechuniform4.2>
+  <Entitydescription.t2mechuniform4.2>Stygies Techpriest uniform</Entitydescription.t2mechuniform4.2>
+  <Entityname.t2mechuniform5>T2 Mechanicus Uniform (Metallica)</Entityname.t2mechuniform5>
+  <Entitydescription.t2mechuniform5>...Obey your Master... Your life burns faster... Obey your Master... Master...</Entitydescription.t2mechuniform5>
+  <Entityname.t2mechuniform5.2>T2 Mechanicus Uniform 2 (Metallica)</Entityname.t2mechuniform5.2>
+  <Entitydescription.t2mechuniform5.2>...Obey your Master... Your life burns faster... Obey your Master... Master...</Entitydescription.t2mechuniform5.2>
+  <Entityname.t2mechuniform6>T2 Mechanicus Uniform (Europa)</Entityname.t2mechuniform6>
+  <Entitydescription.t2mechuniform6>Uniform of techpriests from this planet.</Entitydescription.t2mechuniform6>
+  <Entityname.t3mechuniform1>T3 Mechanicus Uniform 1 (Mars)</Entityname.t3mechuniform1>
+  <Entitydescription.t3mechuniform1>Mars Techpriest uniform</Entitydescription.t3mechuniform1>
+  <Entityname.t3mechuniform2>T3 Mechanicus Uniform 2 (Mars)</Entityname.t3mechuniform2>
+  <Entitydescription.t3mechuniform2>Mars Techpriest uniform</Entitydescription.t3mechuniform2>
+  <Entityname.t3mechuniform3>T3 Mechanicus Uniform (Ryza)</Entityname.t3mechuniform3>
+  <Entitydescription.t3mechuniform3>Ryza Techpriest uniform</Entitydescription.t3mechuniform3>
+  <Entityname.t3mechuniform4>T3 Mechanicus Uniform (Stygies VIII)</Entityname.t3mechuniform4>
+  <Entitydescription.t3mechuniform4>Stygies Techpriest uniform</Entitydescription.t3mechuniform4>
+  <Entityname.t3mechuniform3.2>T3 Mechanicus Uniform 2 (Ryza)</Entityname.t3mechuniform3.2>
+  <Entitydescription.t3mechuniform3.2>Ryza Techpriest uniform</Entitydescription.t3mechuniform3.2>
+  <Entityname.t3mechuniform4.2>T3 Mechanicus Uniform 2 (Stygies VIII)</Entityname.t3mechuniform4.2>
+  <Entitydescription.t3mechuniform4.2>Stygies Techpriest uniform</Entitydescription.t3mechuniform4.2>
+  <Entityname.t3mechuniform5>T3 Mechanicus Uniform (Metallica)</Entityname.t3mechuniform5>
+  <Entitydescription.t3mechuniform5>...Obey your Master... Your life burns faster... Obey your Master... Master...</Entitydescription.t3mechuniform5>
+  <Entityname.t3mechuniform5.2>T3 Mechanicus Uniform 2 (Metallica)</Entityname.t3mechuniform5.2>
+  <Entitydescription.t3mechuniform5.2>...Obey your Master... Your life burns faster... Obey your Master... Master...</Entitydescription.t3mechuniform5.2>
+  <Entityname.t3mechuniform6>T3 Mechanicus Uniform (Europa)</Entityname.t3mechuniform6>
+  <Entitydescription.t3mechuniform6>Uniform of techpriests from this planet.</Entitydescription.t3mechuniform6>
+  <Entityname.dominusuniform>Mantle of the Dominus</Entityname.dominusuniform>
+  <Entitydescription.dominusuniform>The mantle of a high-ranking magos, called the dominus. It has a lot of built-in subsystems, and also has not bad protection for what looks like only a robe.</Entitydescription.dominusuniform>
+  <Entityname.exploratoruniform>Mantle of the Explorator</Entityname.exploratoruniform>
+  <Entitydescription.exploratoruniform>The mantle of a high-ranking magos, called an explorator. It does not have as good protection as the dominus, but its subsystems will allow you to explore Europa better.</Entitydescription.exploratoruniform>
+  <entityname.darkmagosuniform>Dark magos mantle</entityname.darkmagosuniform>
+  <Entityname.radmagazine>Radium Weapons Magazine</Entityname.radmagazine>
+  <Entitydescription.radmagazine>Ammunition for rad pistol and carbine.</Entitydescription.radmagazine>
+  <Entityname.rp>Radium Pistol</Entityname.rp>
+  <Entitydescription.rp>Personal radiation weapons. It's shots cause monstrous wounds, and the contents of it's bullets will kill the enemy even if he can survive a skirmish with the owner of the weapon.</Entitydescription.rp>
+  <Entityname.rc>Radium Carbine</Entityname.rc>
+  <Entitydescription.rc>Carbine that shoots radium bullets. It's shots cause monstrous wounds, and the contents of it's bullets will kill the enemy even if he can survive a skirmish with the owner of the weapon.</Entitydescription.rc>
+  <Entityname.chpltank>Corrupted Plasma Tank</Entityname.chpltank>
+  <Entitydescription.chpltank>An unnatural glow and an aura of madness emanates from this object.</Entitydescription.chpltank>
+  <Entityname.chplaspistol>Corrupted Plasma Pistol</Entityname.chplaspistol>
+  <Entitydescription.chplaspistol>This object is covered with various growths and apparently has some kind of conditional self-awareness.</Entitydescription.chplaspistol>
+  <Entityname.chpg>Corrupted Plasmagun</Entityname.chpg>
+  <Entitydescription.chpg>This weapon is decorated with unholy symbols and has a strange aura around it.</Entitydescription.chpg>
+  <Entityname.amaxe>Mechanicus Axe</Entityname.amaxe>
+  <Entitydescription.amaxe>The axe that every member of the Mechanicus cult is equipped with. Has enough power to stop a human. Used in many rituals of Adeptus Mechanicus.</Entitydescription.amaxe>
+  <Entityname.radjezmagazine>Radium Jezzail Magazine</Entityname.radjezmagazine>
+  <entitydescription.radjezmagazine>Ammo for radium Jezzail.</entitydescription.radjezmagazine>
+  <Entityname.radjez>Radium Jezzail</Entityname.radjez>
+  <Entitydescription.radjez>A long-barreled weapon that shoots radium bullets. It has increased accuracy and lethal force in comparison with conventional carbines.</Entitydescription.radjez>
+  <Entityname.ig40mmgrenade>Frag Grenade (ammo)</Entityname.ig40mmgrenade>
+  <Entitydescription.ig40mmgrenade>Standard 40 mm grenade. Equally well penetrates the hulls of ships and destroys the enemies of humanity.</Entitydescription.ig40mmgrenade>
+  <Entityname.ig40mmgrenadeincendium>Frag Grenade (incendium)</Entityname.ig40mmgrenadeincendium>
+  <Entityname.ig40mmgrenadestun>Frag Grenade (stun)</Entityname.ig40mmgrenadestun>
+  <Entityname.ig40mmgrenadeplasma>Frag Grenade (plasma)</Entityname.ig40mmgrenadeplasma>
+  <Entityname.plasmagrenade>Plasma grenade</Entityname.plasmagrenade>
+  <Entitydescription.plasmagrenade>powerful explosive that can melt even power armor.</Entitydescription.plasmagrenade>
+  <Entityname.iggrenadelauncher>Grenade Launcher</Entityname.iggrenadelauncher>
+  <Entitydescription.iggrenadelauncher>Standard six-shot grenade launcher used by Astra Militarum.</Entitydescription.iggrenadelauncher>
+  <Entityname.ampltank>Plasma Tank</Entityname.ampltank>
+  <Entitydescription.ampltank>Specialised plasma tank for Ryza pattern plasmagun.</Entitydescription.ampltank>
+  <Entityname.ampg>Plasmagun</Entityname.ampg>
+  <Entitydescription.ampg>Ryza pattern plasmagun. Don't explode in hands.</Entitydescription.ampg>
+  <Entityname.tasergoad>Taser Goad</Entityname.tasergoad>
+  <Entitydescription.tasergoad>An advanced energy weapon used exclusively by Adeptus Mechanicus Skitarii.</Entitydescription.tasergoad>
+  <Entityname.arcmaul>Arc Maul</Entityname.arcmaul>
+  <Entitydescription.arcmaul>A melee weapon capable of knocking out a life-giving spark from the enemy with its blows.</Entitydescription.arcmaul>
+  <Entityname.tsblade>Transsonic Blade</Entityname.tsblade>
+  <Entitydescription.tsblade>A fast blade capable of piercing almost any armor.</Entitydescription.tsblade>
+  <Entityname.tsrazor>Transsonic Razor</Entityname.tsrazor>
+  <Entitydescription.tsrazor>A fast dagger capable of piercing almost any armor.</Entitydescription.tsrazor>
+  <Entityname.flakhelmet2>Flak Helmet</Entityname.flakhelmet2>
+  <Entitydescription.flakhelmet2>A standard Imperial Guardsman helmet equipped with a respirator.</Entitydescription.flakhelmet2>
+  <Entityname.sergcap>Sergeant Cap</Entityname.sergcap>
+  <Entitydescription.sergcap>Many sergeants prefer to wear a lighter cap than a helmet.</Entitydescription.sergcap>
+  <Entityname.comcap>Commissar Cap</Entityname.comcap>
+  <Entitydescription.comcap>Officio prefectus many Guardsmen are afraid like it's a fire. Along with the uniform, the black cap is the visiting card of any commissar.</Entitydescription.comcap>
+  <Entityname.ummk7>Power Armor MK VII (Ultramarines)</Entityname.ummk7>
+  <Entityname.rogmk7>Power Armor MK VII</Entityname.rogmk7>
+  <Entityname.fdamk7>Power Armor MK VII (Fallen)</Entityname.fdamk7>
+  <Entityname.ihmk7>Power Armor MK VII (Iron hands)</Entityname.ihmk7>
+  <Entityname.wsmk7>Power Armor MK VII (White scars)</Entityname.wsmk7>
+  <Entityname.swmk7>Power Armor MK VII (Space wolves)</Entityname.swmk7>
+  <Entityname.bamk7>Power Armor MK VII (Blood angels)</Entityname.bamk7>
+  <Entityname.lamk7>Power Armor MK VII (Lamenters)</Entityname.lamk7>
+  <Entityname.rgmk7>Power Armor MK VII (Raven guard)</Entityname.rgmk7>
+  <Entityname.ifmk7>Power Armor MK VII (Imperial fists)</Entityname.ifmk7>
+  <Entityname.smk7>Power Armor MK VII (Salamanders)</Entityname.smk7>
+  <Entityname.damk7>Power Armor MK VII (Dark angels)</Entityname.damk7>
+  <Entityname.brmk7>Power Armor MK VII (Blood ravens)</Entityname.brmk7>
+  <Entityname.ummk7helmet>Power Armor MK VII helmet (Ultramarines)</Entityname.ummk7helmet>
+  <Entityname.rogmk7helmet>Power Armor MK VII helmet</Entityname.rogmk7helmet>
+  <Entityname.fdamk7helmet>Power Armor MK VII helmet (Fallen)</Entityname.fdamk7helmet>
+  <Entityname.ihmk7helmet>Power Armor MK VII helmet (Iron hands)</Entityname.ihmk7helmet>
+  <Entityname.wsmk7helmet>Power Armor MK VII helmet (White scars)</Entityname.wsmk7helmet>
+  <Entityname.swmk7helmet>Power Armor MK VII helmet (Space wolves)</Entityname.swmk7helmet>
+  <Entityname.bamk7helmet>Power Armor MK VII helmet (Blood angels)</Entityname.bamk7helmet>
+  <Entityname.lamk7helmet>Power Armor MK VII helmet (Lamenters)</Entityname.lamk7helmet>
+  <Entityname.rgmk7helmet>Power Armor MK VII helmet (Raven guard)</Entityname.rgmk7helmet>
+  <Entityname.ifmk7helmet>Power Armor MK VII helmet (Imperial fists)</Entityname.ifmk7helmet>
+  <Entityname.smk7helmet>Power Armor MK VII helmet (Salamanders)</Entityname.smk7helmet>
+  <Entityname.brmk7helmet>Power Armor MK VII helmet (Blood ravens)</Entityname.brmk7helmet>
+  <Entityname.honkmk7helmet>Power Armor MK VII helmet (Clowns)</Entityname.honkmk7helmet>
+  <Entityname.honkmk7>Power Armor MK VII (Clowns)</Entityname.honkmk7>
+  <Entityname.damk7helmet>Power Armor MK VII helmet (Dark angels)</Entityname.damk7helmet>
+  <Entityname.blmk7>Power Armor (Black legion)</Entityname.blmk7>
+  <Entityname.blmk7helmet>Power Armor helmet (Black legion)</Entityname.blmk7helmet>
+  <Entityname.almk7>Power Armor (Alpha legion)</Entityname.almk7>
+  <Entityname.almk7helmet>Power Armor helmet (Alpha legion)</Entityname.almk7helmet>
+  <Entityname.wbmk7>Power Armor (Word bearers)</Entityname.wbmk7>
+  <Entityname.wbmk7helmet>Power Armor helmet (Word bearers)</Entityname.wbmk7helmet>
+  <Entityname.nlmk7>Power Armor (Night lords)</Entityname.nlmk7>
+  <Entityname.nlmk7helmet>Power Armor helmet (Night lords)</Entityname.nlmk7helmet>
+  <Entitydescription.swmk7>Created at the end of the Horus heresy MK VII helps Emperor's angels of death in their hard deeds.</Entitydescription.swmk7>
+  <Entitydescription.rgmk7>Created at the end of the Horus heresy MK VII helps Emperor's angels of death in their hard deeds.</Entitydescription.rgmk7>
+  <Entitydescription.ifmk7>Created at the end of the Horus heresy MK VII helps Emperor's angels of death in their hard deeds.</Entitydescription.ifmk7>
+  <Entitydescription.smk7>Created at the end of the Horus heresy MK VII helps Emperor's angels of death in their hard deeds.</Entitydescription.smk7>
+  <Entitydescription.wsmk7>Created at the end of the Horus heresy MK VII helps Emperor's angels of death in their hard deeds.</Entitydescription.wsmk7>
+  <Entitydescription.ihmk7>Created at the end of the Horus heresy MK VII helps Emperor's angels of death in their hard deeds.</Entitydescription.ihmk7>
+  <Entitydescription.ummk7>Created at the end of the Horus heresy MK VII helps Emperor's angels of death in their hard deeds.</Entitydescription.ummk7>
+  <Entitydescription.brmk7>Created at the end of the Horus heresy MK VII helps Emperor's angels of death in their hard deeds.
+ by Dr. Mors?</Entitydescription.brmk7>
+  <Entitydescription.bamk7>Created at the end of the Horus heresy MK VII helps Emperor's angels of death in their hard deeds.</Entitydescription.bamk7>
+  <Entitydescription.lamk7>Created at the end of the Horus heresy MK VII helps Emperor's angels of death in their hard deeds.</Entitydescription.lamk7>
+  <Entitydescription.damk7>Created at the end of the Horus heresy MK VII helps Emperor's angels of death in their hard deeds.</Entitydescription.damk7>
+  <Entityname.flakarmor_hev>Heavy Flak Armor</Entityname.flakarmor_hev>
+  <Entitydescription.flakarmor_hev>Heavier Imperial Guard armor. Provides more complete armor with a higher level of protection.</Entitydescription.flakarmor_hev>
+  <Entityname.flakarmor_hev_med>Heavy Medic's Flak Armor</Entityname.flakarmor_hev_med>
+  <Entitydescription.flakarmor_hev_med>Heavier Imperial Guard armor. Provides more complete armor with a higher level of protection.</Entitydescription.flakarmor_hev_med>
+  <Entityname.flakarmor_med>Medic's Flak Armor</Entityname.flakarmor_med>
+  <Entitydescription.flakarmor_med>Same armor with regular light flak armor but with red cross on it's shoulder pad. Field medics usually wearing this armor.</Entitydescription.flakarmor_med>
+  <Entityname.abgmag>Astartes Bolter Magazine</Entityname.abgmag>
+  <Entitydescription.abgmag>Ammo for astartes bolt weapons.</Entitydescription.abgmag>
+  <Entityname.abg>Astartes Bolter</Entityname.abg>
+  <Entitydescription.abg>The most common bolter model among space marines. It has exceptional killing power and rate of fire, as well as recoil, which is capable of at least breaking the hands of a mortal.</Entitydescription.abg>
+  <Entityname.abpistol>Astartes Bolt Pistol</Entityname.abpistol>
+  <Entitydescription.abpistol>Personal bolt weapon of the space marine. It has exceptional killing power and rate of fire, as well as recoil, which is capable of at least breaking the hands of a mortal.</Entitydescription.abpistol>
+  <Entityname.chabgmag>Corrupted Astartes Bolter Magazine</Entityname.chabgmag>
+  <Entitydescription.chabgmag>Ammo for corrupted bolt weapons.</Entitydescription.chabgmag>
+  <Entityname.chabg>Corrupted Astartes Bolter</Entityname.chabg>
+  <Entitydescription.chabg>Due to the ritual desecration and the insertion into the demon, weapon somehow surpasses its non-cursed counterpart in the damage inflicted.</Entitydescription.chabg>
+  <Entityname.chabpistol>Corrupted Astartes Bolt Pistol</Entityname.chabpistol>
+  <Entitydescription.chabpistol>Due to the ritual desecration and the insertion into the demon, weapon somehow surpasses its non-cursed counterpart in the damage inflicted.</Entitydescription.chabpistol>
+  <Entityname.skillbookuniversallaws>Universal Laws</Entityname.skillbookuniversallaws>
+  <Entitydescription.skillbookuniversallaws>Collection of the basic laws of the cult mechanicus.</Entitydescription.skillbookuniversallaws>
+  <Entityname.lascanonammobox>Lascannon Power Cell</Entityname.lascanonammobox>
+  <Entitydescription.lascanonammobox>Power source for lascannon.</Entitydescription.lascanonammobox>
+  <Entityname.chhellgunammobox>Corrupted Hellgun Power Cell</Entityname.chhellgunammobox>
+  <Entitydescription.chhellgunammobox>Power source for lascannon.</Entitydescription.chhellgunammobox>
+  <Entityname.chlascanonammobox>Corrupted Lascannon Power Cell</Entityname.chlascanonammobox>
+  <Entitydescription.chlascanonammobox>Power source for lascannon.</Entitydescription.chlascanonammobox>
+  <Entityname.lascanonbolt>Laser</Entityname.lascanonbolt>
+  <Entityname.smpltank>Astartes Plasma Tank</Entityname.smpltank>
+  <Entitydescription.smpltank>Ammo for astartes plasma weapons.</Entitydescription.smpltank>
+  <Entityname.smplaspistol>Astartes Plasma Pistol</Entityname.smplaspistol>
+  <Entitydescription.smplaspistol>Personal weapon that shoots searing plasma. Allows you to incinerate most opponents with a single shot, but often explodes.</Entitydescription.smplaspistol>
+  <Entityname.smpg>Astartes Plasmagun</Entityname.smpg>
+  <Entitydescription.smpg>Rifle that shoots searing plasma. Allows you to incinerate most opponents with a single hit, but often explodes.</Entitydescription.smpg>
+  <Entityname.chsmpltank>Corrupted Astartes Plasma Tank</Entityname.chsmpltank>
+  <Entitydescription.chsmpltank>Ammo for heretic astartes plasma weapons.</Entitydescription.chsmpltank>
+  <Entityname.chsmplaspistol>Corrupted Astartes Plasma Pistol</Entityname.chsmplaspistol>
+  <Entitydescription.chsmplaspistol>This desecrated weapon exudes an aura of madness around itself, and its bearer can hear the whispers of the creature imprisoned in it.</Entitydescription.chsmplaspistol>
+  <Entityname.chsmpg>Corrupted Astartes Plasmagun</Entityname.chsmpg>
+  <Entitydescription.chsmpg>This desecrated weapon exudes an aura of madness around itself, and its bearer can hear the whispers of the creature imprisoned in it.</Entitydescription.chsmpg>
+  <Entityname.smmltank>Melta Charge Tank</Entityname.smmltank>
+  <Entitydescription.smmltank>Ammo for melta weapons.</Entitydescription.smmltank>
+  <Entityname.smmr>Melta Rifle</Entityname.smmr>
+  <Entitydescription.smmr>Armor-piercing anti-tank gun. It has a low rate of fire, but is excellent for destroying the skin of ships.</Entitydescription.smmr>
+  <Entityname.chsmmltank>Corrupted Melta Charge Tank</Entityname.chsmmltank>
+  <Entitydescription.chsmmltank>Ammo for melta weapons.</Entitydescription.chsmmltank>
+  <Entityname.chsmmr>Corrupted Melta Rifle</Entityname.chsmmr>
+  <Entitydescription.chsmmr>Armor-piercing anti-tank gun. It has a low rate of fire, but is excellent for destroying the skin of ships but in this case also improved by warp influence.</Entitydescription.chsmmr>
+  <Entityname.chamaxe>Dark Mechanicus Axe</Entityname.chamaxe>
+  <Entitydescription.chamaxe>This axe is the mark of any heretek who rejected the dogmas of the Mechanicus cult and decided to devote his life to real knowledge.</Entitydescription.chamaxe>
+  <Entityname.astartesknife>Astartes Knife</Entityname.astartesknife>
+  <Entityname.kdcserghelmet>Krieg Sergeant Helmet</Entityname.kdcserghelmet>
+  <Entityname.kdchelmet>Krieg Helmet</Entityname.kdchelmet>
+  <Entityname.kdcuniform>Krieg Uniform</Entityname.kdcuniform>
+  <Entityname.apaxe>Astartes Power Axe</Entityname.apaxe>
+  <Entityname.athammer>Thunder Hammer</Entityname.athammer>
+  <Entityname.apsword>Astartes Power Sword</Entityname.apsword>
+  <Entityname.chflaktorso>Corrupted Flak Armor</Entityname.chflaktorso>
+  <Entityname.honourificaimperialis>Honorifica Imperialis</Entityname.honourificaimperialis>
+  <Entityname.imperialLaurels>Imperial Laurels</Entityname.imperialLaurels>
+  <Entityname.imperialsteelaquila>Imperial Steel Aquila</Entityname.imperialsteelaquila>
+  <Entityname.crimsonskull>Crimson Skull</Entityname.crimsonskull>
+  <Entityname.hellgunammobox>Hellgun Power Cell</Entityname.hellgunammobox>
+  <Entityname.skillbookrevelations1>Revelations</Entityname.skillbookrevelations1>
+  <Entityname.skillbookrevelations2>Revelations</Entityname.skillbookrevelations2>
+  <Entityname.skillbookrevelations3>Revelations</Entityname.skillbookrevelations3>
+  <Entityname.skillbookrevelations4>Revelations</Entityname.skillbookrevelations4>
+  <Entityname.skillbookrevelations5>Revelations</Entityname.skillbookrevelations5>
+  <Entityname.skillbookrevelations6>Revelations</Entityname.skillbookrevelations6>
+  <Entityname.skillbookenlightenmentguard>Book of Enlightenment</Entityname.skillbookenlightenmentguard>
+  <Entityname.skillbookenlightenmentmagos>Book of Enlightenment</Entityname.skillbookenlightenmentmagos>
+  <Entityname.skillbookenlightenmentengineseer>Book of Enlightenment</Entityname.skillbookenlightenmentengineseer>
+  <Entityname.fakeskillbookenlightenmentguard>Book of Enlightenment</Entityname.fakeskillbookenlightenmentguard>
+  <Entityname.fakeskillbookenlightenmentmagos>Book of Enlightenment</Entityname.fakeskillbookenlightenmentmagos>
+  <Entityname.fakeskillbookenlightenmentengineseer>Book of Enlightenment</Entityname.fakeskillbookenlightenmentengineseer>
+  <Entityname.promethiumtank>Promethium Tank</Entityname.promethiumtank>
+  <Entityname.dechonourificaimperialis>Decorative Honorifica Imperialis</Entityname.dechonourificaimperialis>
+  <Entityname.decimperialLaurels>Decorative Imperial Laurels</Entityname.decimperialLaurels>
+  <Entityname.decimperialsteelaquila>Decorative Imperial Steel Aquila</Entityname.decimperialsteelaquila>
+  <Entityname.deccrimsonskull>Decorative Crimson Skull</Entityname.deccrimsonskull>
+  <Entityname.arcpistol>Arc Pistol</Entityname.arcpistol>
+  <Entityname.charcpistol>Corrupted Arc Pistol</Entityname.charcpistol>
+  <Entityname.glrmagazine>Galvanic Rifle Magazine</Entityname.glrmagazine>
+  <Entityname.glrifle>Galvanic Rifle</Entityname.glrifle>
+  <Entityname.chglrmagazine>Corrupted Galvanic Rifle Magazine</Entityname.chglrmagazine>
+  <Entityname.chglrifle>Corrupted Galvanic Rifle</Entityname.chglrifle>
+  <Entityname.kdccomhelmet>Krieg Commissar Helmet</Entityname.kdccomhelmet>
+  <Entityname.commissaruniform>Commissar Uniform</Entityname.commissaruniform>
+  <Entityname.stubmagazine>Stubber Magazine</Entityname.stubmagazine>
+  <Entityname.stubpistol>Stub Pistol</Entityname.stubpistol>
+  <Entityname.chadstartesknife>Chaos Astartes Knife</Entityname.chadstartesknife>
+  <Entityname.chdapsword>Chaos Astartes Power Sword</Entityname.chdapsword>
+  <Entityname.chmask>Cultist's Mask</Entityname.chmask>
+  <Entityname.chadcommissaruniform>Heretic Commissar Uniform</Entityname.chadcommissaruniform>
+  <Entityname.chadcomcap>Heretic Commissar Cap</Entityname.chadcomcap>
+  <Entityname.chflaktorsoserg>Chaos Champion's Armor</Entityname.chflaktorsoserg>
+  <Entityname.renegflaktorsoserg>Renegade Sergeant's Armor</Entityname.renegflaktorsoserg>
+  <Entityname.renegflaktorso>Renegade's Armor</Entityname.renegflaktorso>
+  <Entityname.renegflakhelmet1>Renegade's Helmet</Entityname.renegflakhelmet1>
+  <Entityname.chflakhelmet1>Corrupted Helmet</Entityname.chflakhelmet1>
+  <Entityname.chflakhelmet2>Corrupted Helmet</Entityname.chflakhelmet2>
+  <Entityname.recipebook1>Template book (lasguns and power cells)</Entityname.recipebook1>
+  <Entityname.recipebook2>Template book (bolters)</Entityname.recipebook2>
+  <Entityname.recipebook3>Template book (plasma)</Entityname.recipebook3>
+  <entityname.plasmacannonammobox>Big plasma tank</entityname.plasmacannonammobox>
+  <Entityname.voidsuit>Void suit</Entityname.voidsuit>
+  <Entityname.advancedunderwaterscooter>Advanced scooter</Entityname.advancedunderwaterscooter>
+  <Entityname.iwmk3>Power armor MK3 (Iron warriors)</Entityname.iwmk3>
+  <Entityname.iwmk3helmet>Power armor MK3 helmet (Iron warriors)</Entityname.iwmk3helmet>
+  <Entityname.backpack>Backpack</Entityname.backpack>
+  <Entityname.powerbackpack>Power backpack</Entityname.powerbackpack>
+  <Entityname.handlehealthscanner>Diagnostor</Entityname.handlehealthscanner>
+  <Entityname.handheldauspex>Handheld auspex</Entityname.handheldauspex>
+  <Entityname.shovel>Shovel</Entityname.shovel>
+  <Entityname.arcweldingtool>Arc welding tool</Entityname.arcweldingtool>
+  <Entityname.ionplasmacutter>Ion cutter</Entityname.ionplasmacutter>
+  <Entityname.inoculatorbasic>Inoculator</Entityname.inoculatorbasic>
+  <Entityname.inoculatoradvanced>Advanced inoculator</Entityname.inoculatoradvanced>
+  <Entityname.posessedblmk7>Posessed power armor</Entityname.posessedblmk7>
+  <Entityname.posessedblmk7helmet>Posessed power armor helmet</Entityname.posessedblmk7helmet>
+  <Entityname.chreliclasgun>The Scorcher</Entityname.chreliclasgun>
+  <Entityname.chrlgmagazine>Posessed powercell</Entityname.chrlgmagazine>
+  <Entityname.tsmk3r>Power armor (Thousand sons)</Entityname.tsmk3r>
+  <Entityname.tsmk3helmet>Power armor helmet (Thousand sons)</Entityname.tsmk3helmet>
+  <Entityname.gaussgun>Gauss flayer</Entityname.gaussgun>
+  <Entityname.gsmagazine>Battery for Gauss weapons</Entityname.gsmagazine>
+  <Entityname.chllg>Corrupted longlas</Entityname.chllg>
+  <Entityname.chllgmagazine>Corrupted longlas powercell</Entityname.chllgmagazine>
+  <Entityname.chaxe>Chain axe</Entityname.chaxe>
+  <Entityname.apmaul>Power Maul</Entityname.apmaul>
+  <Entityname.ahbg>Heavy bolter</Entityname.ahbg>
+  <Entityname.ahbgmag>Heavy bolter ammo box</Entityname.ahbgmag>
+  <Entityname.chahbg>Corrupted heavy bolter</Entityname.chahbg>
+  <Entityname.chahbgmag>Corrupted heavy bolter ammo box</Entityname.chahbgmag>
+  <Entityname.nurglebook1>Book of despair</Entityname.nurglebook1>
+  <Entityname.cultistuniform>Cultist's clothing</Entityname.cultistuniform>
+  <Entityname.hellabgmag>"Hellfire" magazine</Entityname.hellabgmag>
+  <Entityname.skitariarmor>Skitarii armor</Entityname.skitariarmor>
+  <Entityname.skitariarmor2>Skitarii armor (Europa)</Entityname.skitariarmor2>
+  <Entityname.chskitariarmor>Dark Skitarii armor</Entityname.chskitariarmor>
+  <Entityname.chskitariarmor2>Dark Skitarii armor</Entityname.chskitariarmor2>
+  <Entityname.chskitarihelmet1>Dark Skitarii helmet</Entityname.chskitarihelmet1>
+  <Entityname.chskitarihelmet2>Dark Skitarii helmet</Entityname.chskitarihelmet2>
+  <Entityname.skitarihelmet1>Skitarii helmet</Entityname.skitarihelmet1>
+  <Entityname.skitarihelmet2>Skitarii helmet (Europa)</Entityname.skitarihelmet2>
+  <Entityname.vanguardskitariarmor>Vanguard Skitarii armor</Entityname.vanguardskitariarmor>
+  <Entityname.vanguardskitariarmor2>Vanguard Skitarii armor (Europa)</Entityname.vanguardskitariarmor2>
+  <Entityname.vanguardskitarihelmet1>Vanguard Skitarii helmet</Entityname.vanguardskitarihelmet1>
+  <Entityname.vanguardskitarihelmet2>Alpha skitarii helmet</Entityname.vanguardskitarihelmet2>
+  <Entityname.novashell>Nova cannon shell</Entityname.novashell>
+  <Entityname.novashellslow>"Yey of the Omnissiah" shell</Entityname.novashellslow>
+  <Entityname.heavybolterammobox>Heavy bolter ammo box</Entityname.heavybolterammobox>
+  <Entityname.physheavybolterammobox>Physicorium Heavy bolter ammo box</Entityname.physheavybolterammobox>
+  <Entityname.bansheearmor>Howling Banshee armor</Entityname.bansheearmor>
+  <Entityname.bansheehelmet1>Howling Banshee helmet</Entityname.bansheehelmet1>
+  <Entityname.combiplasma>Combi bolter (plasma)</Entityname.combiplasma>
+  <Entityname.combiflamer>Combi bolter (flamer)</Entityname.combiflamer>
+  <Entityname.flamerrelic>Flame pistol</Entityname.flamerrelic>
+  <Entityname.chrelicpsword>Blade of darkness</Entityname.chrelicpsword>
+  <Entityname.charcrifle>Corrupted arc rifle</Entityname.charcrifle>
+  <Entityname.charcmagazine>Corrupted Condenser</Entityname.charcmagazine>
+  <Entityname.wreckmk7>Damaged power armor</Entityname.wreckmk7>
+  <Entityname.wreckmk7helmet>Damaged power armor helmet</Entityname.wreckmk7helmet>
+  <Entityname.berserkmk7>Berserker's armor</Entityname.berserkmk7>
+  <Entityname.berserkmk7helmet>Berserker's helmet</Entityname.berserkmk7helmet>
+  <Entityname.noisecannon>Noise cannon</Entityname.noisecannon>
+  <Entityname.blastmaster>Blast master</Entityname.blastmaster>
+  <Entityname.ecmk7>Noise marine power armor</Entityname.ecmk7>
+  <Entityname.ecmk7helmet>Noise marine helmet</Entityname.ecmk7helmet>
+  <Entityname.macrotowershell>Maсro cannon shell</Entityname.macrotowershell>
+  <Entityname.clausmk7>Christmas power armor</Entityname.clausmk7>
+  <Entityname.clausmk7helmet>Christmas power armor helmet</Entityname.clausmk7helmet>
+  <Entityname.necronbatterycell>Necron battery</Entityname.necronbatterycell>
+  <Entitydescription.necronbatterycell>Based on unknown technology this battery can store amount of energy more than 2 fulgurium batteries.</Entitydescription.necronbatterycell>
+  <Entityname.guitarrelic>Electro guita</Entityname.guitarrelic>
+  <Entityname.ecmk7helmetrelic>Noise marine helmet</Entityname.ecmk7helmetrelic>
+  <Entityname.heavystub>Heavy stubber</Entityname.heavystub>
+  <Entityname.heavystubmagazine>Heavy stubber magazine</Entityname.heavystubmagazine>
+  <Entityname.heavystubmagazinearmorpiercing>Heavy stubber magazine (Armor piercing)</Entityname.heavystubmagazinearmorpiercing>
+  <Entityname.heavystubmagazinephys>Heavy stubber magazine (Physicorium)</Entityname.heavystubmagazinephys>
+  <Entityname.phsblastmagazine>Phosphor ball magazine</Entityname.phsblastmagazine>
+  <Entityname.phsblastpistol>Phosphor blast pistol</Entityname.phsblastpistol>
+  <Entityname.stubcarbinemagazine>Stub carbine magazine</Entityname.stubcarbinemagazine>
+  <Entityname.stubcarbine>Stub carbine</Entityname.stubcarbine>
+  <Entityname.heavygaussgun>Gauss blaster</Entityname.heavygaussgun>
+  <Entityname.phasesword>Phase sword</Entityname.phasesword>
+  <Entityname.rodofcovenant>Rod of covenant</Entityname.rodofcovenant>
+  <Entityname.csmchsword>Corrupted Chainsword</Entityname.csmchsword>
+  <Entityname.sobarmor>Novices armor</Entityname.sobarmor>
+  <Entitydescription.sobarmor>Armor of the novices of Adepta Sororitas.</Entitydescription.sobarmor>
+  <Entityname.sobhelmet1>Novices helmet</Entityname.sobhelmet1>
+  <Entitydescription.sobhelmet1>Helmet of the Novices</Entitydescription.sobhelmet1>
+  <Entityname.igdivingsuit>Diving suit "Kraken"</Entityname.igdivingsuit>
+  <Entityname.kdcuniform2>Veteran's uniform</Entityname.kdcuniform2>
+  <Entityname.kdchelmet2>Veteran's helmet</Entityname.kdchelmet2>
+  <Entityname.krakrocket>Krak missile</Entityname.krakrocket>
+  <Entityname.fragrocket>Frag missile</Entityname.fragrocket>
+  <Entityname.rocketlauncher>Rocket launcher</Entityname.rocketlauncher>
+  <Entityname.handlascannon>Handheld lascannon</Entityname.handlascannon>
+  <Entityname.aaheavyshotgun>Heavy arbites shotgun</Entityname.aaheavyshotgun>
+  <Entityname.aashotgunshellheavy>Advanced arbites shotgun shell</Entityname.aashotgunshellheavy>
+  <!--Medicine-->
+  <Entityname.antiwarppsychosis>Repentine</Entityname.antiwarppsychosis>
+  <Entityname.antiphosphorus>Anti-phosphorus Kit</Entityname.antiphosphorus>
+  <Entityname.corpsestarch>Corpse Starch (Crawler)</Entityname.corpsestarch>
+  <Entityname.corpsestarch2>Corpse Starch (Raptor)</Entityname.corpsestarch2>
+  <Entityname.corpsestarch3>Corpse Starch (Tresher)</Entityname.corpsestarch3>
+  <Entityname.brainstim>Brain stimulator</Entityname.brainstim>
+  <Entityname.furin>Furin</Entityname.furin>
+  <Entityname.de-tox>De-tox</Entityname.de-tox>
+  <Entityname.painkiller>Painkillers</Entityname.painkiller>
+  <Entityname.medkit>Medkit</Entityname.medkit>
+  <Entitydescription.medkit>Medkit assembled for field use, containing painkillers, broad-spectrum antibiotics, desinfectant, and biogel to treat a wide variety of injuries. Treats damage, burns, bleeding, and pain, with a minor amount of bloodloss restored.</Entitydescription.medkit>
+  <Entityname.biogel>Biogel</Entityname.biogel>
+  <Entityname.surgicalkit>Surgical kit</Entityname.surgicalkit>
+  <Entityname.amasec>Amasec</Entityname.amasec>
+  <Entityname.recaf>Recaf</Entityname.recaf>
+  <Entityname.blessedserum>Blessed serum</Entityname.blessedserum>
+  <Entityname.opiumusable>Syringe with opium</Entityname.opiumusable>
+  <Entityname.gypsumbandage>Splint creation kit</Entityname.gypsumbandage>
+  <Entitydescription.gypsumbandage>A kit of bandage and medical gypsum. In case of a fracture, it is possible to use it to create a splint to immobilize the limb.</Entitydescription.gypsumbandage>
+  <Entityname.gypsumbandageadvanced>Splint creation kit with biogel</Entityname.gypsumbandageadvanced>
+  <Entitydescription.gypsumbandageadvanced>This kit is also equipped with biogel that can make treatment faster.</Entitydescription.gypsumbandageadvanced>
+  <Entityname.antibioticgel>Antibiotic gel</Entityname.antibioticgel>
+  <Entitydescription.antibioticgel>Advanced version of biogel. Used to treat infected wounds.</Entitydescription.antibioticgel>
+  <Entityname.immunopreservant>Immunopreservant</Entityname.immunopreservant>
+  <Entitydescription.immunopreservant>Usage of these pills will improve your immunity.</Entitydescription.immunopreservant>
+  <Entityname.antibioticst2>Second-generation antibiotics</Entityname.antibioticst2>
+  <Entitydescription.antibioticst2>Semi-synthetic antibiotics that help to cure infection faster.</Entitydescription.antibioticst2>
+  <!--Afflictions-->
+  <Afflictionname.warpcorrupt>Chaos Corruption</Afflictionname.warpcorrupt>
+  <afflictiondescription.warpcorrupt>The patient is constantly mumbling something about some Dark gods and greatness of chaos... What could this mean..?</afflictiondescription.warpcorrupt>
+  <Afflictionname.phosphorimpact>Phosphorus Impact</Afflictionname.phosphorimpact>
+  <Afflictiondescription.phosphorimpact>The patient's skin is covered in burns caused by white phosphorus.</Afflictiondescription.phosphorimpact>
+  <Afflictioncauseofdeathdescription.phophorimpact>Died from pain shock caused by exposure to phosphorus.</Afflictioncauseofdeathdescription.phophorimpact>
+  <Afflictionselfcauseofdeathdescription.phophorimpact>You died from pain shock caused by exposure to phosphorus.</Afflictionselfcauseofdeathdescription.phophorimpact>
+  <Afflictionname.omnibless>Omnissiah Blessing</Afflictionname.omnibless>
+  <Afflictiondescription.omnibless>Your faith in the Omnissiah has been rewarded, granting you increased repair speed, attack damage, skill gain speed, structure repair speed, and move speed.</Afflictiondescription.omnibless>
+  <afflictionname.omniblesst2>Omnissiah Blessing</afflictionname.omniblesst2>
+  <Afflictionname.sergeantinspire>Sergeant's Inspiration</Afflictionname.sergeantinspire>
+  <Afflictiondescription.sergeantinspire>The wise words of your sergeant inspired you to deeds in the Emperor's name.</Afflictiondescription.sergeantinspire>
+  <afflictionname.bodyadaptation>Omnissiah Blessing (Explorator)</afflictionname.bodyadaptation>
+  <afflictionname.bolterexplosiondamage>Boltgun Damage</afflictionname.bolterexplosiondamage>
+  <afflictionname.plasmadamage>Plasma Damage</afflictionname.plasmadamage>
+  <afflictionname.plasmadamageself>Plasma Damage</afflictionname.plasmadamageself>
+  <afflictionname.magosbless>Magos Blessing</afflictionname.magosbless>
+  <afflictionname.lascanondamage>Lascannon Burn</afflictionname.lascanondamage>
+  <afflictionname.emperorprotects>The Emperor protects!</afflictionname.emperorprotects>
+  <afflictiondescription.emperorprotects>Somehow the wounds of the patient are slowly healing by themselves...</afflictiondescription.emperorprotects>
+  <afflictionname.meltadamage>Melta Burn</afflictionname.meltadamage>
+  <afflictiondescription.meltadamage>The patient's flesh has melted where the bullet struck.</afflictiondescription.meltadamage>
+  <afflictionname.bloodlust>Bloodlust</afflictionname.bloodlust>
+  <afflictionname.khornbless>Khorn Fury</afflictionname.khornbless>
+  <afflictionname.astartesgeneum>Astartes Gene</afflictionname.astartesgeneum>
+  <afflictiondescription.astartesgeneum>The patient has been transformed into an unstoppable angel of death.</afflictiondescription.astartesgeneum>
+  <afflictionname.daemonguidance>Daemonic Influence</afflictionname.daemonguidance>
+  <afflictionname.khornpsychosis>Blood lust</afflictionname.khornpsychosis>
+  <afflictionname.nurglecapself>Grandpa's gifts</afflictionname.nurglecapself>
+  <afflictionname.nurglecap>Grandpa's gifts</afflictionname.nurglecap>
+  <afflictionname.dominusomnibless>Blessing of the Dominus</afflictionname.dominusomnibless>
+  <afflictionname.exploratoromnibless>Blessing of the Explorator</afflictionname.exploratoromnibless>
+  <afflictionname.darkallience>Dark alliance</afflictionname.darkallience>
+  <afflictionname.furin>Furin</afflictionname.furin>
+  <afflictionname.brainstim>Brain stimulation</afflictionname.brainstim>
+  <afflictionname.pain>Pain</afflictionname.pain>
+  <afflictionname.demonfury>Demon fury</afflictionname.demonfury>
+  <afflictionname.novaamage>Nova cannon shot</afflictionname.novaamage>
+  <afflictionname.radiationsicknessres>Radiation resistance</afflictionname.radiationsicknessres>
+  <afflictionname.radiationsicknessgamma>Gamma radiation</afflictionname.radiationsicknessgamma>
+  <afflictionname.alphacommand>Alpha's command</afflictionname.alphacommand>
+  <afflictionname.machinespiritfury>Machine spirit fury</afflictionname.machinespiritfury>
+  <afflictionname.selfrepair>Self repair</afflictionname.selfrepair>
+  <afflictionname.curseoftheomnissiah>Curse of the Omnissiah</afflictionname.curseoftheomnissiah>
+  <afflictionname.standtolast>Stand to last</afflictionname.standtolast>
+  <afflictionname.medicalmentorship>Medical mentorship</afflictionname.medicalmentorship>
+  <afflictiondescription.warpcorrupt.t1.self>You feeling strange influence...</afflictiondescription.warpcorrupt.t1.self>
+  <afflictiondescription.warpcorrupt.t2.self>An unknown force fills you. You feel not only new opportunities, but the literal weight of the energy that has fallen on you...</afflictiondescription.warpcorrupt.t2.self>
+  <afflictiondescription.warpcorrupt.t3.self>You feel the power in your hands, and the energy that feeds you seems to be pushing you like the wind...</afflictiondescription.warpcorrupt.t3.self>
+  <afflictiondescription.warpcorrupt.t4.self>You feel the heaviness again. It's as if something is pulling you back in the other world...</afflictiondescription.warpcorrupt.t4.self>
+  <afflictiondescription.warpcorrupt.t5.self>You hear voices in your head that tells you how to act in a certain situation...</afflictiondescription.warpcorrupt.t5.self>
+  <afflictiondescription.warpcorrupt.t6.self>You are almost pulled back by something unknown, but at the same time you feel a surge of strength...</afflictiondescription.warpcorrupt.t6.self>
+  <afflictiondescription.warpcorrupt.t7.self>A certain force feeds you with its energy, but at the same time you feel some kind of mental illness...</afflictiondescription.warpcorrupt.t7.self>
+  <afflictionname.sepsis>Sepsis</afflictionname.sepsis>
+  <afflictionname.infectedwound>Infected wound</afflictionname.infectedwound>
+  <afflictionname.painblocked>Analgesia</afflictionname.painblocked>
+  <afflictionname.immunity>Immunity</afflictionname.immunity>
+  <afflictionname.righthandfracture>Right hand fracture</afflictionname.righthandfracture>
+  <afflictionname.lefthandfracture>Left hand fracture</afflictionname.lefthandfracture>
+  <afflictionname.rightlegfracture>Right leg fracture</afflictionname.rightlegfracture>
+  <afflictionname.leftlegfracture>Left leg fracture</afflictionname.leftlegfracture>
+  <afflictionname.honkchosis>Honkchosis</afflictionname.honkchosis>
+  <afflictionname.nurglegiftdebuff>Grandpa's sickness</afflictionname.nurglegiftdebuff>
+  <afflictionname.nurglegiftdebuffsyringe>Blessed serum</afflictionname.nurglegiftdebuffsyringe>
+  <afflictionname.chadmechaura>Warp aura</afflictionname.chadmechaura>
+  <afflictionname.chadmechaura2>Warp aura</afflictionname.chadmechaura2>
+  <afflictionname.blessedbody>Blessed body</afflictionname.blessedbody>
+  <afflictionname.secutariinoosphere>Secutarii noosphere</afflictionname.secutariinoosphere>
+  <!--Causes of death-->
+  <causeofdeath.sepsis>Sepsis</causeofdeath.sepsis>
+  <causeofdeath.disruption>Disruption</causeofdeath.disruption>
+  <causeofdeath.noisedamage>Powerful bass</causeofdeath.noisedamage>
+  <self_causeofdeathdescription.damage>You have died because of sepsis.</self_causeofdeathdescription.damage>
+  <causeofdeathdescription.sepsis>Died because of sepsis.</causeofdeathdescription.sepsis>
+  <afflictioncauseofdeath.sepsis>Died because of sepsis.</afflictioncauseofdeath.sepsis>
+  <afflictioncauseofdeathself.sepsis>You have died because of sepsis.</afflictioncauseofdeathself.sepsis>
+  <afflictioncauseofdeath.plasmadamage>Burned to death.</afflictioncauseofdeath.plasmadamage>
+  <afflictioncauseofdeathself.plasmadamage>You have burned to death.</afflictioncauseofdeathself.plasmadamage>
+  <afflictioncauseofdeath.meltadamage>Burned to death.</afflictioncauseofdeath.meltadamage>
+  <afflictioncauseofdeathself.meltadamage>You have burned to death.</afflictioncauseofdeathself.meltadamage>
+  <afflictioncauseofdeath.bolterexplosiondamage>Shot to death.</afflictioncauseofdeath.bolterexplosiondamage>
+  <afflictioncauseofdeathself.bolterexplosiondamage>You have died of boltgun shot wounds.</afflictioncauseofdeathself.bolterexplosiondamage>
+  <afflictioncauseofdeath.lascanondamage>Burned to death.</afflictioncauseofdeath.lascanondamage>
+  <afflictioncauseofdeathself.lascanondamage>You have burned to death.</afflictioncauseofdeathself.lascanondamage>
+  <afflictioncauseofdeath.novaamage>Died to nova cannon shell explosion.</afflictioncauseofdeath.novaamage>
+  <afflictioncauseofdeathself.novaamage>You have died to nova cannon shell explosion.</afflictioncauseofdeathself.novaamage>
+  <afflictioncauseofdeath.noisedamage>Died to too powerful sound.</afflictioncauseofdeath.noisedamage>
+  <afflictioncauseofdeathself.noisedamage>You have died because of too powerful sou.</afflictioncauseofdeathself.noisedamage>
+  <!--Causes of death-->
+  <!--Machines-->
+  <entityname.whreactor1>Reactor</entityname.whreactor1>
+  <Entityname.whbattery>Battery</Entityname.whbattery>
+  <Entityname.plasmabig>(Unfinished) Plasma</Entityname.plasmabig>
+  <Entityname.plascanonloader>(Unfinished) Plasma Cannon Loader</Entityname.plascanonloader>
+  <Entityname.plascanon>(Unfinished) Plasma Cannon</Entityname.plascanon>
+  <Entityname.whbutton>Button</Entityname.whbutton>
+  <Entityname.talentjunctionbox>Junction Box</Entityname.talentjunctionbox>
+  <Entityname.ammocharger>Cannon Charging Station</Entityname.ammocharger>
+  <Entityname.lascanon>Lascannon</Entityname.lascanon>
+  <Entityname.lascanonloader>Lascannon Power Source</Entityname.lascanonloader>
+  <Entityname.chfabricator>Chaos Altar</Entityname.chfabricator>
+  <Entityname.hellgun>Hellgun</Entityname.hellgun>
+  <Entityname.hellgunloader>Hellgun Power Source</Entityname.hellgunloader>
+  <Entityname.genefabricator>Genetic Fabricator</Entityname.genefabricator>
+  <entityname.whfabricator>Fabricator</entityname.whfabricator>
+  <entityname.plasmacannon>Plasma cannon</entityname.plasmacannon>
+  <entityname.plasmacannonloader>Plasma cannon loader</entityname.plasmacannonloader>
+  <entityname.plasmagenerator>Plasma generator</entityname.plasmagenerator>
+  <Entityname.novacannon>Nova cannon</Entityname.novacannon>
+  <Entityname.novaloader>Nova cannon loader</Entityname.novaloader>
+  <Entityname.heavybolterloader>Bolter turret loader</Entityname.heavybolterloader>
+  <Entityname.heavybolterturret>Bolter turret</Entityname.heavybolterturret>
+  <Entityname.sonartransducertower>Sonar transducer (Tower)</Entityname.sonartransducertower>
+  <Entityname.sonartransducerantenna>Sonar transducer (Antenna)</Entityname.sonartransducerantenna>
+  <Entityname.submacrotower>Macro cannon tower</Entityname.submacrotower>
+  <Entityname.macrotowerloadersmall>Macro cannon loader</Entityname.macrotowerloadersmall>
+  <Entityname.necronsonartransducertower>Signal transducer</Entityname.necronsonartransducertower>
+  <Entityname.necronbattery>Battery</Entityname.necronbattery>
+  <Entityname.chaosgates>Chaos gates</Entityname.chaosgates>
+  <Entityname.autoclave>Autoclave</Entityname.autoclave>
+  <Entityname.fermentationvat>Fermentation vat</Entityname.fermentationvat>
+  <!--Map-->
+  <Entityname.aquilla1>Golden Aquila</Entityname.aquilla1>
+  <Entityname.aquilla2>Silver Aquila</Entityname.aquilla2>
+  <Entityname.aquilla3>Bronze Aquila</Entityname.aquilla3>
+  <Entityname.cs1>Chaos Star</Entityname.cs1>
+  <Entityname.gcl>Gene Cult Symbol</Entityname.gcl>
+  <Entityname.aml>Mechanicum Symbol</Entityname.aml>
+  <Entityname.dml>Dark Mechanicum Symbol</Entityname.dml>
+  <Entityname.whgf1>Alpha Legion Graffiti</Entityname.whgf1>
+  <Entitydescription.whgf1>Hydra dominatus!</Entitydescription.whgf1>
+  <Entityname.whgf2>Gene Cult Graffiti</Entityname.whgf2>
+  <Entityname.whgf3>Chaos Cult Graffiti</Entityname.whgf3>
+  <Entityname.ig_bunkbeds1>Bed</Entityname.ig_bunkbeds1>
+  <Entityname.ig_bunkbeds2>Bed</Entityname.ig_bunkbeds2>
+  <Entityname.aml2>Mechanicum Symbol</Entityname.aml2>
+  <Entityname.dccolumn>Decorative Column.</Entityname.dccolumn>
+  <Entityname.amfl>Mechanicum Flag</Entityname.amfl>
+  <Entityname.prop1>Propaganda</Entityname.prop1>
+  <Entityname.prop2>Propaganda</Entityname.prop2>
+  <Entityname.prop3>Propaganda</Entityname.prop3>
+  <Entityname.prop4>Propaganda</Entityname.prop4>
+  <Entityname.prop5>Propaganda</Entityname.prop5>
+  <Entityname.prop6>Propaganda</Entityname.prop6>
+  <Entityname.prop7>Propaganda</Entityname.prop7>
+  <Entityname.whsteelcabinet>Imperial Container</Entityname.whsteelcabinet>
+  <Entityname.whchristmasstree>Christmas tree</Entityname.whchristmasstree>
+  <entityname.40klighttower>Light Tower</entityname.40klighttower>
+  <entityname.st1>Monument</entityname.st1>
+  <Entityname.whmedbed>Medical Bed</Entityname.whmedbed>
+  <Entityname.altar1>Altar</Entityname.altar1>
+  <Entityname.40k_Wall_B>Gothic Wall</Entityname.40k_Wall_B>
+  <Entityname.40k_Wall_B2>Gothic Wall</Entityname.40k_Wall_B2>
+  <Entityname.cafl>Cadian Flag</Entityname.cafl>
+  <Entityname.outchstar>Chaos Star</Entityname.outchstar>
+  <Entityname.outaquila>Aquila</Entityname.outaquila>
+  <Entityname.oficiomedicaesymbol1>Officio medicae symbol</Entityname.oficiomedicaesymbol1>
+  <Entityname.oficiomedicaesymbol2>Officio medicae symbol</Entityname.oficiomedicaesymbol2>
+  <Entityname.oficiomedicaesymbol3>Officio medicae symbol</Entityname.oficiomedicaesymbol3>
+  <Entityname.oficiomedicaesymbol4>Officio medicae symbol</Entityname.oficiomedicaesymbol4>
+  <Entityname.oficiomedicaesymbol5>Officio medicae symbol</Entityname.oficiomedicaesymbol5>
+  <Entityname.astramilitarumsymbol1>Astra militarum symbol</Entityname.astramilitarumsymbol1>
+  <Entityname.astartessymbol1>Adeptus astartes symbol</Entityname.astartessymbol1>
+  <Entityname.outchstar2>Chaos Star</Entityname.outchstar2>
+  <Entityname.khornsymbol>Khorne symbol</Entityname.khornsymbol>
+  <Entityname.nurglesymbol>Nurgle symbol</Entityname.nurglesymbol>
+  <Entityname.tzeenchsymbol>Tzeentch symbol</Entityname.tzeenchsymbol>
+  <Entityname.slaaneshsymbol>Slaanesh symbol</Entityname.slaaneshsymbol>
+  <Entityname.necronobject1>Necron building</Entityname.necronobject1>
+  <Entityname.necronobject2>Necron building</Entityname.necronobject2>
+  <Entityname.necronobject3>Necron building</Entityname.necronobject3>
+  <Entityname.necronobject4>Necron building</Entityname.necronobject4>
+  <Entityname.necronmotionsensor>Necron motion sensor</Entityname.necronmotionsensor>
+  <Entityname.necronlight>Necron lamp</Entityname.necronlight>
+  <Entityname.impnavydec1>Cannon decoration</Entityname.impnavydec1>
+  <Entityname.impnavydec2>Gothic add-on</Entityname.impnavydec2>
+  <Entityname.impnavydec3>Gothic add-on</Entityname.impnavydec3>
+  <Entityname.gellarfieldgen1>Gellar field generator</Entityname.gellarfieldgen1>
+  <Entityname.gellarfieldgen2>Gellar field generator</Entityname.gellarfieldgen2>
+  <Entityname.blackfleetdec1>Tzeentch's rune</Entityname.blackfleetdec1>
+  <Entityname.blackfleetdec2>Tzeentch's rune</Entityname.blackfleetdec2>
+  <Entityname.blackfleetdec3>Tzeentch's rune</Entityname.blackfleetdec3>
+  <Entityname.mechmachine>Machine with manipulator</Entityname.mechmachine>
+  <Entityname.slaaneshmetalbox>Speaker</Entityname.slaaneshmetalbox>
+  <Entityname.necrondoor>Necron door</Entityname.necrondoor>
+  <Entityname.necrondoorwbuttons>Necron door with buttons</Entityname.necrondoorwbuttons>
+  <Entityname.necronhatch>Necron hatch</Entityname.necronhatch>
+  <Entityname.necronhatchwbuttons>Necron hatch with buttons</Entityname.necronhatchwbuttons>
+  <Entityname.gothiclamp>Lamp</Entityname.gothiclamp>
+  <Entityname.gothiclamp2>Lamp</Entityname.gothiclamp2>
+  <Entityname.gothiclamp3>Lamp</Entityname.gothiclamp3>
+  <Entityname.40k_Wall_B3>Gothic Wall</Entityname.40k_Wall_B3>
+  <Entityname.PillarGothic>Pillar</Entityname.PillarGothic>
+  <Entityname.pillarbottom>Pillar bottom</Entityname.pillarbottom>
+  <Entityname.pillartop>Pillar top</Entityname.pillartop>
+  <Entityname.gothicdecor>Gothic structure</Entityname.gothicdecor>
+  <Entityname.gothicsupportbeam>Support beam</Entityname.gothicsupportbeam>
+  <Entityname.gothiccabinet1>Cabinet</Entityname.gothiccabinet1>
+  <Entityname.impnavydec4>Decorative engine</Entityname.impnavydec4>
+  <Entityname.impnavydec5>Decorative engines</Entityname.impnavydec5>
+  <!--Materials-->
+  <Entityname.ceramite>Ceramite</Entityname.ceramite>
+  <Entityname.adamantium>Adamantium</Entityname.adamantium>
+  <Entityname.lgccircuit>Lasgun Control Circuit</Entityname.lgccircuit>
+  <Entityname.cschain>Chainsword Chain</Entityname.cschain>
+  <Entityname.admcschain>Chainsword Chain (Adamantium)</Entityname.admcschain>
+  <entityname.mk7sabaton>Sabaton</entityname.mk7sabaton>
+  <Entitydescription.mk7sabaton>Not those sabaton that will make you a patriot of the country where you do not even live.</Entitydescription.mk7sabaton>
+  <entityname.mk7bottomleg>Bottom Leg Part</entityname.mk7bottomleg>
+  <entityname.mk7upperleg>Upper Leg Part</entityname.mk7upperleg>
+  <entityname.mk7waist>Waist Armor</entityname.mk7waist>
+  <entityname.mk7lowerpart>Lower Armor Part</entityname.mk7lowerpart>
+  <entityname.mk7helmet>Helmet</entityname.mk7helmet>
+  <entityname.mk7backpack>Power Backpack</entityname.mk7backpack>
+  <entityname.mk7torso>Chestplate</entityname.mk7torso>
+  <entityname.mk7arm>Shoulder Armor</entityname.mk7arm>
+  <entityname.mk7forearm>Bracer</entityname.mk7forearm>
+  <entityname.mk7hand>Glove</entityname.mk7hand>
+  <entityname.mk7upperpart>Upper armor part</entityname.mk7upperpart>
+  <Entityname.gold>Gold</Entityname.gold>
+  <Entityname.biomaterial>Biological Material</Entityname.biomaterial>
+  <Entitydescription.biomaterial>Various materials and liquids. An experienced adept biologis can use this for his work in genetics.
+ ‖color:gui.orange‖HINT‖end‖: Used in crafting ‖color:gui.green‖astartes implants‖end‖.</Entitydescription.biomaterial>
+  <Entityname.hormones>Hormones</Entityname.hormones>
+  <Entitydescription.hormones>Bottle with hormones.
+ ‖color:gui.orange‖HINT‖end‖: Used in crafting ‖color:gui.green‖astartes implants‖end‖.</Entitydescription.hormones>
+  <Entityname.graymatter>Gray Matter</Entityname.graymatter>
+  <Entitydescription.graymatter>Brain matter. After some biologis manipulations it probably can be even used.
+ ‖color:gui.orange‖HINT‖end‖: Used in crafting ‖color:gui.green‖astartes implants‖end‖.</Entitydescription.graymatter>
+  <Entityname.crawlermeat>Crawler Meat</Entityname.crawlermeat>
+  <Entityname.raptormeat>Raptor Meat</Entityname.raptormeat>
+  <Entityname.threshermeat>Thresher Meat</Entityname.threshermeat>
+  <Entityname.thermoplas>Thermoplas</Entityname.thermoplas>
+  <Entityname.desinfectant>Desinfectant</Entityname.desinfectant>
+  <Entityname.humanskull>Skull</Entityname.humanskull>
+  <Entityname.emptysyringe>Syringe</Entityname.emptysyringe>
+  <Entityname.emptysyringedirty>Used syringe</Entityname.emptysyringedirty>
+  <Entityname.emptysyringeplastic>Plastic syringe</Entityname.emptysyringeplastic>
+  <Entityname.emptybottle>Bottle</Entityname.emptybottle>
+  <Entityname.bottleofmorphine>Bottle of morphine</Entityname.bottleofmorphine>
+  <Entityname.bottleoffentanyl>Bottle of fentanyl</Entityname.bottleoffentanyl>
+  <Entityname.bottleofdeusizine>Bottle of deusizine</Entityname.bottleofdeusizine>
+  <Entityname.bottleofcalyxanide>Bottle of calyxanide</Entityname.bottleofcalyxanide>
+  <Entityname.bottleofmeth>Bottle of meth</Entityname.bottleofmeth>
+  <Entityname.bottleofsteroids>Bottle of steroids</Entityname.bottleofsteroids>
+  <Entityname.bottleofmorbusine>Bottle of morbusine</Entityname.bottleofmorbusine>
+  <Entityname.bottleofchloralhydrate>Bottle of chloralhydrate</Entityname.bottleofchloralhydrate>
+  <Entityname.bottleofcyanide>Bottle of cyanide</Entityname.bottleofcyanide>
+  <Entityname.bottleofradiotoxin>Bottle of radiotoxin</Entityname.bottleofradiotoxin>
+  <Entityname.bottleofsufforin>Bottle of sufforin</Entityname.bottleofsufforin>
+  <Entityname.bottleofdeliriumine>Bottle of deliriumine</Entityname.bottleofdeliriumine>
+  <Entityname.bottleofparalyzant>Bottle of paralyzant</Entityname.bottleofparalyzant>
+  <Entityname.flaskofantibiotics>Flask of slime myxobacteria</Entityname.flaskofantibiotics>
+  <Entityname.gypsummedical>Medical gypsum</Entityname.gypsummedical>
+  <!--Jobs-->
+  <jobname.skitari>Skitarii</jobname.skitari>
+  <jobname.magos>Techpriest-Magos</jobname.magos>
+  <jobname.engineseer>Techpriest-Engineseer</jobname.engineseer>
+  <Jobname.guardsman>Guardsman</Jobname.guardsman>
+  <Jobdescription.guardsman>The Guards are well-trained soldiers equipped with simple but effective weapons.</Jobdescription.guardsman>
+  <!--  <jobname.engineer3>Nuclear Techpriest (Stygia VIII)</jobname.engineer3>
+ <jobname.engineer4>Electrical Techpriest (Stygia VIII)</jobname.engineer4>
+ <jobname.engineer1>Nuclear Techpriest (Mars)</jobname.engineer1>
+ <jobname.engineer2>Electrical Techpriest (Mars)</jobname.engineer2>
+ <jobname.engineer>Techpriest</jobname.engineer>
+ <jobname.mechanic>Engineseer</jobname.mechanic>
+ <jobname.mechanic3>Engineseer (Metallica)</jobname.mechanic3>
+ <jobname.mechanic4>Engineseer-fabricator (Metallica)</jobname.mechanic4>
+ <jobname.mechanic1>Engineseer (Ryza)</jobname.mechanic1>
+ <jobname.mechanic2>Engineseer-fabricator (Ryza)</jobname.mechanic2> -->
+  <!-- Item messages -->
+  <itemmsgrepair>[[use]] Repair</itemmsgrepair>
+  <itemmsgrewire>[[use]] Rewire</itemmsgrewire>
+  <!--Talents-->
+  <talenttree.weaponspecialist>Weapons Specialist</talenttree.weaponspecialist>
+  <talenttree.sergeant>Sergeant</talenttree.sergeant>
+  <talenttree.tempestus>Tempestus Stormtrooper</talenttree.tempestus>
+  <talenttree.hereticalguardsman>Heretic</talenttree.hereticalguardsman>
+  <talenttree.dominus>Magos Dominus</talenttree.dominus>
+  <talenttree.explorator>Magos Explorator</talenttree.explorator>
+  <talenttree.archmagos>ArchMagos</talenttree.archmagos>
+  <talenttree.heretek>Heretek</talenttree.heretek>
+  <talenttree.transmechanic>Transmechanic</talenttree.transmechanic>
+  <talenttree.exploratorassistant>Explorator's Assistant</talenttree.exploratorassistant>
+  <talenttree.assistantbiologis>Assistant Biologis</talenttree.assistantbiologis>
+  <talenttree.heretekengineseer>Heretek</talenttree.heretekengineseer>
+  <talenttree.heretic>Heretic captain</talenttree.heretic>
+  <talenttree.adeptbiologis>Adept Biologis</talenttree.adeptbiologis>
+  <talenttree.ranger>Ranger</talenttree.ranger>
+  <talenttree.vanguard>Vanguard</talenttree.vanguard>
+  <talenttree.secutari>Secutarii</talenttree.secutari>
+  <talentname.swusage1>Imperial sniper</talentname.swusage1>
+  <talentname.swusage2>Shocktrooper</talentname.swusage2>
+  <talentname.ruthlessfight>Ruthless Fight</talentname.ruthlessfight>
+  <talentdescription.extrapowertolasers>Your laser attacks are now [value]% stronger.</talentdescription.extrapowertolasers>
+  <talentdescription.extrapowertolonglas>Your longlas attacks are now [value]% stronger.</talentdescription.extrapowertolonglas>
+  <talentdescription.extrapowertohellgun>Your hellgun attacks are now [value]% stronger.</talentdescription.extrapowertohellgun>
+  <talentdescription.extrapowertoplasma>Your plasma attacks are now [value]% stronger.</talentdescription.extrapowertoplasma>
+  <talentdescription.extrapowertogrenades>Your explosives are now [value]% stronger.</talentdescription.extrapowertogrenades>
+  <talentdescription.extrapowertoflamers>Your flamer attacks are now [value]% stronger.</talentdescription.extrapowertoflamers>
+  <talentdescription.extrapowertopistols>When you are using pistols you get [armorpenetration]% increase to armor penetration and [powerincrease]% increase to attack power.</talentdescription.extrapowertopistols>
+  <talentdescription.inspirespeedboost>Movement speed increased by [speedboost]%.</talentdescription.inspirespeedboost>
+  <talentdescription.mechanicalecstasy>After completing any repair action you get [affliction].</talentdescription.mechanicalecstasy>
+  <talentdescription.ruthlessfight.resist>When you are inside the submarine you will get [resist]% resistance to any incoming damage.</talentdescription.ruthlessfight.resist>
+  <talentdescription.perspectiveadept>After repairs you get [exp] experience.</talentdescription.perspectiveadept>
+  <talentdescription.adaptivebody>After repairs you get [affliction].</talentdescription.adaptivebody>
+  <talentdescription.flowres>You're [val]% more resistant to water flow.</talentdescription.flowres>
+  <talentname.lasgunprofi>Lasgun Specialist</talentname.lasgunprofi>
+  <talentname.plasmaprofi>Plasmagun Specialist</talentname.plasmaprofi>
+  <talentname.explosiveprofi>Explosives Specialist</talentname.explosiveprofi>
+  <talentname.purifier>Purifier</talentname.purifier>
+  <talentname.grenadier>Grenadier</talentname.grenadier>
+  <talentname.pistolprofi>Gunslinger</talentname.pistolprofi>
+  <talentname.inspire>Inspiration</talentname.inspire>
+  <talentname.basicmaintenance>Basic Maintenance</talentname.basicmaintenance>
+  <talentname.advancedmaintenance>Advanced Maintenance</talentname.advancedmaintenance>
+  <talentname.mechanicalecstasy>Mechanical Ecstasy</talentname.mechanicalecstasy>
+  <talentname.knowalageoftheomnissiah1>Knowledge of the Omnissiah</talentname.knowalageoftheomnissiah1>
+  <talentname.knowalageoftheomnissiah2>Knowledge of the Omnissiah</talentname.knowalageoftheomnissiah2>
+  <talentname.knowalageoftheomnissiah3>Knowledge of the Omnissiah</talentname.knowalageoftheomnissiah3>
+  <talentname.perspectiveadept>Perspective Adept</talentname.perspectiveadept>
+  <talentname.adaptivebionics>Adaptive Bionics</talentname.adaptivebionics>
+  <talentname.adaptivebionics1>Adaptive Bionics</talentname.adaptivebionics1>
+  <talentname.natureexplorer>Nature Explorer</talentname.natureexplorer>
+  <talentname.oreextractor>Miner</talentname.oreextractor>
+  <talentname.adaptivebody>Body Adaptation</talentname.adaptivebody>
+  <talentname.advancedcontrol>Advanced Control</talentname.advancedcontrol>
+  <talentname.adeptrecruiting>New Adepts Recruiting</talentname.adeptrecruiting>
+  <talentname.holyarmoury1>Holy Armoury</talentname.holyarmoury1>
+  <talentname.holyarmoury2>Holy Armoury</talentname.holyarmoury2>
+  <talentname.improvedbody>Improved Body</talentname.improvedbody>
+  <talentdescription.improvedbody>When you are submerged in water you gain [attackpoweraddition]% attack power multiplier.</talentdescription.improvedbody>
+  <talentname.radiumwarfare>Radium Warfare</talentname.radiumwarfare>
+  <talentdescription.extrapowertorad>Your attacks with rad weapons are [value]% stronger.</talentdescription.extrapowertorad>
+  <talentname.effectiveradusage>Effective Rad Weapons</talentname.effectiveradusage>
+  <talentdescription.extrapowertoarc>Your attacks with arc weapons are [value]% stronger.</talentdescription.extrapowertoarc>
+  <talentname.effectivearcusage>Effective Arc Weapons</talentname.effectivearcusage>
+  <talentname.xenobiologist1>Xenobiologist</talentname.xenobiologist1>
+  <talentname.advancedarmor>Advanced Armor</talentname.advancedarmor>
+  <talentname.advancedarmor2>Advanced Armor</talentname.advancedarmor2>
+  <talentname.machinelitania>Litany of Productivity</talentname.machinelitania>
+  <talentname.electricitymanagement>Electricity Management</talentname.electricitymanagement>
+  <talentname.cadia>Cadian Shocktroopers</talentname.cadia>
+  <talentname.krieg>Krieg Death korps</talentname.krieg>
+  <talentname.europa>Europan Krakens</talentname.europa>
+  <talentname.mgscavenger>Scavenger</talentname.mgscavenger>
+  <talentname.esscavenger>Scavenger</talentname.esscavenger>
+  <talentname.universallaws>Cult Laws</talentname.universallaws>
+  <talentdescription.artifactharvester>When you are holding a large artifact you gain [swimmingspeed]% increase to your swimmingspeed.</talentdescription.artifactharvester>
+  <talentname.artifactharvester>Artifact Harvester</talentname.artifactharvester>
+  <talentdescription.artifactcarrier>When you are holding a large artifact you gain [swimmingspeed]% increase to your swimmingspeed and [dmv]% reduction to incoming damage.</talentdescription.artifactcarrier>
+  <talentname.artifactcarrier>Artifact Carrier</talentname.artifactcarrier>
+  <talentname.blessing>Blessing</talentname.blessing>
+  <talentdescription.blessing>The blessed person will get [stunres]% stun resistance, [atcspeed]% attack speed increase, [rs]% repair speed increase and [speedboost]% movement speed increase.</talentdescription.blessing>
+  <talentname.angelsofdeatharsenal>Astartes Armor Technology</talentname.angelsofdeatharsenal>
+  <talentname.angelsofdeatharsenal2>Astartes Armory</talentname.angelsofdeatharsenal2>
+  <talentname.reservesystems>Reserve Systems</talentname.reservesystems>
+  <talentname.hardphysicaltraining>Hard Physical Trainings</talentname.hardphysicaltraining>
+  <talentname.shootingcources>Advanced Shooting Courses</talentname.shootingcources>
+  <talentname.advancedweaponscources>Advanced Courses on Weapon Handling</talentname.advancedweaponscources>
+  <talentdescription.steelbody>You receive [attackpowerreduction]% less damage.</talentdescription.steelbody>
+  <talentname.steelbody>Steel Body</talentname.steelbody>
+  <talentname.ironwill>Iron Will</talentname.ironwill>
+  <talentdescription.ironwill>When your health is less than [state], you receive [reddamage]% less damage.</talentdescription.ironwill>
+  <talentname.secondchance>Second Chance</talentname.secondchance>
+  <talentdescription.emperorprotects>Your inspiration gives those around you a second wind, which allows them to live a little longer.</talentdescription.emperorprotects>
+  <talentname.emperorprotects>The Emperor Protects</talentname.emperorprotects>
+  <talentdescription.universallaws>You can write a book. If you stay on the ground for [seconds] seconds you get [itemname], for any repaired item you also get payment in size of [moneyamount] marks.</talentdescription.universallaws>
+  <talentname.leader>Leader</talentname.leader>
+  <talentdescription.leader>You can inspire a second crewmate.</talentdescription.leader>
+  <talentname.littleheresy>A Little Heresy</talentname.littleheresy>
+  <talentname.basiccorruption>Growing Corruption</talentname.basiccorruption>
+  <talentname.unholytech>Unholy Technologies</talentname.unholytech>
+  <talentname.chiefofficer>Chief Officer</talentname.chiefofficer>
+  <talentname.medicalchiefofficer>Medical Chief Officer</talentname.medicalchiefofficer>
+  <talentdescription.medicalchiefofficer>You suprervising medical personal of the submarine. Any medic will get [va1] increased [v1], [va2] increased [v2] and [va3] increased [v3].</talentdescription.medicalchiefofficer>
+  <talentname.darkdevotion>Dark Devotion</talentname.darkdevotion>
+  <talentdescription.darkdevotion>When your [corrupt] level reach [percentage]% enemies will ignore you.</talentdescription.darkdevotion>
+  <talentname.bloodlust>Bloodlust</talentname.bloodlust>
+  <talentdescription.bloodlust>Every time when you attack a target your insanity level decreases.</talentdescription.bloodlust>
+  <talentname.khornbless>Mark of Khorn</talentname.khornbless>
+  <talentdescription.khornbless>When you are readying a melee weapon you are filled with the power of Khorn.</talentdescription.khornbless>
+  <talentname.nurglebless>Mark of Nurgle</talentname.nurglebless>
+  <talentname.tzeenchbless>Mark of Tzeentch</talentname.tzeenchbless>
+  <talentdescription.tzeenchbless>You can write a book. For every killed enemy you get a book of revelations.</talentdescription.tzeenchbless>
+  <talentname.slaaneshbless>Mark of Slaanesh</talentname.slaaneshbless>
+  <talentdescription.slaaneshbless>You will move [speed]% faster but your health will decrease by [hp]%, as well as [resist]% resistance to drug addiction.</talentdescription.slaaneshbless>
+  <talentname.reaper>Reaper</talentname.reaper>
+  <talentdescription.reaper>When you kill a human or a human husk you can get 2 bloodpacks with [probability]% chance.</talentdescription.reaper>
+  <talentname.assistantxenologist>Xenobiologist Assistant</talentname.assistantxenologist>
+  <talentname.xenologist>Xenobiologist</talentname.xenologist>
+  <talentname.astartesimplants1>Astartes Implants 1</talentname.astartesimplants1>
+  <talentname.astartesimplants2>Astartes Implants 2</talentname.astartesimplants2>
+  <talentname.astartesimplants3>Black Carapace</talentname.astartesimplants3>
+  <talentname.cursedanddamned>Lost and Damned</talentname.cursedanddamned>
+  <talentname.daemonicguidance>Daemonic guidance</talentname.daemonicguidance>
+  <talentdescription.daemonicguidance>When you are affected by [a1], you get [a2], giving you +[hb] and up to +[sgsb]% to the skill gaining speed</talentdescription.daemonicguidance>
+  <talentname.khorncap>Khorn's captain</talentname.khorncap>
+  <talentdescription.khorncap>You are filled with the power of the Blood God and you feel an irresistible rage that gives you strength, but eventually leads to madness. The only way to avoid this is to kill periodically.</talentdescription.khorncap>
+  <talentname.slaaneshcap>Slaanesh's captain</talentname.slaaneshcap>
+  <talentdescription.slaaneshcap>The power of the God of Excess allows you to take many times more drugs before the appearance of addiction or overdose</talentdescription.slaaneshcap>
+  <talentname.tzeenchcap>Tzeentch's captain</talentname.tzeenchcap>
+  <talentdescription.tzeenchcap>You can get the Book of enlightenment by completing all the selected missions</talentdescription.tzeenchcap>
+  <talentname.nurglecap>Nurgle's captain</talentname.nurglecap>
+  <talentdescription.nurglecap>You become much more resilient and get the opportunity to spread the gifts of Grandpa Nurgle</talentdescription.nurglecap>
+  <talentname.archivarius>Archivarius</talentname.archivarius>
+  <talentname.darkallience>Dark allience</talentname.darkallience>
+  <talentname.changelsofdeatharsenal>Heretical astartes armor</talentname.changelsofdeatharsenal>
+  <talentname.changelsofdeatharsenal2>Heretical astartes weaponry</talentname.changelsofdeatharsenal2>
+  <talentname.warpedmachines>Corrupted machine spirits</talentname.warpedmachines>
+  <talentname.warpedbionics>Warp blessed bionics</talentname.warpedbionics>
+  <talentname.voidsuitcreation>Void suit schematics</talentname.voidsuitcreation>
+  <talentname.beginerbiologis>Biologis' student</talentname.beginerbiologis>
+  <talentname.ruinscavenger>Ruin raider</talentname.ruinscavenger>
+  <talentname.spacialaugmentations>Specialized augmentations</talentname.spacialaugmentations>
+  <talentname.basiccorruption2>Forbidden technologies</talentname.basiccorruption2>
+  <talentname.advanceddiving>Advanced diving gear</talentname.advanceddiving>
+  <talentname.archexplorator>Archexplorator</talentname.archexplorator>
+  <talentdescription.beginerbiologis>When treating your allies, you get [exp], maximum [times] per round</talentdescription.beginerbiologis>
+  <talentdescription.ruinscavenger>When exploring alien ruins, you can find advanced medical materials in alien containers</talentdescription.ruinscavenger>
+  <talentdescription.darkallience>Thanks to your alliance with the forces of the warp in the presence of [a1], you get [a2], the effect of which increases your repair speed by [r%]%, as well as after the repair is completed, you get 10 units [a1]</talentdescription.darkallience>
+  <talentdescription.warpedmachines>After the repair is completed, your madness subsides slightly</talentdescription.warpedmachines>
+  <talenttree.hereticalmedic>Heretic</talenttree.hereticalmedic>
+  <talenttree.pharmacist>Pharmacist</talenttree.pharmacist>
+  <talentname.pharmacy1>Pharmacy</talentname.pharmacy1>
+  <talentname.pharmacy2>Pharmacy</talentname.pharmacy2>
+  <talentname.pharmacy3>Pharmacy</talentname.pharmacy3>
+  <talentname.hightechdevices>High technologies</talentname.hightechdevices>
+  <talentname.basicdrugs>Basic drugs</talentname.basicdrugs>
+  <talentname.advanceddrugs>Advanced drugs</talentname.advanceddrugs>
+  <talentname.hereticaldoctor>Heretical doctor</talentname.hereticaldoctor>
+  <talentname.blessedbody>Blessed flesh</talentname.blessedbody>
+  <talentdescription.blessedbody>When you are affected by [a1], you get [a2], giving you +[dr]% damage resistance and up to +[sgsb]% to the skill gaining speed.</talentdescription.blessedbody>
+  <talentname.nurgledoc>Plague doctor</talentname.nurgledoc>
+  <talentname.arcweaponsspecification>Arc weapons specification</talentname.arcweaponsspecification>
+  <talentname.radweaponsspecification>Rad weapons specification</talentname.radweaponsspecification>
+  <talentname.galvanicweaponsspecification>Galvanic weapons specification</talentname.galvanicweaponsspecification>
+  <talentdescription.galvanicweaponsspecification>Galvanic rifles deals additional [v]% damage.</talentdescription.galvanicweaponsspecification>
+  <talentname.advancedbodyaugmentations>Extensive augmentations</talentname.advancedbodyaugmentations>
+  <talentname.machinespiritfury>Machine spirit fury</talentname.machinespiritfury>
+  <talentdescription.machinespiritfury>When you holding mechanicus weapons in your hands you and your allies get [a1] which allows you to fight better.</talentdescription.machinespiritfury>
+  <talentname.brainimplants>Brain implants</talentname.brainimplants>
+  <talentdescription.brainimplants>After killing an enemy you get [xpself] and your crew get [xpally]. You can use it up to [count] per round.</talentdescription.brainimplants>
+  <talentname.enhancedstructure>Enhanced structure</talentname.enhancedstructure>
+  <talentdescription.enhancedstructure>If you have full set of ranger armor you can swim in zones with high pressure</talentdescription.enhancedstructure>
+  <talentname.selfrepairprotocols>Self repair protocols</talentname.selfrepairprotocols>
+  <talentdescription.selfrepairprotocols>When your health goes below [hp]% self repair protocols activates and allows you survive in battle.</talentdescription.selfrepairprotocols>
+  <talentname.martyrsoftheomnissiah>Martyrs of the Omnissiah</talentname.martyrsoftheomnissiah>
+  <talentdescription.martyrsoftheomnissiah>You are became immune to pain.</talentdescription.martyrsoftheomnissiah>
+  <talentname.protocolalpha>Protocol Alpha</talentname.protocolalpha>
+  <talentdescription.protocolalpha>If you have full set of vanguard armor your allies will get [a1] in medium range from you.</talentdescription.protocolalpha>
+  <talentname.protocolbeta>Protocol Beta</talentname.protocolbeta>
+  <talentdescription.protocolbeta>If you have full set of vanguard armor your enemies will get [a1] in medium range from you.</talentdescription.protocolbeta>
+  <talentname.protocolgamma>Protocol Gamma</talentname.protocolgamma>
+  <talentdescription.protocolgamma>If you have full set of vanguard armor your enemies will get [a1] in medium range from you.</talentdescription.protocolgamma>
+  <talentname.promotiontoalpha>Ascension to Alpha</talentname.promotiontoalpha>
+  <talentname.cruxmechanicus>Crux Mechanicus</talentname.cruxmechanicus>
+  <talentname.securityprotocols>Protection protocols</talentname.securityprotocols>
+  <talentdescription.securityprotocols>Radium, arc and galvanic weapons deals [v]% more damage if you are in a friendly submarine</talentdescription.securityprotocols>
+  <talentname.innerinspiration>Litany of Strengthening</talentname.innerinspiration>
+  <talentdescription.innerinspiration>You gain additional [v]% health if you are in a friendly submarine</talentdescription.innerinspiration>
+  <talentname.hasteprotocols>Haste protocols</talentname.hasteprotocols>
+  <talentdescription.hasteprotocols>You get increased by [v]% moving speed and melee attack speed</talentdescription.hasteprotocols>
+  <talentname.secutariinoosphere>Noosphere communication</talentname.secutariinoosphere>
+  <talentdescription.secutariinoosphere>If you're using submarine turret with ally you both get [tfr]% firing rate boost and [sg]% skill gaining boost.</talentdescription.secutariinoosphere>
+  <talentname.advancedsecurityprotocols>Advanced protection protocols</talentname.advancedsecurityprotocols>
+  <talentdescription.advancedsecurityprotocols>Rad, arc and galvanic weapons can deal double damage if you are in a friendly submarine</talentdescription.advancedsecurityprotocols>
+  <talentname.advancedsecurityprotocolsmelee>Advanced Melee subroutines</talentname.advancedsecurityprotocolsmelee>
+  <talentname.secutariialpha>Alpha Secutarii</talentname.secutariialpha>
+  <talentdescription.secutariialpha>You can craft double amount of rad/arc/galvanic ammunition with [probability]% chance</talentdescription.secutariialpha>
+  <talentname.madgenetic>Mad genetic</talentname.madgenetic>
+  <talentname.effectiveplantprocessing>Effective plant processing</talentname.effectiveplantprocessing>
+  <talentdescription.effectiveplantprocessing>All processed plant with [c]% can give you [v]% more resources.</talentdescription.effectiveplantprocessing>
+  <talentname.emergencyprotocols>Emergency protocols</talentname.emergencyprotocols>
+  <talentdescription.emergencyprotocols>When submarine flooded on [f]% you will get speed boost on [v1]% and you will be able to successfully reanimate patient with higher chance.</talentdescription.emergencyprotocols>
+  <talentdescription.crafthighqualitybatteries>You can craft [qualitybonus] levels higher quality batteries.</talentdescription.crafthighqualitybatteries>
+  <talentname.darkmecharmoury>Dark mechanicus armoury</talentname.darkmecharmoury>
+  <talentname.warpenergiesheal>Warp energy</talentname.warpenergiesheal>
+  <talentdescription.warpenergiesheal>When you hold [i1] your allies can slowly heal.</talentdescription.warpenergiesheal>
+  <talentname.warpenergiesrepair>Warp energy</talentname.warpenergiesrepair>
+  <talentdescription.warpenergiesrepair>When you hold [i1] your allies can repair faster.</talentdescription.warpenergiesrepair>
+  <talentname.warptechsorcery>Warp sorcery</talentname.warptechsorcery>
+  <talentdescription.warptechsorcery>When you corrupt lasgun and laspistol powercells, plasma and melta tanks with [probability]% chance you can get double result.</talentdescription.warptechsorcery>
+  <talentname.munitorumlogistic>Munitorum logistic</talentname.munitorumlogistic>
+  <talentdescription.munitorumlogistic>You can buy ammo for autogun, lasguns, lascarbines, longlases and hellguns for [amount]% less price.</talentdescription.munitorumlogistic>
+  <talentname.emperorslight>Emperor's light</talentname.emperorslight>
+  <talentdescription.emperorslight>When you knocked you 50% more resistant to poisons, drowing, bleeding and blood loss, you also 95% more resistant to pain.</talentdescription.emperorslight>
+  <talentname.igconscript>Imperial conscript</talentname.igconscript>
+  <talentname.fieldmedicine>Field medicine</talentname.fieldmedicine>
+  <talentdescription.fieldmedicine>Biogels, surgical kits and medkits are more effective in your hands.</talentdescription.fieldmedicine>
+  <talentname.mechanicusgunner>Gunner</talentname.mechanicusgunner>
+  <talentdescription.mechanicusgunner>All mechanicus ranged weapons dealing [amount]% more damage.</talentdescription.mechanicusgunner>
+  <talentname.inthenameoftheomnissiah>In the name of the Omnissiah</talentname.inthenameoftheomnissiah>
+  <talentdescription.inthenameoftheomnissiah>When [in] in your hands you get additional [mh] [mhn], [as] [asn], [am] [amn].</talentdescription.inthenameoftheomnissiah>
+  <talentname.omnissiahmentorship>Omnissiah mentorship</talentname.omnissiahmentorship>
+  <talentdescription.omnissiahmentorship>Your allies can craft tools and fuel tanks for them 1 quality tier better.</talentdescription.omnissiahmentorship>
+  <talentname.advancedcombataugmentations>Advanced combat augmentation</talentname.advancedcombataugmentations>
+  <talentname.oldtemplates>Old templates</talentname.oldtemplates>
+  <talentname.noosphere>Noosphere</talentname.noosphere>
+  <talentdescription.noosphere>All [j1], [j2], [j3] on submarine get [b1] [b1n], [b2] [b2n], [b3] [b3n].</talentdescription.noosphere>
+  <talentname.discountforbrothers>Discounts for brothers</talentname.discountforbrothers>
+  <talentdescription.discountforbrothers>All basic heretic gear can be bought by [amount]% less price.</talentdescription.discountforbrothers>
+  <talentname.chosenone>Chosen</talentname.chosenone>
+  <talentdescription.chosenone>When you wearing basic heretic gear you get additional [mh] [mhn], [as] [asn], [am] [amn], [rws], [rwsn], [ms], [msn].</talentdescription.chosenone>
+  <talentname.championship>Championship</talentname.championship>
+  <talentdescription.championshippbase>You can became champion of one of four gods</talentdescription.championshippbase>
+  <talentname.regiment>Regiment</talentname.regiment>
+  <talentdescription.regimentbase>You can chose Imperial guard regiment that you are assigned to.</talentdescription.regimentbase>
+  <talentname.expertdiver>Expert diver</talentname.expertdiver>
+  <talentname.marine>Marine</talentname.marine>
+  <talentname.heavyweapons>Heavy weapons</talentname.heavyweapons>
+  <talentdescription.heavyweapons>When you hold in hands [in] you get [ms] more [msn].</talentdescription.heavyweapons>
+  <talentname.advancedmunitorumlogistic>Advanced logistic</talentname.advancedmunitorumlogistic>
+  <talentdescription.advancedmunitorumlogistic>You can buy for [amount]% less price ammunition for plasma and bolt weapons, longlas and hellgun, plasmagun and bolter for mortals.</talentdescription.advancedmunitorumlogistic>
+  <talentname.nurglehusk>Carrier - husk infection</talentname.nurglehusk>
+  <talentname.nurglehonkchosis>Carrier - honkchosis</talentname.nurglehonkchosis>
+  <talentname.nurglegiftsdebuff>Sickness bearer</talentname.nurglegiftsdebuff>
+  <talentname.nurglegiftsbuff>Gifts bearer</talentname.nurglegiftsbuff>
+  <talentname.selfservice>Selfservice</talentname.selfservice>
+  <talentname.extermination>Extermination protocol</talentname.extermination>
+  <talentname.engramtransfer>Engram transfer</talentname.engramtransfer>
+  <!--Ores-->
+  <Entityname.ceramiteore>Ceramite Ore</Entityname.ceramiteore>
+  <Entityname.adamantiumore>Adamantium Ore</Entityname.adamantiumore>
+  <Entityname.goldore>Gold Ore</Entityname.goldore>
+  <!--Submarine walls-->
+  <entityname.shellaarm90deg>Adamantium Shell A 90 Degrees</entityname.shellaarm90deg>
+  <entitydescription.shellaarm90deg>Submarine wall.</entitydescription.shellaarm90deg>
+  <entityname.shellaarm16deg>Adamantium Shell A 16 Degrees</entityname.shellaarm16deg>
+  <entitydescription.shellaarm16deg>Submarine wall.</entitydescription.shellaarm16deg>
+  <entityname.shellaarm34deg>Adamantium Shell A 34 Degrees</entityname.shellaarm34deg>
+  <entitydescription.shellaarm34deg>Submarine wall.</entitydescription.shellaarm34deg>
+  <entityname.shellaarm0deg>Adamantium Shell A 0 Degrees</entityname.shellaarm0deg>
+  <entitydescription.shellaarm0deg>Submarine wall.</entitydescription.shellaarm0deg>
+  <entityname.shellaarm04deg>Adamantium Shell A 04 Degrees</entityname.shellaarm04deg>
+  <entitydescription.shellaarm04deg>Submarine wall.</entitydescription.shellaarm04deg>
+  <entityname.shellaarm14adeg>Adamantium Shell A 14 Degrees</entityname.shellaarm14adeg>
+  <entitydescription.shellaarm14adeg>Submarine wall.</entitydescription.shellaarm14adeg>
+  <entityname.shellaarm52deg>Adamantium Shell A 52 Degrees</entityname.shellaarm52deg>
+  <entitydescription.shellaarm52deg>Submarine wall.</entitydescription.shellaarm52deg>
+  <entityname.shellaarm16degb>Adamantium Shell A 16 Degrees B</entityname.shellaarm16degb>
+  <entitydescription.shellaarm16degb>Submarine wall.</entitydescription.shellaarm16degb>
+  <entityname.shellaarm25deg>Adamantium Shell A 25 Degrees</entityname.shellaarm25deg>
+  <entitydescription.shellaarm25deg>Submarine wall.</entitydescription.shellaarm25deg>
+  <entityname.shellaarm45deg>Adamantium Shell A 45 Degrees</entityname.shellaarm45deg>
+  <entitydescription.shellaarm45deg>Submarine wall.</entitydescription.shellaarm45deg>
+  <entityname.shellaarm32deg>Adamantium Shell A 32 Degrees</entityname.shellaarm32deg>
+  <entitydescription.shellaarm32deg>Submarine wall.</entitydescription.shellaarm32deg>
+  <entityname.shellaarm14degb>Adamantium Shell A 14 Degrees B</entityname.shellaarm14degb>
+  <entitydescription.shellaarm14degb>Submarine wall.</entitydescription.shellaarm14degb>
+  <entityname.shellaarm43deg>Adamantium Shell A 43 Degrees</entityname.shellaarm43deg>
+  <entitydescription.shellaarm43deg>Submarine wall.</entitydescription.shellaarm43deg>
+  <entityname.shellaarm51deg>Adamantium Shell A 51 Degrees</entityname.shellaarm51deg>
+  <entitydescription.shellaarm51deg>Submarine wall.</entitydescription.shellaarm51deg>
+  <entityname.shellaarm47deg>Adamantium Shell A 47 Degrees</entityname.shellaarm47deg>
+  <entitydescription.shellaarm47deg>Submarine wall.</entitydescription.shellaarm47deg>
+  <entityname.shellaarm60deg>Adamantium Shell A 60 Degrees</entityname.shellaarm60deg>
+  <entitydescription.shellaarm60deg>Submarine wall.</entitydescription.shellaarm60deg>
+  <entityname.shellaarm18deg>Adamantium Shell A 18 Degrees</entityname.shellaarm18deg>
+  <entitydescription.shellaarm18deg>Submarine wall.</entitydescription.shellaarm18deg>
+  <entityname.shellaarm70deg>Adamantium Shell A 70 Degrees</entityname.shellaarm70deg>
+  <entitydescription.shellaarm70deg>Submarine wall.</entitydescription.shellaarm70deg>
+  <entityname.shellaarm90degcurve>Adamantium Shell A 90 Degrees Curve</entityname.shellaarm90degcurve>
+  <entitydescription.shellaarm90degcurve>Submarine wall.</entitydescription.shellaarm90degcurve>
+  <entityname.shellaarm45degb>Adamantium Shell A 45 Degrees B</entityname.shellaarm45degb>
+  <entitydescription.shellaarm45degb>Submarine wall.</entitydescription.shellaarm45degb>
+  <entityname.shellaarm45degc>Adamantium Shell A 45 Degrees A</entityname.shellaarm45degc>
+  <entitydescription.shellaarm45degc>Submarine wall.</entitydescription.shellaarm45degc>
+  <entityname.shellaarm45degd>Adamantium Shell A 45 Degrees B</entityname.shellaarm45degd>
+  <entitydescription.shellaarm45degd>Submarine wall.</entitydescription.shellaarm45degd>
+  <entityname.shellaarm57deg>Adamantium Shell A 57 Degrees</entityname.shellaarm57deg>
+  <entitydescription.shellaarm57deg>Submarine wall.</entitydescription.shellaarm57deg>
+  <entityname.shellaarm40deg>Adamantium Shell A 40 Degrees</entityname.shellaarm40deg>
+  <entitydescription.shellaarm40deg>Submarine wall.</entitydescription.shellaarm40deg>
+  <entityname.shellaarm61deg>Adamantium Shell A 61 Degrees</entityname.shellaarm61deg>
+  <entitydescription.shellaarm61deg>Submarine wall.</entitydescription.shellaarm61deg>
+  <entityname.shellaarm17deg>Adamantium Shell A 17 Degrees</entityname.shellaarm17deg>
+  <entitydescription.shellaarm17deg>Submarine wall.</entitydescription.shellaarm17deg>
+  <entityname.shellaarm34degb>Adamantium Shell A 34 Degrees B</entityname.shellaarm34degb>
+  <entitydescription.shellaarm34degb>Submarine wall.</entitydescription.shellaarm34degb>
+  <entityname.shellaarm26deg>Adamantium Shell A 26 Degrees</entityname.shellaarm26deg>
+  <entitydescription.shellaarm26deg>Submarine wall.</entitydescription.shellaarm26deg>
+  <entityname.shellaarm54deg>Adamantium Shell A 54 Degrees</entityname.shellaarm54deg>
+  <entitydescription.shellaarm54deg>Submarine wall.</entitydescription.shellaarm54deg>
+  <entityname.shellaarm38deg>Adamantium Shell A 38 Degrees</entityname.shellaarm38deg>
+  <entitydescription.shellaarm38deg>Submarine wall.</entitydescription.shellaarm38deg>
+  <entityname.shellaarm42deg>Adamantium Shell A 42</entityname.shellaarm42deg>
+  <entitydescription.shellaarm42deg>Submarine wall.</entitydescription.shellaarm42deg>
+  <entityname.shellaarmcombo11>Adamantium Shell A Combo 1 1</entityname.shellaarmcombo11>
+  <entitydescription.shellaarmcombo11>Submarine wall.</entitydescription.shellaarmcombo11>
+  <entityname.shellaarmcombo12>Adamantium Shell A Combo 1 2</entityname.shellaarmcombo12>
+  <entitydescription.shellaarmcombo12>Submarine wall.</entitydescription.shellaarmcombo12>
+  <entityname.ShellnecArm90deg>Living metal Shell A 90 Degrees</entityname.ShellnecArm90deg>
+  <entitydescription.ShellnecArm90deg>Submarine wall.</entitydescription.ShellnecArm90deg>
+  <entityname.ShellnecArm16deg>Living metal Shell A 16 Degrees</entityname.ShellnecArm16deg>
+  <entitydescription.ShellnecArm16deg>Submarine wall.</entitydescription.ShellnecArm16deg>
+  <entityname.ShellnecArm34deg>Living metal Shell A 34 Degrees</entityname.ShellnecArm34deg>
+  <entitydescription.ShellnecArm34deg>Submarine wall.</entitydescription.ShellnecArm34deg>
+  <entityname.ShellnecArm0deg>Living metal Shell A 0 Degrees</entityname.ShellnecArm0deg>
+  <entitydescription.ShellnecArm0deg>Submarine wall.</entitydescription.ShellnecArm0deg>
+  <entityname.ShellnecArm04deg>Living metal Shell A 04 Degrees</entityname.ShellnecArm04deg>
+  <entitydescription.ShellnecArm04deg>Submarine wall.</entitydescription.ShellnecArm04deg>
+  <entityname.ShellnecArm14adeg>Living metal Shell A 14 Degrees</entityname.ShellnecArm14adeg>
+  <entitydescription.ShellnecArm14adeg>Submarine wall.</entitydescription.ShellnecArm14adeg>
+  <entityname.ShellnecArm52deg>Living metal Shell A 52 Degrees</entityname.ShellnecArm52deg>
+  <entitydescription.ShellnecArm52deg>Submarine wall.</entitydescription.ShellnecArm52deg>
+  <entityname.ShellnecArm16degb>Living metal Shell A 16 Degrees B</entityname.ShellnecArm16degb>
+  <entitydescription.ShellnecArm16degb>Submarine wall.</entitydescription.ShellnecArm16degb>
+  <entityname.ShellnecArm25deg>Living metal Shell A 25 Degrees</entityname.ShellnecArm25deg>
+  <entitydescription.ShellnecArm25deg>Submarine wall.</entitydescription.ShellnecArm25deg>
+  <entityname.ShellnecArm45deg>Living metal Shell A 45 Degrees</entityname.ShellnecArm45deg>
+  <entitydescription.ShellnecArm45deg>Submarine wall.</entitydescription.ShellnecArm45deg>
+  <entityname.ShellnecArm32deg>Living metal Shell A 32 Degrees</entityname.ShellnecArm32deg>
+  <entitydescription.ShellnecArm32deg>Submarine wall.</entitydescription.ShellnecArm32deg>
+  <entityname.ShellnecArm14degb>Living metal Shell A 14 Degrees B</entityname.ShellnecArm14degb>
+  <entitydescription.ShellnecArm14degb>Submarine wall.</entitydescription.ShellnecArm14degb>
+  <entityname.ShellnecArm43deg>Living metal Shell A 43 Degrees</entityname.ShellnecArm43deg>
+  <entitydescription.ShellnecArm43deg>Submarine wall.</entitydescription.ShellnecArm43deg>
+  <entityname.ShellnecArm51deg>Living metal Shell A 51 Degrees</entityname.ShellnecArm51deg>
+  <entitydescription.ShellnecArm51deg>Submarine wall.</entitydescription.ShellnecArm51deg>
+  <entityname.ShellnecArm47deg>Living metal Shell A 47 Degrees</entityname.ShellnecArm47deg>
+  <entitydescription.ShellnecArm47deg>Submarine wall.</entitydescription.ShellnecArm47deg>
+  <entityname.ShellnecArm60deg>Living metal Shell A 60 Degrees</entityname.ShellnecArm60deg>
+  <entitydescription.ShellnecArm60deg>Submarine wall.</entitydescription.ShellnecArm60deg>
+  <entityname.ShellnecArm18deg>Living metal Shell A 18 Degrees</entityname.ShellnecArm18deg>
+  <entitydescription.ShellnecArm18deg>Submarine wall.</entitydescription.ShellnecArm18deg>
+  <entityname.ShellnecArm70deg>Living metal Shell A 70 Degrees</entityname.ShellnecArm70deg>
+  <entitydescription.ShellnecArm70deg>Submarine wall.</entitydescription.ShellnecArm70deg>
+  <entityname.ShellnecArm90degcurve>Living metal Shell A 90 Degrees Curve</entityname.ShellnecArm90degcurve>
+  <entitydescription.ShellnecArm90degcurve>Submarine wall.</entitydescription.ShellnecArm90degcurve>
+  <entityname.ShellnecArm45degb>Living metal Shell A 45 Degrees B</entityname.ShellnecArm45degb>
+  <entitydescription.ShellnecArm45degb>Submarine wall.</entitydescription.ShellnecArm45degb>
+  <entityname.ShellnecArm45degc>Living metal Shell A 45 Degrees A</entityname.ShellnecArm45degc>
+  <entitydescription.ShellnecArm45degc>Submarine wall.</entitydescription.ShellnecArm45degc>
+  <entityname.ShellnecArm45degd>Living metal Shell A 45 Degrees B</entityname.ShellnecArm45degd>
+  <entitydescription.ShellnecArm45degd>Submarine wall.</entitydescription.ShellnecArm45degd>
+  <entityname.ShellnecArm57deg>Living metal Shell A 57 Degrees</entityname.ShellnecArm57deg>
+  <entitydescription.ShellnecArm57deg>Submarine wall.</entitydescription.ShellnecArm57deg>
+  <entityname.ShellnecArm40deg>Living metal Shell A 40 Degrees</entityname.ShellnecArm40deg>
+  <entitydescription.ShellnecArm40deg>Submarine wall.</entitydescription.ShellnecArm40deg>
+  <entityname.ShellnecArm61deg>Living metal Shell A 61 Degrees</entityname.ShellnecArm61deg>
+  <entitydescription.ShellnecArm61deg>Submarine wall.</entitydescription.ShellnecArm61deg>
+  <entityname.ShellnecArm17deg>Living metal Shell A 17 Degrees</entityname.ShellnecArm17deg>
+  <entitydescription.ShellnecArm17deg>Submarine wall.</entitydescription.ShellnecArm17deg>
+  <entityname.ShellnecArm34degb>Living metal Shell A 34 Degrees B</entityname.ShellnecArm34degb>
+  <entitydescription.ShellnecArm34degb>Submarine wall.</entitydescription.ShellnecArm34degb>
+  <entityname.ShellnecArm26deg>Living metal Shell A 26 Degrees</entityname.ShellnecArm26deg>
+  <entitydescription.ShellnecArm26deg>Submarine wall.</entitydescription.ShellnecArm26deg>
+  <entityname.ShellnecArm54deg>Living metal Shell A 54 Degrees</entityname.ShellnecArm54deg>
+  <entitydescription.ShellnecArm54deg>Submarine wall.</entitydescription.ShellnecArm54deg>
+  <entityname.ShellnecArm38deg>Living metal Shell A 38 Degrees</entityname.ShellnecArm38deg>
+  <entitydescription.ShellnecArm38deg>Submarine wall.</entitydescription.ShellnecArm38deg>
+  <entityname.ShellnecArm42deg>Living metal Shell A 42</entityname.ShellnecArm42deg>
+  <entitydescription.ShellnecArm42deg>Submarine wall.</entitydescription.ShellnecArm42deg>
+  <entityname.ShellnecArmcombo11>Living metal Shell A Combo 1 1</entityname.ShellnecArmcombo11>
+  <entitydescription.ShellnecArmcombo11>Submarine wall.</entitydescription.ShellnecArmcombo11>
+  <entityname.ShellnecArmcombo12>Living metal Shell A Combo 1 2</entityname.ShellnecArmcombo12>
+  <entitydescription.ShellnecArmcombo12>Submarine wall.</entitydescription.ShellnecArmcombo12>
+  <!--Submarine walls-->
+  <locationchange.outpost.changeto.chcity>[previousname]: In the name of the Dark gods! This colony now belongs to the chaos undivided!</locationchange.outpost.changeto.chcity>
+  <locationchange.chcity.changeto.chcitybig>[previousname]: In the name of the Dark gods! This colony now belongs to the chaos undivided!</locationchange.chcity.changeto.chcitybig>
+  <locationchange.outpost.changeto.choutpost>[previousname]: In the name of the Dark gods! This colony now belongs to the chaos undivided!</locationchange.outpost.changeto.choutpost>
+  <locationchange.AmOutpost.changeto.amforge>Adeptus mechanicus are founding a new forge in [previousname].</locationchange.AmOutpost.changeto.amforge>
+  <locationchange.none.changeto.choutpost>The righteous went to [previousname] and founded a new colony there.</locationchange.none.changeto.choutpost>
+  <locationchange.none.changeto.amoutpost>The Adeptus Mechanicus has been sent to the [previousname] ark of the explorator and now they have a new outpost there.</locationchange.none.changeto.amoutpost>
+  <locationchange.choutpost.changeto.chcity>More and more believers flock to [previousname] and now it is a big temple.</locationchange.choutpost.changeto.chcity>
+  <locationchange.locationchange.military.changeto.smfortress>A squad of Astartes has arrived at [previousname] to improve the sector's defenses.</locationchange.locationchange.military.changeto.smfortress>
+  <locationchange.Amforge.changeto.amforgebig>The Adeptus Mechanicus is expanding the forge [previousname] to a large manufactorum.</locationchange.Amforge.changeto.amforgebig>
+  <locationname.chcity>Colony</locationname.chcity>
+  <locationname.chcitybig>Colony</locationname.chcitybig>
+  <locationname.amforge>Forge Outpost</locationname.amforge>
+  <locationname.choutpost>Sanctuary</locationname.choutpost>
+  <locationname.amoutpost>Mechanicus Outpost</locationname.amoutpost>
+  <locationname.amforgebig>Manufactorum</locationname.amforgebig>
+  <locationname.smfortress>Fortress</locationname.smfortress>
+  <locationnameformat.smfortress>Fortress [name]</locationnameformat.smfortress>
+  <locationnameformat.smfortress>Basilica [name]</locationnameformat.smfortress>
+  <locationnameformat.chcity>Temple [name]</locationnameformat.chcity>
+  <locationnameformat.chcity>City [name]</locationnameformat.chcity>
+  <locationnameformat.chcity>Sanctum [name]</locationnameformat.chcity>
+  <locationnameformat.chcity>Station [name]</locationnameformat.chcity>
+  <locationnameformat.chcitybig>Temple [name]</locationnameformat.chcitybig>
+  <locationnameformat.chcitybig>City [name]</locationnameformat.chcitybig>
+  <locationnameformat.chcitybig>Sanctum [name]</locationnameformat.chcitybig>
+  <locationnameformat.chcitybig>Station [name]</locationnameformat.chcitybig>
+  <locationnameformat.choutpost>Sanctuary [name]</locationnameformat.choutpost>
+  <locationnameformat.amforge>Forge [name]</locationnameformat.amforge>
+  <locationnameformat.amforgebig>Forge [name]</locationnameformat.amforgebig>
+  <locationnameformat.amforgebig>Manufactorum [name]</locationnameformat.amforgebig>
+  <locationnameformat.amoutpost>Outpost [name]</locationnameformat.amoutpost>
+  <locationnameformat.amoutpost>Station [name]</locationnameformat.amoutpost>
+  <locationnameformat.amoutpost>Research facility [name]</locationnameformat.amoutpost>
+  <!--events-->
+  <eventText.missionevent_crcargo.c1>I need a ship that can transport special cargo.</eventText.missionevent_crcargo.c1>
+  <!--events-->
+  <!--factions-->
+  <faction.chaoscultists>Chaos cultists</faction.chaoscultists>
+  <faction.chaoscultists.description>Cultists that praise the Dark gods.</faction.chaoscultists.description>
+  <!--factions-->
+  <!--ifnotexts-->
+  <astartes.infotext1>Adeptus Astartes-Ultramarines</astartes.infotext1>
+  <astartes.infotext2>Legiones Astartes-Black Legion</astartes.infotext2>
+  <astartes.infotext3>Legiones Astartes-Word Bearers</astartes.infotext3>
+  <astartes.infotext4>Adeptus Astartes-Salamanders</astartes.infotext4>
+  <astartes.infotext5>Adeptus Astartes-Imperial Fists</astartes.infotext5>
+  <text.bansheescream>Scream</text.bansheescream>
+  <text.flashlight>Flashlight</text.flashlight>
+  <text.overcharge>Overcharge</text.overcharge>
+  <text.rubricparalysis>Paralysis aura</text.rubricparalysis>
+  <text.sirenofdoom>Siren of doom</text.sirenofdoom>
+  <text.blyadovnik>Blyadovnik</text.blyadovnik>
+  <label.novacontrol>Nova cannon control</label.novacontrol>
+  <terminalwelcomemsg.novacontrol>Enter coordinates from -15 to 15 to coordinate nova cannon.</terminalwelcomemsg.novacontrol>
+  <label.fermvat>Fermentation vat</label.fermvat>
+  <!--infotexts-->
+  <!--genetic-->
+  <Entityname.implant1>Second Heart</Entityname.implant1>
+  <Entityname.implant2>Ossmodula</Entityname.implant2>
+  <Entityname.implant3>Biscopea</Entityname.implant3>
+  <Entityname.implant4>Haemastamen</Entityname.implant4>
+  <Entityname.implant5>Larraman's Organ</Entityname.implant5>
+  <Entityname.implant6>Catalepsean Node</Entityname.implant6>
+  <Entityname.implant7>Preomnor</Entityname.implant7>
+  <Entityname.implant8>Omophagea</Entityname.implant8>
+  <Entityname.implant9>Multi-lung</Entityname.implant9>
+  <Entityname.implant10>Occulobe</Entityname.implant10>
+  <Entityname.implant11>Lyman's Ear</Entityname.implant11>
+  <Entityname.implant12>Sus-an Membrane</Entityname.implant12>
+  <Entityname.implant13>Melanchromic Organ</Entityname.implant13>
+  <Entityname.implant14>Oolitic Kidney</Entityname.implant14>
+  <Entityname.implant15>Neuroglottis</Entityname.implant15>
+  <Entityname.implant16>Mucranoid</Entityname.implant16>
+  <Entityname.implant17>Betcher's Gland</Entityname.implant17>
+  <Entityname.implant18>Progenoids</Entityname.implant18>
+  <Entityname.blackcarapase>Black Carapace</Entityname.blackcarapase>
+  <Entitydescription.blackcarapase>Final implant for the neophyte. Without black carapace you can't create true space marine.
+‖color:gui.orange‖HINT‖end‖: Can be used only with ‖color:gui.red‖Astartes Genetic Material‖end‖</Entitydescription.blackcarapase>
+  <Entityname.geneticmaterialastartes>Astartes Genetic Material ([type])</Entityname.geneticmaterialastartes>
+  <entitydescription.geneticmaterialastartes>A pack of implants that can turn regular mortal into unstoppable machine of genocide.
+‖color:gui.orange‖HINT‖end‖: Can be used only with ‖color:gui.red‖Black carapace‖end‖</entitydescription.geneticmaterialastartes>
+  <!--genetic-->
+  <!--characters-->
+  <character.cryptothrall>Cryptothrall</character.cryptothrall>
+  <npctitle.cultist>Cultist</npctitle.cultist>
+  <npctitle.cultistleader>Cultist Leader</npctitle.cultistleader>
+  <npctitle.cultistleader_heavy>Cultist Leader</npctitle.cultistleader_heavy>
+  <npctitle.fallen>Fallen</npctitle.fallen>
+  <npctitle.fallen_cap>Fallen Sergeant</npctitle.fallen_cap>
+  <npctitle.renegade>Renegade</npctitle.renegade>
+  <npctitle.renegadeleader>Renegade Sergeant</npctitle.renegadeleader>
+  <npctitle.renegadeleader_heavy>Renegade Cpatain</npctitle.renegadeleader_heavy>
+  <!--characters-->
+  <!--missions-->
+  <eventtext.missionevent_pirate2.c1>“A rogue vessel has been preying on our cargo shipments. Eliminate its crew, and we will show our graditude. Take care though, the ship is heavily armed.”</eventtext.missionevent_pirate2.c1>
+  <missionname.pirate2>Clown Vessel</missionname.pirate2>
+  <missiondescription.pirate2>Seek out the clown vessel that has been terrorizing this area and eliminate its crew to gain a reward of [reward] marks. The marked locations show where the ship has last been sighted.</missiondescription.pirate2>
+  <missionsuccess.pirate2>The clown vessel's crew was successfully eliminated.</missionsuccess.pirate2>
+  <missionfailure.pirate2>The clown vessel's crew was not eliminated.</missionfailure.pirate2>
+  <missionsonarlabel.pirate2>Clowns sighting</missionsonarlabel.pirate2>
+  <missionheader0.pirate2>Clowns detected</missionheader0.pirate2>
+  <missionmessage0.pirate2>Neutralize the crew or sink the submarine to the bottom of the sea!</missionmessage0.pirate2>
+  <missionheader1.pirate2>Clowns eliminated</missionheader1.pirate2>
+  <missionmessage1.pirate2>Navigate the submarine to [location2] to claim your reward.</missionmessage1.pirate2>
+  <missionname.abandonedoutpostassassinate2>Fallen</missionname.abandonedoutpostassassinate2>
+  <missiondescription.abandonedoutpostassassinate2>Contact with [location1] was recently lost, and there have been reports about a notorious group of outlaws having claimed it as their base. There's a bounty on the head of the group's leader's – eliminate the leader to claim the reward.</missiondescription.abandonedoutpostassassinate2>
+  <missionsuccess.abandonedoutpostassassinate2>The leader of the Fallen has been successfully eliminated.</missionsuccess.abandonedoutpostassassinate2>
+  <missionfailure.abandonedoutpostassassinate2>Elimination of the Fallen has failed.</missionfailure.abandonedoutpostassassinate2>
+  <missionheader0.abandonedoutpostassassinate2>Leader of the Fallen eliminated successfully.</missionheader0.abandonedoutpostassassinate2>
+  <missionmessage0.abandonedoutpostassassinate2>The leader of the Fallen has been successfully eliminated. Undock from the outpost to complete the mission.</missionmessage0.abandonedoutpostassassinate2>
+  <missionname.abandonedoutpostassassinate3>Outpost assassination</missionname.abandonedoutpostassassinate3>
+  <missiondescription.abandonedoutpostassassinate3>Contact with [location1] was recently lost, and there have been reports about a notorious group of outlaws having claimed it as their base. There's a bounty on the head of the group's leader's – eliminate the leader to claim the reward.</missiondescription.abandonedoutpostassassinate3>
+  <missionsuccess.abandonedoutpostassassinate3>The leader of the bandit group has been successfully eliminated.</missionsuccess.abandonedoutpostassassinate3>
+  <missionfailure.abandonedoutpostassassinate3>Elimination of the bandit group leader has failed.</missionfailure.abandonedoutpostassassinate3>
+  <missionheader0.abandonedoutpostassassinate3>Bandit leader eliminated successfully.</missionheader0.abandonedoutpostassassinate3>
+  <missionmessage0.abandonedoutpostassassinate3>The leader of the bandit group has been successfully eliminated. Undock from the outpost to complete the mission.</missionmessage0.abandonedoutpostassassinate3>
+  <missionname.abandonedoutpostassassinate4>Outpost assassination</missionname.abandonedoutpostassassinate4>
+  <missiondescription.abandonedoutpostassassinate4>Contact with [location1] was recently lost, and there have been reports about a notorious group of outlaws having claimed it as their base. There's a bounty on the head of the group's leader's – eliminate the leader to claim the reward.</missiondescription.abandonedoutpostassassinate4>
+  <missionsuccess.abandonedoutpostassassinate4>The leader of the bandit group has been successfully eliminated.</missionsuccess.abandonedoutpostassassinate4>
+  <missionfailure.abandonedoutpostassassinate4>Elimination of the bandit group leader has failed.</missionfailure.abandonedoutpostassassinate4>
+  <missionheader0.abandonedoutpostassassinate4>Bandit leader eliminated successfully.</missionheader0.abandonedoutpostassassinate4>
+  <missionmessage0.abandonedoutpostassassinate4>The leader of the bandit group has been successfully eliminated. Undock from the outpost to complete the mission.</missionmessage0.abandonedoutpostassassinate4>
+  <missionname.chlpmission>Corrupted cargo</missionname.chlpmission>
+  <missiondescription.chlpmission>A local chaos cult in [location2] needs weapons to begin an uprising against the lap dogs of the corpse Emperor. If you are bold enough to carry those items your reward will be [reward] marks.</missiondescription.chlpmission>
+  <missionsuccess.chlpmission>The weapons have been successfully delivered.</missionsuccess.chlpmission>
+  <missionname.chlgmission>Corrupted cargo</missionname.chlgmission>
+  <missiondescription.chlgmission>A local chaos cult in [location2] needs weapons to begin an uprising against the lap dogs of the false Emperor. If you are bold enough to carry those items your reward will be [reward] marks.</missiondescription.chlgmission>
+  <missionsuccess.chlgmission>The weapons have been successfully delivered.</missionsuccess.chlgmission>
+  <missionname.killcrawlerswarm1wreck>Terminate a Swarm</missionname.killcrawlerswarm1wreck>
+  <missiondescription.killcrawlerswarm1wreck>A small swarm of [monster] has been terrorizing vessels traveling between [location1] and [location2]. A reward of [reward] marks has been promised to any crew that can neutralize it.</missiondescription.killcrawlerswarm1wreck>
+  <missionsonarlabel.killcrawlerswarm1wreck>Swarm</missionsonarlabel.killcrawlerswarm1wreck>
+  <missionsuccess.killcrawlerswarm1wreck>The swarm has been terminated.</missionsuccess.killcrawlerswarm1wreck>
+  <missionheader0.killcrawlerswarm1wreck>Target terminated</missionheader0.killcrawlerswarm1wreck>
+  <missionmessage0.killcrawlerswarm1wreck>The swarm is terminated. Navigate the submarine out of the cavern to claim the reward.</missionmessage0.killcrawlerswarm1wreck>
+  <missionname.salvagewrecktrinket1>Wreck salvage</missionname.salvagewrecktrinket1>
+  <missiondescription.salvagewrecktrinket1>[location1] just received a fragmented distress call from a vessel that was thought to have been lost along with the alien artifact on it's board. Retrieve the the artifact as a priority and return it.</missiondescription.salvagewrecktrinket1>
+  <missionsonarlabel.salvagewrecktrinket1>Wreck</missionsonarlabel.salvagewrecktrinket1>
+  <missionsuccess.salvagewrecktrinket1>Artifact has been successfully retrieved.</missionsuccess.salvagewrecktrinket1>
+  <missionfailure.salvagewrecktrinket1>Failed to retrieve the artifact.</missionfailure.salvagewrecktrinket1>
+  <missionheader0.salvagewrecktrinket1>Artifact retrieved.</missionheader0.salvagewrecktrinket1>
+  <missionname.salvagewrecktrinket2>Wreck salvage</missionname.salvagewrecktrinket2>
+  <missiondescription.salvagewrecktrinket2>[location1] just received a fragmented distress call from a vessel that was thought to have been lost along with the alien artifact on it's board. Retrieve the the artifact as a priority and return it</missiondescription.salvagewrecktrinket2>
+  <missionsonarlabel.salvagewrecktrinket2>Wreck</missionsonarlabel.salvagewrecktrinket2>
+  <missionsuccess.salvagewrecktrinket2>Artifact has been successfully retrieved.</missionsuccess.salvagewrecktrinket2>
+  <missionfailure.salvagewrecktrinket2>Failed to retrieve the artifact.</missionfailure.salvagewrecktrinket2>
+  <missionheader0.salvagewrecktrinket2>Artifact retrieved.</missionheader0.salvagewrecktrinket2>
+  <missionname.salvagewrecktrinket3>Wreck salvage</missionname.salvagewrecktrinket3>
+  <missiondescription.salvagewrecktrinket3>[location1] just received a fragmented distress call from a vessel that was thought to have been lost along with the alien artifact on it's board. Retrieve the the artifact as a priority and return it</missiondescription.salvagewrecktrinket3>
+  <missionsonarlabel.salvagewrecktrinket3>Wreck</missionsonarlabel.salvagewrecktrinket3>
+  <missionsuccess.salvagewrecktrinket3>Artifact has been successfully retrieved.</missionsuccess.salvagewrecktrinket3>
+  <missionfailure.salvagewrecktrinket3>Failed to retrieve the artifact.</missionfailure.salvagewrecktrinket3>
+  <missionheader0.salvagewrecktrinket3>Artifact retrieved.</missionheader0.salvagewrecktrinket3>
+  <missionname.killhuskmarine>Terminate a husk marines</missionname.killhuskmarine>
+  <missiondescription.killhuskmarine>Particularly aggressive husk marines have been terrorizing vessels traveling between [location1] and [location2]. A reward of [reward] marks has been promised to whoever kills the creatures.</missiondescription.killhuskmarine>
+  <missionsonarlabel.killhuskmarine>Husk marines</missionsonarlabel.killhuskmarine>
+  <missionsuccess.killhuskmarine>Husk marines terminated.</missionsuccess.killhuskmarine>
+  <missionheader0.killhuskmarine>Targets terminated</missionheader0.killhuskmarine>
+  <missionmessage0.killhuskmarine>Husk marines dead. Navigate the submarine out of the cavern to claim the reward.</missionmessage0.killhuskmarine>
+  <missionname.ceramitecollection>Mining ceramite</missionname.ceramitecollection>
+  <missiondescription.ceramitecollection>There's been talk of deposits of ceramite along the way from [location1] to [location2]. Bring back ten samples of ceramite to verify these claims.</missiondescription.ceramitecollection>
+  <missionheader0.ceramitecollection>Ceramite mined</missionheader0.ceramitecollection>
+  <missionmessage0.ceramitecollection>You have mined enough ceramite. Bring it to an outpost to claim the reward.</missionmessage0.ceramitecollection>
+  <missionsuccess.ceramitecollection>The existence of the ceramite deposits has been successfully proven.</missionsuccess.ceramitecollection>
+  <missionsonarlabel.ceramitecollection>Ceramite</missionsonarlabel.ceramitecollection>
+  <missionname.adamantiumcollection>Mining adamantium</missionname.adamantiumcollection>
+  <missiondescription.adamantiumcollection>There's been talk of deposits of adamantium along the way from [location1] to [location2]. Bring back ten samples of adamantium to verify these claims.</missiondescription.adamantiumcollection>
+  <missionheader0.adamantiumcollection>Adamantium mined</missionheader0.adamantiumcollection>
+  <missionmessage0.adamantiumcollection>You have mined enough adamantium. Bring it to an outpost to claim the reward.</missionmessage0.adamantiumcollection>
+  <missionsuccess.adamantiumcollection>The existence of the adamantium deposits has been successfully proven.</missionsuccess.adamantiumcollection>
+  <missionsonarlabel.adamantiumcollection>Adamantium</missionsonarlabel.adamantiumcollection>
+  <missionname.goldcollection>Mining gold</missionname.goldcollection>
+  <missiondescription.goldcollection>There's been talk of deposits of gold along the way from [location1] to [location2]. Bring back ten samples of gold to verify these claims.</missiondescription.goldcollection>
+  <missionheader0.goldcollection>Gold mined</missionheader0.goldcollection>
+  <missionmessage0.goldcollection>You have mined enough gold. Bring it to an outpost to claim the reward.</missionmessage0.goldcollection>
+  <missionsuccess.goldcollection>The existence of the gold deposits has been successfully proven.</missionsuccess.goldcollection>
+  <missionsonarlabel.goldcollection>Gold</missionsonarlabel.goldcollection>
+  <missionname.aquaticpoppycollection>Collecting aquatic poppy</missionname.aquaticpoppycollection>
+  <missiondescription.aquaticpoppycollection>There's been talk of clusters of aquatic poppy along the way from [location1] to [location2]. Bring back ten samples of aquatic poppy to verify these claims.</missiondescription.aquaticpoppycollection>
+  <missionheader0.aquaticpoppycollection>Aquatic poppy collected</missionheader0.aquaticpoppycollection>
+  <missionmessage0.aquaticpoppycollection>You have collected enough aquatic poppy. Bring it to an outpost to claim the reward.</missionmessage0.aquaticpoppycollection>
+  <missionsuccess.aquaticpoppycollection>The existence of the aquatic poppy clusters has been successfully proven.</missionsuccess.aquaticpoppycollection>
+  <missionsonarlabel.aquaticpoppycollection>Aquatic poppy</missionsonarlabel.aquaticpoppycollection>
+  <missionname.fiberplantcollection>Collecting fiber plant</missionname.fiberplantcollection>
+  <missiondescription.fiberplantcollection>There's been talk of clusters of fiber plant along the way from [location1] to [location2]. Bring back ten samples of fiber plant to verify these claims.</missiondescription.fiberplantcollection>
+  <missionheader0.fiberplantcollection>Fiber plant collected</missionheader0.fiberplantcollection>
+  <missionmessage0.fiberplantcollection>You have collected enough fiber plant. Bring it to an outpost to claim the reward.</missionmessage0.fiberplantcollection>
+  <missionsuccess.fiberplantcollection>The existence of the fiber plant clusters has been successfully proven.</missionsuccess.fiberplantcollection>
+  <missionsonarlabel.fiberplantcollection>Fiber plant</missionsonarlabel.fiberplantcollection>
+  <missionname.yeastshroomcollection>Collecting sea yeast shroom</missionname.yeastshroomcollection>
+  <missiondescription.yeastshroomcollection>There's been talk of clusters of sea yeast shroom along the way from [location1] to [location2]. Bring back ten samples of sea yeast shroom to verify these claims.</missiondescription.yeastshroomcollection>
+  <missionheader0.yeastshroomcollection>Sea Yeast Shroom collected</missionheader0.yeastshroomcollection>
+  <missionmessage0.yeastshroomcollection>You have collected enough sea yeast shroom. Bring it to an outpost to claim the reward.</missionmessage0.yeastshroomcollection>
+  <missionsuccess.yeastshroomcollection>The existence of the sea yeast shroom clusters has been successfully proven.</missionsuccess.yeastshroomcollection>
+  <missionsonarlabel.yeastshroomcollection>Sea Yeast Shroom</missionsonarlabel.yeastshroomcollection>
+  <!--missions-->
+  <!--personality traits-->
+  <personalitytrait.faithful>Faithful</personalitytrait.faithful>
+  <personalitytrait.voidborn>Voidborn</personalitytrait.voidborn>
+  <personalitytrait.lpsyker>Latent psyker</personalitytrait.lpsyker>
+  <!--personality traits-->
+  <!--UI-->
+  <uilabel.bigchargingdock>Power cell charger for stationary cannons</uilabel.bigchargingdock>
+  <!--UI-->
+  <!--Rooms-->
+  <roomname.amtemple>Machine-God Shrine</roomname.amtemple>
+  <roomname.chaostemple>Chaos shrine</roomname.chaostemple>
+  <roomname.garden>Garden</roomname.garden>
+  <roomname.bridge>Bridge</roomname.bridge>
+  <roomname.avgurium>Avgurium</roomname.avgurium>
+  <roomname.generatorum>Generatorum</roomname.generatorum>
+  <roomname.apothecarion>Apothecarion</roomname.apothecarion>
+  <!--Rooms-->
+  <!--sub upgrades-->
+  <upgradecategory.altars>Altars</upgradecategory.altars>
+  <upgradename.increasealtarfabricationspeed>Faster corruption</upgradename.increasealtarfabricationspeed>
+  <upgradedescription.increasealtarfabricationspeed>Corruption of items goes faster.</upgradedescription.increasealtarfabricationspeed>
+  <!--sub upgrades-->
+  <!--OutpostEvents-->
+  <eventtext.soundintheventhusk.c1>You hear a strange scraping sound coming from a nearby vent. Curious, you peer through the slats of the vent cover, but it’s far too dark in there to see anything... A moment later you hear the sound again, you’re sure of it!</eventtext.soundintheventhusk.c1>
+  <eventtext.soundintheventhusk.o1>Unscrew the vent cover to take a better look inside.</eventtext.soundintheventhusk.o1>
+  <eventtext.soundintheventhusk.o1.c1>You manage to get the vent off easily enough and spot the source of the noise right away: The fan blade is brushing against a small metal box. Carefully retrieving it, you open it and find 1,000 marks!</eventtext.soundintheventhusk.o1.c1>
+  <eventtext.soundintheventhusk.o1.c2>You fumble the vent cover as you’re removing it and brush against the spinning blade. It slices into your hand before you can pull away, nicking an artery.</eventtext.soundintheventhusk.o1.c2>
+  <eventtext.soundintheventhusk.o2>Shine your flashlight through the vent slats and see if you can spot anything unusual.</eventtext.soundintheventhusk.o2>
+  <eventtext.soundintheventhusk.o2.c1>You hear weird clicking sound from the vent and you see something like limb for a second... But than it's disappears.</eventtext.soundintheventhusk.o2.c1>
+  <eventtext.soundintheventhusk.o2.c2>Three Husks burst from the vent!</eventtext.soundintheventhusk.o2.c2>
+  <eventtext.soundintheventhusk.o3>Ignore it.</eventtext.soundintheventhusk.o3>
+  <eventtext.soundintheventhusk.o3.c1>Seems it might have just been in your head... These outposts can get on your nerves after a while.</eventtext.soundintheventhusk.o3.c1>
+  <eventtext.soundintheventhusk.o3.o1>Take a deep breath.</eventtext.soundintheventhusk.o3.o1>
+  <eventtext.soundintheventhusk.o3.c2>You decide you don’t have time for this nonsense and creep past the noisy vent. Not your problem! Whatever it is, someone else will sort that out!</eventtext.soundintheventhusk.o3.c2>
+  <eventtext.soundintheventhusk.o3.o2>Bah!</eventtext.soundintheventhusk.o3.o2>
+  <eventtext.soundintheventhusk.o3.c3>You decide you don’t have time for this nonsense and creep past the noisy vent, but you get the nagging feeling you've not seen the end of this yet...</eventtext.soundintheventhusk.o3.c3>
+  <eventtext.soundintheventhusk.o3.o3>A foreshadowing?</eventtext.soundintheventhusk.o3.o3>
+  <eventtext.soundintheventhuskmarine.c1>You hear a strange scraping sound coming from a nearby vent. Curious, you peer through the slats of the vent cover, but it’s far too dark in there to see anything... A moment later you hear the sound again, you’re sure of it!</eventtext.soundintheventhuskmarine.c1>
+  <eventtext.soundintheventhuskmarine.o1>Unscrew the vent cover to take a better look inside.</eventtext.soundintheventhuskmarine.o1>
+  <eventtext.soundintheventhuskmarine.o1.c1>You manage to get the vent off easily enough and spot the source of the noise right away: The fan blade is brushing against a small metal box. Carefully retrieving it, you open it and find 1,000 marks!</eventtext.soundintheventhuskmarine.o1.c1>
+  <eventtext.soundintheventhuskmarine.o1.c2>You fumble the vent cover as you’re removing it and brush against the spinning blade. It slices into your hand before you can pull away, nicking an artery.</eventtext.soundintheventhuskmarine.o1.c2>
+  <eventtext.soundintheventhuskmarine.o2>Shine your flashlight through the vent slats and see if you can spot anything unusual.</eventtext.soundintheventhuskmarine.o2>
+  <eventtext.soundintheventhuskmarine.o2.c1>An enraged mudraptor bursts from the vent!</eventtext.soundintheventhuskmarine.o2.c1>
+  <eventtext.soundintheventhuskmarine.o2.c2>Three enraged mudraptors burst from the vent!</eventtext.soundintheventhuskmarine.o2.c2>
+  <eventtext.soundintheventhuskmarine.o3>Ignore it.</eventtext.soundintheventhuskmarine.o3>
+  <eventtext.soundintheventhuskmarine.o3.c1>Seems it might have just been in your head... These outposts can get on your nerves after a while.</eventtext.soundintheventhuskmarine.o3.c1>
+  <eventtext.soundintheventhuskmarine.o3.o1>Take a deep breath.</eventtext.soundintheventhuskmarine.o3.o1>
+  <eventtext.soundintheventhuskmarine.o3.c2>You decide you don’t have time for this nonsense and creep past the noisy vent. Not your problem! Whatever it is, someone else will sort that out!</eventtext.soundintheventhuskmarine.o3.c2>
+  <eventtext.soundintheventhuskmarine.o3.o2>Bah!</eventtext.soundintheventhuskmarine.o3.o2>
+  <eventtext.soundintheventhuskmarine.o3.c3>You decide you don’t have time for this nonsense and creep past the noisy vent, but you get the nagging feeling you've not seen the end of this yet...</eventtext.soundintheventhuskmarine.o3.c3>
+  <eventtext.soundintheventhuskmarine.o3.o3>A foreshadowing?</eventtext.soundintheventhuskmarine.o3.o3>
+  <!--OutpostEvents-->
+  <stattypenames.chemaddiction>Resistance to addiction</stattypenames.chemaddiction>
+</Override>

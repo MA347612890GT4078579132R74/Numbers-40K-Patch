@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <AfflictionKhornPsychosis identifier="khornpsychosissword" type="khornpsychosis" isbuff="true" limbspecific="false" maxstrength="300" showiconthreshold="0" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249" MedicalSkillGain="0.0">
+    <Effect minstrength="0" maxstrength="30" maxvitalitydecrease="0" strengthchange="-0.05">
+      <PeriodicEffect mininterval="60" maxinterval="200">
+        <StatusEffect target="Character" onlyoutside="true">
+          <Conditional IsLocalPlayer="True" />
+          <Sound file="Content/Characters/Spineling/SPINELING_idle2.ogg" selectionmode="Random" />
+          <Sound file="Content/Characters/Spineling/SPINELING_idle4.ogg" />
+          <Sound file="Content/Characters/Tigerthresher/TIGERTRESHER_idle1.ogg" />
+          <Sound file="Content/Characters/Tigerthresher/TIGERTRESHER_idle2.ogg" />
+          <Sound file="Content/Characters/Tigerthresher/TIGERTRESHER_attack1.ogg" />
+          <Sound file="Content/Characters/Moloch/MOLOCH_attack1.ogg" />
+          <Sound file="Content/Characters/Moloch/MOLOCH_attack2.ogg" />
+          <Sound file="Content/Characters/Husk/HUSK_idle1.ogg" />
+          <Sound file="Content/Characters/Husk/HUSK_idle4.ogg" />
+          <Sound file="Content/Characters/Hammerheadmatriarch/MHAMMERHEAD_idle3.ogg" />
+          <Sound file="Content/Characters/Hammerhead/HAMMERHEAD_idle4.ogg" />
+          <Sound file="Content/Characters/Hammerhead/HAMMERHEAD_attack2.ogg" />
+          <Sound file="Content/Characters/Hammerhead/HAMMERHEAD_attack3.ogg" />
+          <Sound file="Content/Characters/Crawlerhusk/HUSKEDCRAWLER_idle1.ogg" />
+          <Sound file="Content/Characters/Crawlerhusk/HUSKEDCRAWLER_idle3.ogg" />
+          <Sound file="Content/Characters/Crawlerhusk/HUSKEDCRAWLER_attack2.ogg" />
+        </StatusEffect>
+        <StatusEffect target="Character" onlyinside="true">
+          <Conditional IsLocalPlayer="True" />
+          <Sound file="Content/Items/Weapons/honk.ogg" selectionmode="Random" />
+          <Sound file="Content/Items/Weapons/ShotgunShot1.ogg" />
+          <Sound file="Content/Items/Weapons/ShotgunShot2.ogg" />
+          <Sound file="Content/Characters/Moloch/MOLOCH_attack1.ogg" />
+          <Sound file="Content/Characters/Moloch/MOLOCH_attack2.ogg" />
+          <Sound file="Content/Characters/Mudraptor/MUDRAPTOR_attack1.ogg" />
+          <Sound file="Content/Characters/Mudraptor/MUDRAPTOR_attack2.ogg" />
+          <Sound file="Content/Characters/Mudraptor/MUDRAPTOR_idle4.ogg" />
+          <Sound file="Content/Characters/Husk/HUSK_idle1.ogg" />
+          <Sound file="Content/Characters/Husk/HUSK_idle4.ogg" />
+          <Sound file="Content/Characters/Husk/HUSK_attack4.ogg" />
+          <Sound file="Content/Characters/Crawler/CRAWLER_idle3.ogg" />
+          <Sound file="%ModDir:Barotrauma 40K%/Items/Weapons/plasmashot1.ogg" />
+          <Sound file="%ModDir:Barotrauma 40K%/Items/Weapons/bgshot1.ogg" />
+        </StatusEffect>
+      </PeriodicEffect>
+    </Effect>
+    <PeriodicEffect mininterval="201" maxinterval="300">
+      <StatusEffect target="Character" duration="30" onlyinside="true">
+        <Conditional IsLocalPlayer="True" />
+        <Sound file="Content/Items/WarningSiren.ogg" />
+        <Sound file="%ModDir:Barotrauma 40K%/Sounds/Corruption/corrupt1.ogg" />
+      </StatusEffect>
+    </PeriodicEffect>
+    <Effect minstrength="0" maxstrength="100" strengthchange="-0.05">
+      <StatValue stattype="MeleeAttackSpeed" minvalue="0.1" maxvalue="0.15" />
+      <StatValue stattype="MeleeAttackMultiplier" minvalue="0.1" maxvalue="0.3" />
+    </Effect>
+    <Effect minstrength="101" maxstrength="200" strengthchange="-0.05">
+      <StatValue stattype="MeleeAttackSpeed" minvalue="0.1" maxvalue="0.3" />
+      <StatValue stattype="MeleeAttackMultiplier" minvalue="0.1" maxvalue="0.5" />
+    </Effect>
+    <Effect minstrength="201" maxstrength="300" strengthchange="-0.05">
+      <StatValue stattype="MeleeAttackSpeed" minvalue="0.3" maxvalue="0.5" />
+      <StatValue stattype="MeleeAttackMultiplier" minvalue="0.5" maxvalue="0.75" />
+    </Effect>
+    <Icon texture="%ModDir:Barotrauma 40K%/UI/talenticon1.png" sheetindex="6,0" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+  </AfflictionKhornPsychosis>
+  <AfflictionKhornPsychosis identifier="khornpsychosisarmor" type="khornpsychosis" isbuff="true" limbspecific="false" maxstrength="300" showiconthreshold="0" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249" MedicalSkillGain="0.0">
+    <Effect minstrength="0" maxstrength="30" maxvitalitydecrease="0" strengthchange="-0.05">
+      <PeriodicEffect mininterval="60" maxinterval="200">
+        <StatusEffect target="Character" onlyoutside="true">
+          <Conditional IsLocalPlayer="True" />
+          <Sound file="Content/Characters/Spineling/SPINELING_idle2.ogg" selectionmode="Random" />
+          <Sound file="Content/Characters/Spineling/SPINELING_idle4.ogg" />
+          <Sound file="Content/Characters/Tigerthresher/TIGERTRESHER_idle1.ogg" />
+          <Sound file="Content/Characters/Tigerthresher/TIGERTRESHER_idle2.ogg" />
+          <Sound file="Content/Characters/Tigerthresher/TIGERTRESHER_attack1.ogg" />
+          <Sound file="Content/Characters/Moloch/MOLOCH_attack1.ogg" />
+          <Sound file="Content/Characters/Moloch/MOLOCH_attack2.ogg" />
+          <Sound file="Content/Characters/Husk/HUSK_idle1.ogg" />
+          <Sound file="Content/Characters/Husk/HUSK_idle4.ogg" />
+          <Sound file="Content/Characters/Hammerheadmatriarch/MHAMMERHEAD_idle3.ogg" />
+          <Sound file="Content/Characters/Hammerhead/HAMMERHEAD_idle4.ogg" />
+          <Sound file="Content/Characters/Hammerhead/HAMMERHEAD_attack2.ogg" />
+          <Sound file="Content/Characters/Hammerhead/HAMMERHEAD_attack3.ogg" />
+          <Sound file="Content/Characters/Crawlerhusk/HUSKEDCRAWLER_idle1.ogg" />
+          <Sound file="Content/Characters/Crawlerhusk/HUSKEDCRAWLER_idle3.ogg" />
+          <Sound file="Content/Characters/Crawlerhusk/HUSKEDCRAWLER_attack2.ogg" />
+        </StatusEffect>
+        <StatusEffect target="Character" onlyinside="true">
+          <Conditional IsLocalPlayer="True" />
+          <Sound file="Content/Items/Weapons/honk.ogg" selectionmode="Random" />
+          <Sound file="Content/Items/Weapons/ShotgunShot1.ogg" />
+          <Sound file="Content/Items/Weapons/ShotgunShot2.ogg" />
+          <Sound file="Content/Characters/Moloch/MOLOCH_attack1.ogg" />
+          <Sound file="Content/Characters/Moloch/MOLOCH_attack2.ogg" />
+          <Sound file="Content/Characters/Mudraptor/MUDRAPTOR_attack1.ogg" />
+          <Sound file="Content/Characters/Mudraptor/MUDRAPTOR_attack2.ogg" />
+          <Sound file="Content/Characters/Mudraptor/MUDRAPTOR_idle4.ogg" />
+          <Sound file="Content/Characters/Husk/HUSK_idle1.ogg" />
+          <Sound file="Content/Characters/Husk/HUSK_idle4.ogg" />
+          <Sound file="Content/Characters/Husk/HUSK_attack4.ogg" />
+          <Sound file="Content/Characters/Crawler/CRAWLER_idle3.ogg" />
+          <Sound file="%ModDir:Barotrauma 40K%/Items/Weapons/plasmashot1.ogg" />
+          <Sound file="%ModDir:Barotrauma 40K%/Items/Weapons/bgshot1.ogg" />
+        </StatusEffect>
+      </PeriodicEffect>
+    </Effect>
+    <PeriodicEffect mininterval="201" maxinterval="300">
+      <StatusEffect target="Character" duration="30" onlyinside="true">
+        <Conditional IsLocalPlayer="True" />
+        <Sound file="Content/Items/WarningSiren.ogg" />
+        <Sound file="%ModDir:Barotrauma 40K%/Sounds/Corruption/corrupt1.ogg" />
+      </StatusEffect>
+    </PeriodicEffect>
+    <Effect minstrength="0" maxstrength="100" strengthchange="-0.05">
+      <StatValue stattype="MeleeAttackSpeed" minvalue="0.1" maxvalue="0.15" />
+      <StatValue stattype="MeleeAttackMultiplier" minvalue="0.1" maxvalue="0.3" />
+      <StatusEffect target="Character" SpeedMultiplier="1.4" setvalue="true"></StatusEffect>
+    </Effect>
+    <Effect minstrength="101" maxstrength="200" strengthchange="-0.05">
+      <StatValue stattype="MeleeAttackSpeed" minvalue="0.1" maxvalue="0.3" />
+      <StatValue stattype="MeleeAttackMultiplier" minvalue="0.1" maxvalue="0.5" />
+      <StatusEffect target="Character" SpeedMultiplier="1.4" setvalue="true"></StatusEffect>
+    </Effect>
+    <Effect minstrength="201" maxstrength="300" strengthchange="-0.5">
+      <StatValue stattype="MeleeAttackSpeed" minvalue="0.3" maxvalue="0.5" />
+      <StatValue stattype="MeleeAttackMultiplier" minvalue="0.5" maxvalue="1.0" />
+      <StatusEffect target="Character" SpeedMultiplier="1.6" setvalue="true"></StatusEffect>
+    </Effect>
+    <Icon texture="%ModDir:Barotrauma 40K%/UI/talenticon1.png" sheetindex="6,0" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+  </AfflictionKhornPsychosis>
+</Override>

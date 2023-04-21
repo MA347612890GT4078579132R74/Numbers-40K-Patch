@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Item name="" identifier="advancedsyringegun" variantof="syringegun">
+    <PreferredContainer primary="armcab" amount="1" spawnprobability="0" notcampaign="true"/>
+    <PreferredContainer secondary="secarmcab,weaponholder"/>
+    <PreferredContainer secondary="wreckmedcab,abandonedmedcab,wreckarmcab,abandonedarmcab" amount="1" spawnprobability="0" />
+    <Price baseprice="310" sold="false">
+      <Price storeidentifier="merchanthusk" minavailable="1" maxavailable="2" sold="true">
+        <Reputation faction="huskcult" min="50"/>
+      </Price>
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10" requiresrecipe="true">
+      <RequiredSkill identifier="medical" level="50" />
+      <RequiredItem identifier="titaniumaluminiumalloy" amount="1" />
+      <RequiredItem identifier="aluminium" amount="1" />
+      <RequiredItem identifier="plastic" amount="2" />
+    </Fabricate>
+    <InventoryIcon />
+    <Sprite texture="Content/Items/JobGear/TalentGear.png" sourcerect="354,429,145,78" depth="0.7" origin="0.5,0.5" />
+    <Body width="90" height="74" density="25" />
+    <RangedWeapon launchimpulse="10.0" barrelpos="71,30" spread="0" unskilledspread="10" drawhudwhenequipped="true" crosshairscale="0.2">
+      <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
+      <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
+      <Sound file="Content/Items/Weapons/SyringeGun1.ogg" type="OnUse" range="1000" volume="0.75"/>
+      <Sound file="Content/Items/Weapons/SyringeGun2.ogg" type="OnUse" range="1000" volume="0.75"/>
+      <RequiredItems items="syringe" type="Contained" msg="ItemMsgSyringeRequired" />
+      <RequiredSkill identifier="weapons" level="30" />
+      <RequiredSkill identifier="medical" level="50" />
+    </RangedWeapon>
+    <ItemContainer capacity="2" maxstacksize="8" itempos="0,25" itemrotation="-90" hideitems="false" containedstateindicatorstyle="syringe" ShowTotalStackCapacityInContainedStateIndicator="true" containedstateindicatorslot="0">
+      <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="384,448,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="1" texture="Content/UI/StatusMonitorUI.png" sourcerect="384,448,64,64" origin="0.5,0.5" />
+      <Containable items="syringe" />
+    </ItemContainer>
+    <StatusHUD drawhudwhenequipped="true" />
+    <SkillRequirementHint identifier="weapons" level="30" />
+    <SkillRequirementHint identifier="medical" level="50" />
+  </Item>
+</Override>

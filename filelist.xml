@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Numbers' 40K Patch" modversion="1.0.0" corepackage="False" steamworkshopid="2965403005" gameversion="1.0.9.0">
+  <Afflictions file="%ModDir%/Afflictions.xml" />
+  <Afflictions file="%ModDir%/Talents/Captain/AfflictionsCaptain.xml" />
+  <Item file="%ModDir%/Items/Diving/divinggear.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Security/securityofficer_talent_items.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Medic/medic_talent_items.xml" />
+  <Item file="%ModDir%/Items/Weapons/40kweapons.xml" />
+  <NPCSets file="%ModDir%/NPCPrefabs/OutpostNpcs.xml" />
+  <Text file="%ModDir%/Texts/English.xml" />
+</contentpackage>
