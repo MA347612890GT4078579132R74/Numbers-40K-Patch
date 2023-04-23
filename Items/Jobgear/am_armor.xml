@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Item name="" identifier="skitarihelmet1" category="Equipment" tags="smallitem,clothing,mobileradio,skitarirangerhelmet" cargocontaineridentifier="metalcrate" scale="0.5" description="" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="amarmcab" minamount="1" maxamount="2" spawnprobability="0.5" />
+    <Price baseprice="1300">
+      <Price storeidentifier="merchantforge" multiplier="0.9" minavailable="2" maxavailable="4" />
+    </Price>
+    <Fabricate suitablefabricators="whfabricator" requiredtime="30" requiresrecipe="true">
+      <RequiredSkill identifier="mechanical" level="45" />
+      <RequiredSkill identifier="electrical" level="45" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="adamantium" amount="2" />
+      <RequiredItem identifier="batterycell" />
+      <RequiredItem identifier="headset" />
+    </Fabricate>
+    <Deconstruct time="30">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/skitarihead.png" sourcerect="0,0,88,88" origin="0.5,0.5" />
+    <!--
+    <Sprite name="Diving Suit" texture="DivingSuit_Item.png" sourcerect="157,0,90,307" depth="0.55" origin="0.4888889,0.5439739" />
+    -->
+    <Sprite name="Skitari Item" texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/skitarihead.png" sourcerect="0,0,88,88" depth="0.55" origin="0.5,0.5" />
+    <Body radius="45" width="34" density="15" />
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="MiddleRight" absoluteoffset="20,380" style="ItemUI" />
+      <TickBox text="text.flashlight">
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
+    </CustomInterface>
+    <Wearable slots="Any,Head" msg="ItemMsgEquipSelect" displaycontainedstatus="true" armorvalue="50" canbepicked="true" pickkey="Select">
+      <sprite name="Skitari Helmet Wearable" texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/skitarihead.png" limb="Head" hidelimb="true" inheritlimbdepth="true" scale="0.4" hideotherwearables="false" hidewearablesoftype="hair,moustache,beard" sourcerect="0,0,88,100" origin="0.55,0.55">
+        <LightComponent range="600.0" lightcolor="50,50,255,255" powerconsumption="0" IsOn="false" allowingameediting="false">
+          <Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
+            <Conditional IsDead="false" />
+          </StatusEffect>
+          <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
+        </LightComponent>
+      </sprite>
+      <!-- Refill oxygen when the suit is contained. -->
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,explosiondamage" damagemultiplier="0.25" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.1" damagesound="" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.2" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bolterexplosiondamage,plasmadamage,meltadamage" damagemultiplier="0.4" deflectprojectiles="true" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lascanondamage" damagemultiplier="0.3" deflectprojectiles="true" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun,incrementalstun,progressivestun" damagemultiplier="0.5" deflectprojectiles="true" damagesound="LimbArmor" />
+      <damagemodifier afflictionidentifiers="phosphorimpact" armorsector="0.0,360.0" damagemultiplier="-1.0" />
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" setvalue="true" disabledeltatime="true" />
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.5" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-5.0" Condition="-5.0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="weldingfueltank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-7.0" Condition="-5.0">
+        <RequiredItem items="incendiumfueltank" type="Contained" />
+        <Affliction identifier="burn" amount="0.1" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.1" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" SpeedMultiplier="1.2" setvalue="true" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <ItemComponent IsActiveConditionalComparison="Or">
+        <IsActive HullOxygenPercentage="lt 50" />
+        <IsActive InWater="eq true" />
+        <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
+          <RequiredItem items="oxygensource" type="Contained" />
+          <Conditional condition="lt 5.0" />
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true"/>
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
+          <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
+          <Conditional condition="lte 0.0" />
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true"/>
+        </StatusEffect>
+      </ItemComponent>
+    </Wearable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank">
+      <Containable items="oxygensource,weldingtoolfuel" />
+    </ItemContainer>
+    <WifiComponent range="50000.0" LinkToChat="true" MinChatMessageInterval="0.0" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,-50" handle1="-10,0" handle2="10,0" holdangle="50" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
+      <Upgrade gameversion="0.1401.0.0" msg="ItemMsgPickUpUse" />
+    </Holdable>
+    <aitarget maxsightrange="2500" />
+  </Item>
+  <Item name="" identifier="skitarihelmet2" category="Equipment" tags="smallitem,clothing,mobileradio,skitarirangerhelmet" cargocontaineridentifier="metalcrate" scale="0.5" description="" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="amarmcab" minamount="1" maxamount="2" spawnprobability="0.5" />
+    <Price baseprice="1300">
+      <Price storeidentifier="merchantforge" multiplier="0.9" minavailable="2" maxavailable="4" />
+    </Price>
+    <Fabricate suitablefabricators="whfabricator" requiredtime="30" requiresrecipe="true">
+      <RequiredSkill identifier="mechanical" level="45" />
+      <RequiredSkill identifier="electrical" level="45" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="adamantium" amount="2" />
+      <RequiredItem identifier="batterycell" />
+      <RequiredItem identifier="headset" />
+    </Fabricate>
+    <Deconstruct time="30">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/skitarihead2.png" sourcerect="0,0,88,88" origin="0.5,0.5" />
+    <!--
+    <Sprite name="Diving Suit" texture="DivingSuit_Item.png" sourcerect="157,0,90,307" depth="0.55" origin="0.4888889,0.5439739" />
+    -->
+    <Sprite name="Skitari Item" texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/skitarihead2.png" sourcerect="0,0,88,88" depth="0.55" origin="0.5,0.5" />
+    <Body radius="45" width="34" density="15" />
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="MiddleRight" absoluteoffset="20,380" style="ItemUI" />
+      <TickBox text="text.flashlight">
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
+    </CustomInterface>
+    <Wearable slots="Any,Head" msg="ItemMsgEquipSelect" displaycontainedstatus="true" armorvalue="50" canbepicked="true" pickkey="Select">
+      <sprite name="Skitari Helmet Wearable" texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/skitarihead2.png" limb="Head" hidelimb="true" inheritlimbdepth="true" scale="0.4" hideotherwearables="false" hidewearablesoftype="hair,moustache,beard" sourcerect="0,0,88,100" origin="0.55,0.55">
+        <LightComponent range="600.0" lightcolor="50,50,255,255" powerconsumption="0" IsOn="false" allowingameediting="false">
+          <Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
+            <Conditional IsDead="false" />
+          </StatusEffect>
+          <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
+        </LightComponent>
+      </sprite>
+      <!-- Refill oxygen when the suit is contained. -->
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,explosiondamage" damagemultiplier="0.25" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.1" damagesound="" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.2" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bolterexplosiondamage,plasmadamage,meltadamage" damagemultiplier="0.4" deflectprojectiles="true" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lascanondamage" damagemultiplier="0.3" deflectprojectiles="true" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun,incrementalstun,progressivestun" damagemultiplier="0.5" deflectprojectiles="true" damagesound="LimbArmor" />
+      <damagemodifier afflictionidentifiers="phosphorimpact" armorsector="0.0,360.0" damagemultiplier="-1.0" />
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" setvalue="true" disabledeltatime="true" />
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.5" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-5.0" Condition="-5.0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="weldingfueltank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-7.0" Condition="-5.0">
+        <RequiredItem items="incendiumfueltank" type="Contained" />
+        <Affliction identifier="burn" amount="0.1" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.1" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" SpeedMultiplier="1.2" setvalue="true" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <ItemComponent IsActiveConditionalComparison="Or">
+        <IsActive HullOxygenPercentage="lt 50" />
+        <IsActive InWater="eq true" />
+        <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
+          <RequiredItem items="oxygensource" type="Contained" />
+          <Conditional condition="lt 5.0" />
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true"/>
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
+          <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
+          <Conditional condition="lte 0.0" />
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true"/>
+        </StatusEffect>
+      </ItemComponent>
+    </Wearable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank">
+      <Containable items="oxygensource,weldingtoolfuel" />
+    </ItemContainer>
+    <WifiComponent range="50000.0" LinkToChat="true" MinChatMessageInterval="0.0" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,-50" handle1="-10,0" handle2="10,0" holdangle="50" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
+      <Upgrade gameversion="0.1401.0.0" msg="ItemMsgPickUpUse" />
+    </Holdable>
+    <aitarget maxsightrange="2500" />
+  </Item>
+  <Item name="" identifier="vanguardskitarihelmet1" category="Equipment" tags="smallitem,clothing,mobileradio,vanguardskitarihelmet1" cargocontaineridentifier="metalcrate" scale="0.5" description="" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="amarmcab" minamount="1" maxamount="2" spawnprobability="0.5" />
+    <Price baseprice="2000">
+      <Price storeidentifier="merchantforge" multiplier="0.9" minavailable="2" maxavailable="4" />
+    </Price>
+    <Fabricate suitablefabricators="whfabricator" requiredtime="30" requiresrecipe="true">
+      <RequiredSkill identifier="mechanical" level="65" />
+      <RequiredSkill identifier="electrical" level="65" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="adamantium" amount="4" />
+      <RequiredItem identifier="batterycell" />
+      <RequiredItem identifier="headset" />
+    </Fabricate>
+    <Deconstruct time="30">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/vanguardskitarihead.png" sourcerect="0,0,100,100" origin="0.5,0.5" />
+    <!--
+    <Sprite name="Diving Suit" texture="DivingSuit_Item.png" sourcerect="157,0,90,307" depth="0.55" origin="0.4888889,0.5439739" />
+    -->
+    <Sprite name="Skitari Item" texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/vanguardskitarihead.png" sourcerect="0,0,100,100" depth="0.55" origin="0.5,0.5" />
+    <Body radius="45" width="34" density="15" />
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="MiddleRight" absoluteoffset="20,380" style="ItemUI" />
+      <TickBox text="text.flashlight">
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
+    </CustomInterface>
+    <Wearable slots="Any,Head" msg="ItemMsgEquipSelect" displaycontainedstatus="true" armorvalue="50" canbepicked="true" pickkey="Select">
+      <sprite name="Skitari Helmet Wearable" texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/vanguardskitarihead.png" limb="Head" hidelimb="true" inheritlimbdepth="true" scale="0.4" hideotherwearables="false" hidewearablesoftype="hair,moustache,beard" sourcerect="0,0,100,100" origin="0.5,0.5">
+        <LightComponent range="600.0" lightcolor="50,50,255,255" powerconsumption="0" IsOn="false" allowingameediting="false">
+          <Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
+            <Conditional IsDead="false" />
+          </StatusEffect>
+          <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
+        </LightComponent>
+      </sprite>
+      <!-- Refill oxygen when the suit is contained. -->
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,explosiondamage" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn,acidburn" damagemultiplier="-1.0" damagesound="" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.1" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bolterexplosiondamage,plasmadamage,meltadamage" damagemultiplier="0.3" deflectprojectiles="true" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lascanondamage" damagemultiplier="0.2" deflectprojectiles="true" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun,incrementalstun,progressivestun" damagemultiplier="0.5" deflectprojectiles="true" damagesound="LimbArmor" />
+      <damagemodifier afflictionidentifiers="phosphorimpact" armorsector="0.0,360.0" damagemultiplier="-1.0" />
+      <StatusEffect type="OnWearing" target="NearbyCharacters" range="125" interval="10">
+        <Affliction identifier="radiationsickness" amount="5.0" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" setvalue="true" disabledeltatime="true" />
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.5" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-5.0" Condition="-5.0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="weldingfueltank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-7.0" Condition="-5.0">
+        <RequiredItem items="incendiumfueltank" type="Contained" />
+        <Affliction identifier="burn" amount="0.1" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.1" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" SpeedMultiplier="1.2" setvalue="true" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <ItemComponent IsActiveConditionalComparison="Or">
+        <IsActive HullOxygenPercentage="lt 50" />
+        <IsActive InWater="eq true" />
+        <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
+          <RequiredItem items="oxygensource" type="Contained" />
+          <Conditional condition="lt 5.0" />
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true"/>
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
+          <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
+          <Conditional condition="lte 0.0" />
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true"/>
+        </StatusEffect>
+      </ItemComponent>
+    </Wearable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank">
+      <Containable items="oxygensource,weldingtoolfuel" />
+    </ItemContainer>
+    <WifiComponent range="50000.0" LinkToChat="true" MinChatMessageInterval="0.0" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,-50" handle1="-10,0" handle2="10,0" holdangle="50" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
+      <Upgrade gameversion="0.1401.0.0" msg="ItemMsgPickUpUse" />
+    </Holdable>
+    <aitarget maxsightrange="2500" />
+  </Item>
+  <Item name="" identifier="vanguardskitarihelmet2" category="Equipment" tags="smallitem,clothing,mobileradio,vanguardskitarihelmet1" cargocontaineridentifier="metalcrate" scale="0.5" description="" impactsoundtag="impact_metal_heavy">
+    <Price baseprice="2000">
+      <Price storeidentifier="merchantforge" multiplier="0.9" sold="false" />
+    </Price>
+    <Fabricate suitablefabricators="whfabricator" requiredtime="30" requiresrecipe="true">
+      <RequiredSkill identifier="mechanical" level="65" />
+      <RequiredSkill identifier="electrical" level="65" />
+      <RequiredItem identifier="adamantium" amount="4" />
+      <RequiredItem identifier="ceramite" amount="4" />
+      <RequiredItem identifier="vanguardskitarihelmet1" />
+    </Fabricate>
+    <Deconstruct time="30">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/vanguardskitarihead2.png" sourcerect="0,0,100,100" origin="0.5,0.5" />
+    <!--
+    <Sprite name="Diving Suit" texture="DivingSuit_Item.png" sourcerect="157,0,90,307" depth="0.55" origin="0.4888889,0.5439739" />
+    -->
+    <Sprite name="Skitari Item" texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/vanguardskitarihead2.png" sourcerect="0,0,100,100" depth="0.55" origin="0.5,0.5" />
+    <Body radius="45" width="34" density="15" />
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="MiddleRight" absoluteoffset="20,380" style="ItemUI" />
+      <TickBox text="text.flashlight">
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
+    </CustomInterface>
+    <Wearable slots="Any,Head" msg="ItemMsgEquipSelect" displaycontainedstatus="true" armorvalue="50" canbepicked="true" pickkey="Select">
+      <sprite name="Skitari Helmet Wearable" texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/vanguardskitarihead2.png" limb="Head" hidelimb="true" inheritlimbdepth="true" scale="0.5" hideotherwearables="false" hidewearablesoftype="hair,moustache,beard" sourcerect="0,0,100,100" origin="0.5,0.6">
+        <LightComponent range="600.0" lightcolor="50,50,255,255" powerconsumption="0" IsOn="false" allowingameediting="false">
+          <Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
+            <Conditional IsDead="false" />
+          </StatusEffect>
+          <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
+        </LightComponent>
+      </sprite>
+      <!-- Refill oxygen when the suit is contained. -->
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,explosiondamage" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn,acidburn" damagemultiplier="-1.0" damagesound="" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.1" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bolterexplosiondamage,plasmadamage,meltadamage" damagemultiplier="0.25" deflectprojectiles="true" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lascanondamage" damagemultiplier="0.2" deflectprojectiles="true" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun,incrementalstun,progressivestun" damagemultiplier="0.4" deflectprojectiles="true" damagesound="LimbArmor" />
+      <damagemodifier afflictionidentifiers="phosphorimpact" armorsector="0.0,360.0" damagemultiplier="-1.0" />
+      <StatusEffect type="OnWearing" target="NearbyCharacters" range="125" interval="10">
+        <Affliction identifier="radiationsickness" amount="5.0" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" setvalue="true" disabledeltatime="true" />
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="2000.0" Condition="-0.1" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-5.0" Condition="-5.0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="weldingfueltank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-7.0" Condition="-5.0">
+        <RequiredItem items="incendiumfueltank" type="Contained" />
+        <Affliction identifier="burn" amount="0.1" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="2500.0" Condition="-0.01" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" SpeedMultiplier="1.2" setvalue="true" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <ItemComponent IsActiveConditionalComparison="Or">
+        <IsActive HullOxygenPercentage="lt 50" />
+        <IsActive InWater="eq true" />
+        <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
+          <RequiredItem items="oxygensource" type="Contained" />
+          <Conditional condition="lt 5.0" />
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true"/>
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
+          <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
+          <Conditional condition="lte 0.0" />
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true"/>
+        </StatusEffect>
+      </ItemComponent>
+    </Wearable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank">
+      <Containable items="oxygensource,weldingtoolfuel" />
+    </ItemContainer>
+    <StatusHUD drawhudwhenequipped="true" overlaycolor="176,0,0,120" range="3000" thermalgoggles="true" showdeadcharacters="false" showtexts="false" />
+    <WifiComponent range="50000.0" LinkToChat="true" MinChatMessageInterval="0.0" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,-50" handle1="-10,0" handle2="10,0" holdangle="50" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
+      <Upgrade gameversion="0.1401.0.0" msg="ItemMsgPickUpUse" />
+    </Holdable>
+    <aitarget maxsightrange="2500" />
+  </Item>
+  <Item name="" identifier="chskitarihelmet1" category="Equipment" tags="smallitem,clothing,mobileradio,skitarirangerhelmet" cargocontaineridentifier="metalcrate" scale="0.5" description="" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="amarmcab" minamount="1" maxamount="2" spawnprobability="0.0" />
+    <Price baseprice="1300">
+      <Price storeidentifier="merchantforge" multiplier="0.9" sold="false" />
+    </Price>
+    <Fabricate suitablefabricators="chfabricator" requiredtime="30" displayname="corruptitem" requiresrecipe="true">
+      <RequiredSkill identifier="mechanical" level="45" />
+      <RequiredSkill identifier="electrical" level="45" />
+      <RequiredItem identifier="skitarihelmet1" />
+    </Fabricate>
+    <Deconstruct time="30">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/chskitarihead.png" sourcerect="0,0,88,88" origin="0.5,0.5" />
+    <!--
+    <Sprite name="Diving Suit" texture="DivingSuit_Item.png" sourcerect="157,0,90,307" depth="0.55" origin="0.4888889,0.5439739" />
+    -->
+    <Sprite name="Skitari Item" texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/chskitarihead.png" sourcerect="0,0,88,88" depth="0.55" origin="0.5,0.5" />
+    <Body radius="45" width="34" density="15" />
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="MiddleRight" absoluteoffset="20,380" style="ItemUI" />
+      <TickBox text="text.flashlight">
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
+    </CustomInterface>
+    <Wearable slots="Any,Head" msg="ItemMsgEquipSelect" displaycontainedstatus="true" armorvalue="50" canbepicked="true" pickkey="Select">
+      <sprite name="Skitari Helmet Wearable" texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/chskitarihead.png" limb="Head" hidelimb="true" inheritlimbdepth="true" scale="0.4" hideotherwearables="false" hidewearablesoftype="hair,moustache,beard" sourcerect="0,0,88,100" origin="0.55,0.55">
+        <LightComponent range="600.0" lightcolor="50,50,255,255" powerconsumption="0" IsOn="false" allowingameediting="false">
+          <Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
+            <Conditional IsDead="false" />
+          </StatusEffect>
+          <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
+        </LightComponent>
+      </sprite>
+      <!-- Refill oxygen when the suit is contained. -->
+      <damagemodifier afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,explosiondamage" armorsector="0.0,360.0" damagemultiplier="0.2" />
+      <damagemodifier afflictionidentifiers="burn" armorsector="0.0,360.0" damagemultiplier="0.05" />
+      <damagemodifier afflictionidentifiers="phosphorimpact" armorsector="0.0,360.0" damagemultiplier="-1.0" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.15" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bolterexplosiondamage,plasmadamage,meltadamage" damagemultiplier="0.35" deflectprojectiles="true" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun,incrementalstun,progressivestun" damagemultiplier="0.5" deflectprojectiles="true" damagesound="LimbArmor" />
+      <StatusEffect type="OnContained" target="Character">
+        <Affliction identifier="warpcorrupt" strength="0.01" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" setvalue="true" disabledeltatime="true" />
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.5" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-5.0" Condition="-5.0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="weldingfueltank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-7.0" Condition="-5.0">
+        <RequiredItem items="incendiumfueltank" type="Contained" />
+        <Affliction identifier="burn" amount="0.1" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.1" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" SpeedMultiplier="1.2" setvalue="true" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <ItemComponent IsActiveConditionalComparison="Or">
+        <IsActive HullOxygenPercentage="lt 50" />
+        <IsActive InWater="eq true" />
+        <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
+          <RequiredItem items="oxygensource" type="Contained" />
+          <Conditional condition="lt 5.0" />
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true"/>
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
+          <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
+          <Conditional condition="lte 0.0" />
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true"/>
+        </StatusEffect>
+      </ItemComponent>
+    </Wearable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank">
+      <Containable items="oxygensource,weldingtoolfuel" />
+    </ItemContainer>
+    <WifiComponent range="50000.0" LinkToChat="true" MinChatMessageInterval="0.0" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,-50" handle1="-10,0" handle2="10,0" holdangle="50" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
+      <Upgrade gameversion="0.1401.0.0" msg="ItemMsgPickUpUse" />
+    </Holdable>
+    <aitarget maxsightrange="2500" />
+  </Item>
+  <Item name="" identifier="chskitarihelmet2" category="Equipment" tags="smallitem,clothing,mobileradio,skitarirangerhelmet" cargocontaineridentifier="metalcrate" scale="0.5" description="" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="amarmcab" minamount="1" maxamount="2" spawnprobability="0.0" />
+    <Price baseprice="1300">
+      <Price storeidentifier="merchantforge" multiplier="0.9" sold="false" />
+    </Price>
+    <Fabricate suitablefabricators="chfabricator" displayname="corruptitem" requiredtime="30" requiresrecipe="true">
+      <RequiredSkill identifier="mechanical" level="45" />
+      <RequiredSkill identifier="electrical" level="45" />
+      <RequiredItem identifier="skitarihelmet1" />
+    </Fabricate>
+    <Deconstruct time="30">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/chskitarihead2.png" sourcerect="0,0,88,88" origin="0.5,0.5" />
+    <!--
+    <Sprite name="Diving Suit" texture="DivingSuit_Item.png" sourcerect="157,0,90,307" depth="0.55" origin="0.4888889,0.5439739" />
+    -->
+    <Sprite name="Skitari Item" texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/chskitarihead2.png" sourcerect="0,0,88,88" depth="0.55" origin="0.5,0.5" />
+    <Body radius="45" width="34" density="15" />
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="MiddleRight" absoluteoffset="20,380" style="ItemUI" />
+      <TickBox text="text.flashlight">
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
+    </CustomInterface>
+    <Wearable slots="Any,Head" msg="ItemMsgEquipSelect" displaycontainedstatus="true" armorvalue="50" canbepicked="true" pickkey="Select">
+      <sprite name="Skitari Helmet Wearable" texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/chskitarihead2.png" limb="Head" hidelimb="true" inheritlimbdepth="true" scale="0.4" hideotherwearables="false" hidewearablesoftype="hair,moustache,beard" sourcerect="0,0,88,100" origin="0.55,0.55">
+        <LightComponent range="600.0" lightcolor="50,50,255,255" powerconsumption="0" IsOn="false" allowingameediting="false">
+          <Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
+            <Conditional IsDead="false" />
+          </StatusEffect>
+          <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
+        </LightComponent>
+      </sprite>
+      <!-- Refill oxygen when the suit is contained. -->
+      <damagemodifier afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,explosiondamage" armorsector="0.0,360.0" damagemultiplier="0.2" />
+      <damagemodifier afflictionidentifiers="burn" armorsector="0.0,360.0" damagemultiplier="0.05" />
+      <damagemodifier afflictionidentifiers="phosphorimpact" armorsector="0.0,360.0" damagemultiplier="-1.0" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.15" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bolterexplosiondamage,plasmadamage,meltadamage" damagemultiplier="0.35" deflectprojectiles="true" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun,incrementalstun,progressivestun" damagemultiplier="0.5" deflectprojectiles="true" damagesound="LimbArmor" />
+      <StatusEffect type="OnContained" target="Character">
+        <Affliction identifier="warpcorrupt" strength="0.01" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" setvalue="true" disabledeltatime="true" />
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.5" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-5.0" Condition="-5.0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="weldingfueltank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-7.0" Condition="-5.0">
+        <RequiredItem items="incendiumfueltank" type="Contained" />
+        <Affliction identifier="burn" amount="0.1" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.1" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" SpeedMultiplier="1.2" setvalue="true" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <ItemComponent IsActiveConditionalComparison="Or">
+        <IsActive HullOxygenPercentage="lt 50" />
+        <IsActive InWater="eq true" />
+        <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
+          <RequiredItem items="oxygensource" type="Contained" />
+          <Conditional condition="lt 5.0" />
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true"/>
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
+          <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
+          <Conditional condition="lte 0.0" />
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true"/>
+        </StatusEffect>
+      </ItemComponent>
+    </Wearable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank">
+      <Containable items="oxygensource,weldingtoolfuel" />
+    </ItemContainer>
+    <WifiComponent range="50000.0" LinkToChat="true" MinChatMessageInterval="0.0" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,-50" handle1="-10,0" handle2="10,0" holdangle="50" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
+      <Upgrade gameversion="0.1401.0.0" msg="ItemMsgPickUpUse" />
+    </Holdable>
+    <aitarget maxsightrange="2500" />
+  </Item>
+  <Item name="" identifier="chskitarihelmet3" nameidentifier="chskitarihelmet1" category="Equipment" tags="smallitem,clothing,mobileradio,skitarirangerhelmet" cargocontaineridentifier="metalcrate" scale="0.5" description="" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="amarmcab" minamount="1" maxamount="2" spawnprobability="0.0" />
+    <Price baseprice="1300">
+      <Price storeidentifier="merchantforge" multiplier="0.9" sold="false" />
+    </Price>
+    <Fabricate suitablefabricators="chfabricator" displayname="corruptitem" requiredtime="30" requiresrecipe="true">
+      <RequiredSkill identifier="mechanical" level="45" />
+      <RequiredSkill identifier="electrical" level="45" />
+      <RequiredItem identifier="skitarihelmet1" />
+    </Fabricate>
+    <Deconstruct time="30">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/chskitarihead3.png" sourcerect="3,97,100,88" origin="0.5,0.5" />
+    <!--
+    <Sprite name="Diving Suit" texture="DivingSuit_Item.png" sourcerect="157,0,90,307" depth="0.55" origin="0.4888889,0.5439739" />
+    -->
+    <Sprite name="Skitari Item" texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/chskitarihead3.png" sourcerect="3,97,100,88" depth="0.55" origin="0.5,0.5" />
+    <Body radius="45" width="34" density="15" />
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="MiddleRight" absoluteoffset="20,380" style="ItemUI" />
+      <TickBox text="text.flashlight">
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
+    </CustomInterface>
+    <Wearable slots="Any,Head" msg="ItemMsgEquipSelect" displaycontainedstatus="true" armorvalue="50" canbepicked="true" pickkey="Select">
+      <sprite name="Skitari Helmet Wearable" texture="%ModDir:Barotrauma 40K%/Items/Jobgear/Adeptus mechanicus/chskitarihead3.png" limb="Head" hidelimb="true" inheritlimbdepth="true" scale="0.4" hideotherwearables="false" hidewearablesoftype="hair,moustache,beard" sourcerect="3,97,100,88" origin="0.55,0.55">
+        <LightComponent range="600.0" lightcolor="50,50,255,255" powerconsumption="0" IsOn="false" allowingameediting="false">
+          <Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
+            <Conditional IsDead="false" />
+          </StatusEffect>
+          <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
+        </LightComponent>
+      </sprite>
+      <!-- Refill oxygen when the suit is contained. -->
+      <damagemodifier afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,explosiondamage" armorsector="0.0,360.0" damagemultiplier="0.3" />
+      <damagemodifier afflictionidentifiers="burn" armorsector="0.0,360.0" damagemultiplier="0.1" />
+      <damagemodifier afflictionidentifiers="phosphorimpact" armorsector="0.0,360.0" damagemultiplier="-1.0" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.2" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bolterexplosiondamage,plasmadamage,meltadamage" damagemultiplier="0.4" deflectprojectiles="true" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun,incrementalstun,progressivestun" damagemultiplier="0.5" deflectprojectiles="true" damagesound="LimbArmor" />
+      <StatusEffect type="OnContained" target="Character">
+        <Affliction identifier="warpcorrupt" strength="0.01" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" setvalue="true" disabledeltatime="true" />
+      <ItemComponent IsActiveConditionalComparison="Or">
+        <IsActive HullOxygenPercentage="lt 50" />
+        <IsActive InWater="eq true" />
+        <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
+          <RequiredItem items="oxygensource" type="Contained" />
+          <Conditional condition="lt 5.0" />
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true"/>
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
+          <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
+          <Conditional condition="lte 0.0" />
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true"/>
+        </StatusEffect>
+      </ItemComponent>
+    </Wearable>
+    <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0" autoinject="true">
+      <Containable items="none" />
+      <SlotIcon slotindex="0" texture="Content/UI/ContainerIndicators.png" sourcerect="2,155,120,29" origin="0.5,0.5" />
+      <SubContainer capacity="1" maxstacksize="1">
+        <Containable items="chem,medical" />
+      </SubContainer>
+    </ItemContainer>
+    <WifiComponent range="50000.0" LinkToChat="true" MinChatMessageInterval="0.0" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,-50" handle1="-10,0" handle2="10,0" holdangle="50" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
+      <Upgrade gameversion="0.1401.0.0" msg="ItemMsgPickUpUse" />
+    </Holdable>
+    <aitarget maxsightrange="2500" />
+  </Item>
+</Override>

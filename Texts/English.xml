@@ -775,10 +775,18 @@
   <Entityname.bottleofparalyzant>Bottle of paralyzant</Entityname.bottleofparalyzant>
   <Entityname.flaskofantibiotics>Flask of slime myxobacteria</Entityname.flaskofantibiotics>
   <Entityname.gypsummedical>Medical gypsum</Entityname.gypsummedical>
+
+  <!-- Talent afflictions -->
+  <afflictionname.skedaddle>Skedaddle</afflictionname.skedaddle>
+  <afflictiondescription.skedaddle>The subject is skedaddling away!</afflictiondescription.skedaddle>
+
   <!--Jobs-->
   <jobname.skitari>Skitarii</jobname.skitari>
+  <Jobdescription.skitari>The Skitarii (sing. Skitarius), also known as the Tech-Guard and the Legiones Skitarii, are the cybernetic military forces of the Adeptus Mechanicus of the Imperium of Man.</Jobdescription.skitari>
   <jobname.magos>Techpriest-Magos</jobname.magos>
+  <Jobdescription.magos>A magos (pronounced MAY-gohs) (pl. magi) is a Tech-priest who is a recognised master of a technological or scientific discipline, having devoted many standard years of service to the Omnissiah in that area of study.</Jobdescription.magos>
   <jobname.engineseer>Techpriest-Engineseer</jobname.engineseer>
+  <Jobdescription.engineseer>Enginseers are perhaps the most common of the Tech-priests of the Adeptus Mechanicus. They view themselves as engineer-mystics dedicated to the Omnissiah, and each Enginseer possesses a wealth of knowledge on how to maintain and repair mechanical and electronic technology.</Jobdescription.engineseer>
   <Jobname.guardsman>Guardsman</Jobname.guardsman>
   <Jobdescription.guardsman>The Guards are well-trained soldiers equipped with simple but effective weapons.</Jobdescription.guardsman>
   <!--  <jobname.engineer3>Nuclear Techpriest (Stygia VIII)</jobname.engineer3>
@@ -1042,6 +1050,13 @@
   <talentname.selfservice>Selfservice</talentname.selfservice>
   <talentname.extermination>Extermination protocol</talentname.extermination>
   <talentname.engramtransfer>Engram transfer</talentname.engramtransfer>
+  <talentname.skedaddle>Skedaddle</talentname.skedaddle>
+  <talentdescription.skedaddle>Move [value]% faster. When you are attacked, this bonus is increased to [attackedvalue]% for [seconds] seconds.</talentdescription.skedaddle>
+  <talentname.crewlayabout>Crew Layabout</talentname.crewlayabout>
+  <talentdescription.crewlayabout>Allies near you repair [repairspeed]% faster and gain a bonus of [amount] to all skills.</talentdescription.crewlayabout>
+  <afflictionname.pickinguptheslack>Picking Up the Slack</afflictionname.pickinguptheslack>
+  <afflictiondescription.pickinguptheslack>The subject feels they must work a bit harder to make up for someone else.</afflictiondescription.pickinguptheslack>
+
   <!--Ores-->
   <Entityname.ceramiteore>Ceramite Ore</Entityname.ceramiteore>
   <Entityname.adamantiumore>Adamantium Ore</Entityname.adamantiumore>

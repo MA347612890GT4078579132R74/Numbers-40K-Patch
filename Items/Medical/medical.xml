@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <!-- ********************************************************************************************* -->
+  <!-- ****************************************Meds************************************************* -->
+  <!-- ********************************************************************************************* -->
+  <!-- Name: Pomegrenade Extract -->
+  <!-- Description: A crappy but non lethal alternative to opiods, made from pomegrenades.-->
+  <!-- *************************************************************************************************************************************************************************** -->
+  <pomegrenadeextract name="" identifier="pomegrenadeextract" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+    <PreferredContainer primary="medcab" minamount="2" maxamount="4" spawnprobability="0.5" notcampaign="true"/>
+    <PreferredContainer secondary="wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.1" />
+    <PreferredContainer secondary="wreckmedcab,abandonedmedcab" minamount="1" maxamount="2" spawnprobability="0.2" />
+    <PreferredContainer secondary="medcontainer"/>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="0,384,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="228,380,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
+    <SkillRequirementHint identifier="medical" level="25" />
+  </pomegrenadeextract>
+</Override>

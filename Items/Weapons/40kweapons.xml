@@ -70,4 +70,206 @@
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" throwforce="4.0" msg="ItemMsgPickUpSelect" />
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
+  <Item name="" identifier="llgmagazine" scale="0.5" category="Weapon" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,llgammo,loadable,lasloadable,40kammo,munitorumlogistic" maxstacksize="3" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="llg" minamount="1" maxamount="1" spawnprobability="1" />
+    <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="1" spawnprobability="0.1" />
+    <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="1" spawnprobability="0.1" />
+    <Price baseprice="300" soldeverywhere="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.5" minavailable="2" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="4" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.9" minavailable="7" />
+      <Price storeidentifier="merchantforge" multiplier="0.9" minavailable="10" />
+      <Price storeidentifier="merchantarmory" multiplier="1.5" minavailable="2" />
+    </Price>
+    <Fabricate suitablefabricators="whfabricator" requiredtime="30" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="25" />
+      <RequiredItem identifier="steel" amount="2" />
+      <RequiredItem identifier="batterycell" amount="2" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="batterycell" copycondition="false" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir:Barotrauma 40K%/Items/Weapons/longlasmag.png" sourcerect="0,0,46,46" />
+    <Sprite texture="%ModDir:Barotrauma 40K%/Items/Weapons/longlasmag.png" depth="0.54" sourcerect="0,0,46,46" origin="0.5,0.5" />
+    <Body width="30" height="40" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="llgground" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <Containable items="llgground" />
+      <!--Spawn an SMG round on use. Condition -20.0 -> 20 shots per magazine.-->
+      <StatusEffect type="OnUse" target="This" condition="-20.0" disabledeltatime="true">
+        <SpawnItem identifiers="llgground" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <LightComponent LightColor="255,0,0,255" range="25" blinkfrequency="2" powerconsumption="0" IsOn="false" canbeselected="false" AllowInGameEditing="false">
+      <StatusEffect type="OnActive" targettype="This">
+        <Sound file="%ModDir:Barotrauma 40K%/Items/Weapons/lgmagovercharge.ogg" loop="true" range="400" />
+      </StatusEffect>
+    </LightComponent>
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.1,0.07" anchor="BottomLeft" absoluteoffset="20,20" style="ItemUI" />
+      <Button text="text.overcharge">
+        <StatusEffect type="OnUse" targettype="This" IsOn="true" />
+        <StatusEffect type="OnUse" target="this" delay="5.0">
+          <Sound file="%ModDir:Barotrauma 40K%/Items/Weapons/lgmagovercharge_triple.ogg" loop="false" range="400" volume="0.3" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" delay="6.0" targettype="This" disabledeltatime="true" stackable="false">
+          <sound file="Content/Items/Weapons/Emp.ogg" range="5000" loop="false" volume="5.0" />
+          <sound file="Content/Items/Weapons/Railgun1.ogg" selectionmode="Random" range="5000" volume="3.5" />
+          <sound file="Content/Items/Weapons/Railgun2.ogg" selectionmode="Random" range="5000" volume="3.5" />
+          <sound file="Content/Items/Weapons/Railgun3.ogg" selectionmode="Random" range="5000" volume="3.5" />
+          <Explosion range="250.0" structuredamage="35" ballastfloradamage="1000" levelwalldamage="200" itemdamage="600" stun="2" force="15.0" severlimbsprobability="0.75">
+            <Affliction identifier="lascanondamage" strength="150" />
+            <Affliction identifier="explosiondamage" strength="50" />
+            <Affliction identifier="lacerations" strength="20" />
+            <Affliction identifier="bleeding" strength="10" />
+          </Explosion>
+          <ParticleEmitter particle="muzzleflashpulselaser" particleamount="5" distancemin="0" distancemax="30" anglemin="-360" anglemax="360" scalemin="1" scalemax="1.5" velocitymin="250" velocitymax="500" />
+          <ParticleEmitter particle="explosionsmoke" particleamount="2" distancemin="0" distancemax="30" anglemin="-360" anglemax="360" scalemin="0.75" scalemax="1.25" velocitymin="250" velocitymax="500" />
+          <Remove />
+        </StatusEffect>
+      </Button>
+    </CustomInterface>
+    <Quality>
+      <QualityStat stattype="ExplosionRadius" value="0.15" />
+      <QualityStat stattype="ExplosionDamage" value="0.15" />
+      <QualityStat stattype="Condition" value="0.1" />
+    </Quality>
+    <!--Magazines can be combined to raise condition.-->
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+  <Item name="" identifier="hsmagazine" scale="0.5" category="Weapon" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,hsammo,loadable,lasloadable,40kammo,munitorumlogistic" maxstacksize="4" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="hslg" minamount="1" maxamount="1" spawnprobability="1" />
+    <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="1" spawnprobability="0.05" />
+    <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="1" spawnprobability="0.05" />
+    <Price baseprice="350" soldeverywhere="false">
+      <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="2" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.9" minavailable="5" />
+      <Price storeidentifier="merchantforge" multiplier="0.9" minavailable="8" />
+      <Price storeidentifier="merchantarmory" multiplier="1.5" minavailable="2" />
+    </Price>
+    <Fabricate suitablefabricators="whfabricator" requiredtime="30" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="25" />
+      <RequiredItem identifier="steel" amount="2" />
+      <RequiredItem identifier="lithium" />
+      <RequiredItem identifier="batterycell" amount="2" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="batterycell" copycondition="false" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir:Barotrauma 40K%/Items/Weapons/hotshotmag.png" sourcerect="0,0,46,46" />
+    <Sprite texture="%ModDir:Barotrauma 40K%/Items/Weapons/hotshotmag.png" depth="0.54" sourcerect="0,0,46,46" origin="0.5,0.5" />
+    <Body width="30" height="40" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="hsround" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <Containable items="hsround" />
+      <!--Spawn an SMG round on use. Condition -5.0 -> 20 shots per magazine.-->
+      <StatusEffect type="OnUse" target="This" condition="-1.0" disabledeltatime="true">
+        <SpawnItem identifiers="hsround" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <LightComponent LightColor="255,0,0,255" range="25" blinkfrequency="2" powerconsumption="0" IsOn="false" canbeselected="false" AllowInGameEditing="false">
+      <StatusEffect type="OnActive" targettype="This">
+        <Sound file="%ModDir:Barotrauma 40K%/Items/Weapons/lgmagovercharge.ogg" loop="true" range="400" />
+      </StatusEffect>
+    </LightComponent>
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.1,0.07" anchor="BottomLeft" absoluteoffset="20,20" style="ItemUI" />
+      <Button text="text.overcharge">
+        <StatusEffect type="OnUse" targettype="This" IsOn="true" />
+        <StatusEffect type="OnUse" target="this" delay="3.0">
+          <Sound file="%ModDir:Barotrauma 40K%/Items/Weapons/lgmagovercharge_triple.ogg" loop="false" range="400" volume="0.3" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" delay="4.0" targettype="This" disabledeltatime="true" stackable="false">
+          <sound file="Content/Items/Weapons/Emp.ogg" range="5000" loop="false" volume="5.0" />
+          <sound file="Content/Items/Weapons/Railgun1.ogg" selectionmode="Random" range="5000" volume="3.5" />
+          <sound file="Content/Items/Weapons/Railgun2.ogg" selectionmode="Random" range="5000" volume="3.5" />
+          <sound file="Content/Items/Weapons/Railgun3.ogg" selectionmode="Random" range="5000" volume="3.5" />
+          <Explosion range="250.0" structuredamage="35" ballastfloradamage="1000" levelwalldamage="200" itemdamage="600" stun="2" force="10.0" severlimbsprobability="0.75">
+            <Affliction identifier="lascanondamage" strength="120" />
+            <Affliction identifier="explosiondamage" strength="50" />
+            <Affliction identifier="lacerations" strength="20" />
+            <Affliction identifier="bleeding" strength="10" />
+          </Explosion>
+          <ParticleEmitter particle="muzzleflashpulselaser" particleamount="5" distancemin="0" distancemax="30" anglemin="-360" anglemax="360" scalemin="1" scalemax="1.5" velocitymin="250" velocitymax="500" />
+          <ParticleEmitter particle="explosionsmoke" particleamount="2" distancemin="0" distancemax="30" anglemin="-360" anglemax="360" scalemin="0.75" scalemax="1.25" velocitymin="250" velocitymax="500" />
+          <Remove />
+        </StatusEffect>
+      </Button>
+    </CustomInterface>
+    <Quality>
+      <QualityStat stattype="ExplosionRadius" value="0.15" />
+      <QualityStat stattype="ExplosionDamage" value="0.15" />
+      <QualityStat stattype="Condition" value="0.1" />
+    </Quality>
+    <!--Magazines can be combined to raise condition.-->
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+  <Item name="" identifier="kglgmagazine" scale="0.5" category="Weapon" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,kglgammo,loadable,lasloadable,40kammo,munitorumlogistic" maxstacksize="4" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="kglasgun" minamount="1" maxamount="1" spawnprobability="1" />
+    <PreferredContainer primary="secarmcab" minamount="1" maxamount="5" spawnprobability="0.5" />
+    <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.2" />
+    <PreferredContainer primary="abandonedsecarmcab" minamount="1" maxamount="2" spawnprobability="0.2" />
+    <Price baseprice="250" soldeverywhere="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.5" minavailable="2" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="4" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.9" minavailable="7" />
+      <Price storeidentifier="merchantforge" multiplier="0.9" minavailable="10" />
+      <Price storeidentifier="merchantarmory" multiplier="1.5" minavailable="4" />
+    </Price>
+    <Fabricate suitablefabricators="whfabricator" requiredtime="30" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="25" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="batterycell" amount="2" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="plastic" copycondition="false" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir:Barotrauma 40K%/Items/Weapons/lasgunmag.png" sourcerect="0,0,46,46" />
+    <Sprite texture="%ModDir:Barotrauma 40K%/Items/Weapons/lasgunmag.png" depth="0.54" sourcerect="0,0,46,46" origin="0.5,0.5" />
+    <Body width="30" height="40" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="kglground" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <Containable items="kglground" />
+      <!--Spawn an SMG round on use. Condition -5.0 -> 20 shots per magazine.-->
+      <StatusEffect type="OnUse" target="This" condition="-5.0" disabledeltatime="true">
+        <SpawnItem identifiers="kglground" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <LightComponent LightColor="255,0,0,255" range="25" blinkfrequency="2" powerconsumption="0" IsOn="false" canbeselected="false" AllowInGameEditing="false">
+      <StatusEffect type="OnActive" targettype="This">
+        <Sound file="%ModDir:Barotrauma 40K%/Items/Weapons/lgmagovercharge.ogg" loop="true" range="400" />
+      </StatusEffect>
+    </LightComponent>
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.1,0.07" anchor="BottomLeft" absoluteoffset="20,20" style="ItemUI" />
+      <Button text="text.overcharge">
+        <StatusEffect type="OnUse" targettype="This" IsOn="true" />
+        <StatusEffect type="OnUse" target="this" delay="5.0">
+          <Sound file="%ModDir:Barotrauma 40K%/Items/Weapons/lgmagovercharge_triple.ogg" loop="false" range="400" volume="0.3" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" delay="6.0" targettype="This" disabledeltatime="true" stackable="false">
+          <sound file="Content/Items/Weapons/Emp.ogg" range="5000" loop="false" volume="5.0" />
+          <sound file="Content/Items/Weapons/Railgun1.ogg" selectionmode="Random" range="5000" volume="3.5" />
+          <sound file="Content/Items/Weapons/Railgun2.ogg" selectionmode="Random" range="5000" volume="3.5" />
+          <sound file="Content/Items/Weapons/Railgun3.ogg" selectionmode="Random" range="5000" volume="3.5" />
+          <Explosion range="225.0" structuredamage="25" ballastfloradamage="1000" levelwalldamage="200" itemdamage="600" stun="2" force="10.0" severlimbsprobability="0.75">
+            <Affliction identifier="lascanondamage" strength="100" />
+            <Affliction identifier="explosiondamage" strength="50" />
+            <Affliction identifier="lacerations" strength="20" />
+            <Affliction identifier="bleeding" strength="10" />
+          </Explosion>
+          <ParticleEmitter particle="muzzleflashpulselaser" particleamount="5" distancemin="0" distancemax="30" anglemin="-360" anglemax="360" scalemin="1" scalemax="1.5" velocitymin="250" velocitymax="500" />
+          <ParticleEmitter particle="explosionsmoke" particleamount="2" distancemin="0" distancemax="30" anglemin="-360" anglemax="360" scalemin="0.75" scalemax="1.25" velocitymin="250" velocitymax="500" />
+          <Remove />
+        </StatusEffect>
+      </Button>
+    </CustomInterface>
+    <Quality>
+      <QualityStat stattype="ExplosionRadius" value="0.15" />
+      <QualityStat stattype="ExplosionDamage" value="0.15" />
+      <QualityStat stattype="Condition" value="0.1" />
+    </Quality>
+    <!--Magazines can be combined to raise condition.-->
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
 </Override>
