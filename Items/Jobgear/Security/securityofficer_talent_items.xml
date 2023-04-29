@@ -2,8 +2,8 @@
 <Override>
   <Item name="" identifier="slipsuit" variantof="combatdivingsuit" category="Equipment" tags="diving,deepdiving,provocative" allowasextracargo="true" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy">
     <Price baseprice="630" sold="false" />
-    <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.0"/>
-    <PreferredContainer primary="wreckdivingsuitcontainer"  spawnprobability="0.0"/>
+    <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.0" />
+    <PreferredContainer primary="wreckdivingsuitcontainer" spawnprobability="0.0" />
     <Deconstruct time="30">
       <Item identifier="ballisticfiber" />
       <Item identifier="titaniumaluminiumalloy" />

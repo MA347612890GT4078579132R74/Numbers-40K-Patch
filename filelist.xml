@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Numbers' 40K Patch" modversion="1.0.3" corepackage="False" steamworkshopid="2965403005" gameversion="1.0.9.0">
+<contentpackage name="Numbers' 40K Patch" modversion="1.0.4" corepackage="False" steamworkshopid="2965403005" gameversion="1.0.9.0" expectedhash="20F4B91EB05757F8CFEC0D425415F8DD">
   <Afflictions file="%ModDir%/Afflictions.xml" />
   <Afflictions file="%ModDir%/Talents/Captain/AfflictionsCaptain.xml" />
+  <Character file="%ModDir%/Characters/Crawler/Crawler.xml" />
   <Item file="%ModDir%/Items/Diving/divinggear.xml" />
   <Item file="%ModDir%/Items/Jobgear/Security/securityofficer_talent_items.xml" />
   <Item file="%ModDir%/Items/Jobgear/Medic/medic_talent_items.xml" />
@@ -10,5 +11,6 @@
   <Item file="%ModDir%/Items/Weapons/40kweapons.xml" />
   <NPCSets file="%ModDir%/NPCPrefabs/OutpostNpcs.xml" />
   <Talents file="%ModDir%/Talents/Assistant/TalentsAssistant.xml" />
+  <Talents file="%ModDir%/Talents/Crutches/Crutch-recipes.xml" />
   <Text file="%ModDir%/Texts/English.xml" />
 </contentpackage>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Override>
   <Item name="" identifier="advancedsyringegun" variantof="syringegun">
-    <PreferredContainer primary="armcab" amount="1" spawnprobability="0" notcampaign="true"/>
-    <PreferredContainer secondary="secarmcab,weaponholder"/>
+    <PreferredContainer primary="armcab" amount="1" spawnprobability="0" notcampaign="true" />
+    <PreferredContainer secondary="secarmcab,weaponholder" />
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab,wreckarmcab,abandonedarmcab" amount="1" spawnprobability="0" />
     <Price baseprice="310" sold="false">
       <Price storeidentifier="merchanthusk" minavailable="1" maxavailable="2" sold="true">
-        <Reputation faction="huskcult" min="50"/>
+        <Reputation faction="huskcult" min="50" />
       </Price>
     </Price>
     <Deconstruct time="10">
@@ -25,8 +25,8 @@
     <RangedWeapon launchimpulse="10.0" barrelpos="71,30" spread="0" unskilledspread="10" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
-      <Sound file="Content/Items/Weapons/SyringeGun1.ogg" type="OnUse" range="1000" volume="0.75"/>
-      <Sound file="Content/Items/Weapons/SyringeGun2.ogg" type="OnUse" range="1000" volume="0.75"/>
+      <Sound file="Content/Items/Weapons/SyringeGun1.ogg" type="OnUse" range="1000" volume="0.75" />
+      <Sound file="Content/Items/Weapons/SyringeGun2.ogg" type="OnUse" range="1000" volume="0.75" />
       <RequiredItems items="syringe" type="Contained" msg="ItemMsgSyringeRequired" />
       <RequiredSkill identifier="weapons" level="30" />
       <RequiredSkill identifier="medical" level="50" />

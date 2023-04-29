@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Talent identifier="recipeset1">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="2,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.lpgmagazine" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.laspistol" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.lgmagazine" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.lasgun" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.llgmagazine" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.llg" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.hsmagazine" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.hslg" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.kglgmagazine" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.kglasgun" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.kgcrmagazine" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.kglascarbine" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.powerbackpack" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="lpgmagazine" />
+    <AddedRecipe itemidentifier="laspistol" />
+    <AddedRecipe itemidentifier="lgmagazine" />
+    <AddedRecipe itemidentifier="lasgun" />
+    <AddedRecipe itemidentifier="llgmagazine" />
+    <AddedRecipe itemidentifier="llg" />
+    <AddedRecipe itemidentifier="hsmagazine" />
+    <AddedRecipe itemidentifier="hslg" />
+    <AddedRecipe itemidentifier="kglgmagazine" />
+    <AddedRecipe itemidentifier="kglasgun" />
+    <AddedRecipe itemidentifier="kgcrmagazine" />
+    <AddedRecipe itemidentifier="kglascarbine" />
+    <AddedRecipe itemidentifier="powerbackpack" />
+  </Talent>
+  <Talent identifier="recipeset2">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="2,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.bgmag" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.abgmag" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.bpistol" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.bg" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="bgmag" />
+    <AddedRecipe itemidentifier="abgmag" />
+    <AddedRecipe itemidentifier="bpistol" />
+    <AddedRecipe itemidentifier="bg" />
+  </Talent>
+  <Talent identifier="recipeset3">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="2,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.pltank" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.ampltank" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.smpltank" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.plaspistol" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.pg" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.ampg" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="pltank" />
+    <AddedRecipe itemidentifier="ampltank" />
+    <AddedRecipe itemidentifier="smpltank" />
+    <AddedRecipe itemidentifier="plaspistol" />
+    <AddedRecipe itemidentifier="pg" />
+    <AddedRecipe itemidentifier="ampg" />
+  </Talent>
+</Override>

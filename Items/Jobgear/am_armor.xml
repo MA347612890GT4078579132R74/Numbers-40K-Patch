@@ -75,12 +75,12 @@
         <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
           <RequiredItem items="oxygensource" type="Contained" />
           <Conditional condition="lt 5.0" />
-          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true"/>
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true" />
         </StatusEffect>
         <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
           <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
           <Conditional condition="lte 0.0" />
-          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true"/>
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true" />
         </StatusEffect>
       </ItemComponent>
     </Wearable>
@@ -168,12 +168,12 @@
         <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
           <RequiredItem items="oxygensource" type="Contained" />
           <Conditional condition="lt 5.0" />
-          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true"/>
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true" />
         </StatusEffect>
         <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
           <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
           <Conditional condition="lte 0.0" />
-          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true"/>
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true" />
         </StatusEffect>
       </ItemComponent>
     </Wearable>
@@ -264,12 +264,12 @@
         <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
           <RequiredItem items="oxygensource" type="Contained" />
           <Conditional condition="lt 5.0" />
-          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true"/>
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true" />
         </StatusEffect>
         <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
           <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
           <Conditional condition="lte 0.0" />
-          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true"/>
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true" />
         </StatusEffect>
       </ItemComponent>
     </Wearable>
@@ -358,12 +358,12 @@
         <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
           <RequiredItem items="oxygensource" type="Contained" />
           <Conditional condition="lt 5.0" />
-          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true"/>
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true" />
         </StatusEffect>
         <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
           <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
           <Conditional condition="lte 0.0" />
-          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true"/>
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true" />
         </StatusEffect>
       </ItemComponent>
     </Wearable>
@@ -451,12 +451,12 @@
         <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
           <RequiredItem items="oxygensource" type="Contained" />
           <Conditional condition="lt 5.0" />
-          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true"/>
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true" />
         </StatusEffect>
         <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
           <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
           <Conditional condition="lte 0.0" />
-          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true"/>
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true" />
         </StatusEffect>
       </ItemComponent>
     </Wearable>
@@ -543,12 +543,12 @@
         <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
           <RequiredItem items="oxygensource" type="Contained" />
           <Conditional condition="lt 5.0" />
-          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true"/>
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true" />
         </StatusEffect>
         <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
           <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
           <Conditional condition="lte 0.0" />
-          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true"/>
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true" />
         </StatusEffect>
       </ItemComponent>
     </Wearable>
@@ -615,12 +615,12 @@
         <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
           <RequiredItem items="oxygensource" type="Contained" />
           <Conditional condition="lt 5.0" />
-          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true"/>
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true" />
         </StatusEffect>
         <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
           <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
           <Conditional condition="lte 0.0" />
-          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true"/>
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true" />
         </StatusEffect>
       </ItemComponent>
     </Wearable>

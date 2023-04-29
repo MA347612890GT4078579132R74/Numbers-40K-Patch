@@ -775,11 +775,9 @@
   <Entityname.bottleofparalyzant>Bottle of paralyzant</Entityname.bottleofparalyzant>
   <Entityname.flaskofantibiotics>Flask of slime myxobacteria</Entityname.flaskofantibiotics>
   <Entityname.gypsummedical>Medical gypsum</Entityname.gypsummedical>
-
   <!-- Talent afflictions -->
   <afflictionname.skedaddle>Skedaddle</afflictionname.skedaddle>
   <afflictiondescription.skedaddle>The subject is skedaddling away!</afflictiondescription.skedaddle>
-
   <!--Jobs-->
   <jobname.skitari>Skitarii</jobname.skitari>
   <Jobdescription.skitari>The Skitarii (sing. Skitarius), also known as the Tech-Guard and the Legiones Skitarii, are the cybernetic military forces of the Adeptus Mechanicus of the Imperium of Man.</Jobdescription.skitari>
@@ -1056,7 +1054,9 @@
   <talentdescription.crewlayabout>Allies near you repair [repairspeed]% faster and gain a bonus of [amount] to all skills.</talentdescription.crewlayabout>
   <afflictionname.pickinguptheslack>Picking Up the Slack</afflictionname.pickinguptheslack>
   <afflictiondescription.pickinguptheslack>The subject feels they must work a bit harder to make up for someone else.</afflictiondescription.pickinguptheslack>
-
+  <talentname.recipeset1>Lasgun and Power Cell Templates</talentname.recipeset1>
+  <talentname.recipeset2>Boltor Templates</talentname.recipeset2>
+  <talentname.recipeset3>Plasma Templates</talentname.recipeset3>
   <!--Ores-->
   <Entityname.ceramiteore>Ceramite Ore</Entityname.ceramiteore>
   <Entityname.adamantiumore>Adamantium Ore</Entityname.adamantiumore>

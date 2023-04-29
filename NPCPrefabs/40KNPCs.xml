@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Override>
   <npcset identifier="40koutpostnpcs1">
     <npc identifier="outpostmanagercoalition" job="captain" tags="outpostmanager" spawnpointtags="admin" behavior="Passive" preferredoutpostmoduletypes="admin,adminmodule">
@@ -608,38 +608,38 @@
       </ItemSet>
     </npc>
     <npc identifier="hireablecoalitionsecurityofficer" job="skitari" skillmultiplier="1.5" experiencepoints="2000">
-        <ItemSet>
-            <Item identifier="skitariarmor" equip="true" outfit="true" />
-            <Item identifier="idcard" equip="true" showpreview="false" />
-            <Item identifier="glrifle">
-                <Item identifier="glrmagazine" showpreview="false" />
-            </Item>
-            <Item identifier="glrmagazine" />
-            <Item identifier="glrmagazine" />
-            <Item identifier="skitarihelmet1" equip="true" />
-            <Item identifier="headset" equip="true" showpreview="false" />
-            <PreviewSprites dims="120,109">
-                <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_2.png" sourcerect="2,38,120,109" offset="0,0" />
-                <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_2.png" sourcerect="121,0,76,80" offset="-20,15" />
-            </PreviewSprites>
-        </ItemSet>
+      <ItemSet>
+        <Item identifier="skitariarmor" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="glrifle">
+          <Item identifier="glrmagazine" showpreview="false" />
+        </Item>
+        <Item identifier="glrmagazine" />
+        <Item identifier="glrmagazine" />
+        <Item identifier="skitarihelmet1" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_2.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_2.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
     </npc>
     <npc identifier="hireablecoalitionsecurityofficerveteran" job="skitari" skillmultiplier="2.0" experiencepoints="6000">
-        <ItemSet>
-            <Item identifier="vanguardskitariarmor" equip="true" outfit="true" />
-            <Item identifier="idcard" equip="true" showpreview="false" />
-            <Item identifier="rc">
-                <Item identifier="radmagazine" showpreview="false" />
-            </Item>
-            <Item identifier="radmagazine" />
-            <Item identifier="radmagazine" />
-            <Item identifier="vanguardskitarihelmet1" equip="true" />
-            <Item identifier="headset" equip="true" showpreview="false" />
-            <PreviewSprites dims="120,109">
-                <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_3.png" sourcerect="2,38,120,109" offset="0,0" />
-                <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_3.png" sourcerect="121,0,76,80" offset="-20,15" />
-            </PreviewSprites>
-        </ItemSet>
+      <ItemSet>
+        <Item identifier="vanguardskitariarmor" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="rc">
+          <Item identifier="radmagazine" showpreview="false" />
+        </Item>
+        <Item identifier="radmagazine" />
+        <Item identifier="radmagazine" />
+        <Item identifier="vanguardskitarihelmet1" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_3.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_3.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
     </npc>
     <npc identifier="hireablecoalitionengineer" job="magos" skillmultiplier="1.5" experiencepoints="2000">
       <ItemSet>
@@ -770,38 +770,38 @@
       </ItemSet>
     </npc>
     <npc identifier="hireableseparatistsecurityofficer" job="skitari" skillmultiplier="1.5" experiencepoints="2000">
-        <ItemSet>
-            <Item identifier="skitariarmor2" equip="true" outfit="true" />
-            <Item identifier="idcard" equip="true" showpreview="false" />
-            <Item identifier="arcrifle">
-                <Item identifier="arcmagazine" showpreview="false" />
-            </Item>
-            <Item identifier="arcmagazine" />
-            <Item identifier="arcmagazine" />
-            <Item identifier="skitarihelmet2" equip="true" />
-            <Item identifier="headset" equip="true" showpreview="false" />
-            <PreviewSprites dims="120,109">
-                <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
-                <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
-            </PreviewSprites>
-        </ItemSet>
+      <ItemSet>
+        <Item identifier="skitariarmor2" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="arcrifle">
+          <Item identifier="arcmagazine" showpreview="false" />
+        </Item>
+        <Item identifier="arcmagazine" />
+        <Item identifier="arcmagazine" />
+        <Item identifier="skitarihelmet2" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
     </npc>
     <npc identifier="hireableseparatistsecurityofficerveteran" job="skitari" skillmultiplier="2.0" experiencepoints="6000">
-        <ItemSet>
-            <Item identifier="vanguardskitariarmor2" equip="true" outfit="true" />
-            <Item identifier="idcard" equip="true" showpreview="false" />
-            <Item identifier="rc">
-                <Item identifier="radmagazine" showpreview="false" />
-            </Item>
-            <Item identifier="radmagazine" />
-            <Item identifier="radmagazine" />
-            <Item identifier="vanguardskitarihelmet1" equip="true" />
-            <Item identifier="headset" equip="true" showpreview="false" />
-            <PreviewSprites dims="120,109">
-                <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_3.png" sourcerect="2,38,120,109" offset="0,0" />
-                <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_3.png" sourcerect="121,0,76,80" offset="-20,15" />
-            </PreviewSprites>
-        </ItemSet>
+      <ItemSet>
+        <Item identifier="vanguardskitariarmor2" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="rc">
+          <Item identifier="radmagazine" showpreview="false" />
+        </Item>
+        <Item identifier="radmagazine" />
+        <Item identifier="radmagazine" />
+        <Item identifier="vanguardskitarihelmet1" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_3.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_3.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
     </npc>
     <npc identifier="hireableseparatistengineer" job="magos" skillmultiplier="1.5" experiencepoints="2000">
       <ItemSet>
