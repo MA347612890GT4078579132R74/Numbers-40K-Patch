@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Numbers' 40K Patch" modversion="1.0.4" corepackage="False" steamworkshopid="2965403005" gameversion="1.0.9.0" expectedhash="20F4B91EB05757F8CFEC0D425415F8DD">
+<contentpackage name="Numbers' 40K Patch" modversion="1.0.5" corepackage="False" steamworkshopid="2965403005" gameversion="1.0.9.0">
   <Afflictions file="%ModDir%/Afflictions.xml" />
   <Afflictions file="%ModDir%/Talents/Captain/AfflictionsCaptain.xml" />
   <Character file="%ModDir%/Characters/Crawler/Crawler.xml" />
